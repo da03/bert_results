@@ -1,0 +1,557 @@
+2021-01-27 22:37:04.286456: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+01/27/2021 22:37:38 - WARNING - __main__ -   Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+01/27/2021 22:37:38 - INFO - __main__ -   Training/evaluation parameters TrainingArguments(output_dir='/n/rush_lab/users/y/tmp/soft_mnli1', overwrite_output_dir=True, do_train=False, do_eval=True, do_predict=False, model_parallel=False, evaluation_strategy=<EvaluationStrategy.NO: 'no'>, prediction_loss_only=False, per_device_train_batch_size=8, per_device_eval_batch_size=1, per_gpu_train_batch_size=None, per_gpu_eval_batch_size=None, gradient_accumulation_steps=1, eval_accumulation_steps=10, learning_rate=5e-05, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, adam_epsilon=1e-08, max_grad_norm=1.0, num_train_epochs=3.0, max_steps=-1, warmup_steps=0, logging_dir='runs/Jan27_22-37-38_seasdgx103.rc.fas.harvard.edu', logging_first_step=False, logging_steps=500, save_steps=500, save_total_limit=None, no_cuda=False, seed=42, fp16=False, fp16_opt_level='O1', local_rank=-1, tpu_num_cores=None, tpu_metrics_debug=False, debug=False, dataloader_drop_last=False, eval_steps=500, dataloader_num_workers=0, past_index=-1, run_name='/n/rush_lab/users/y/tmp/soft_mnli1', disable_tqdm=False, remove_unused_columns=True, label_names=None, load_best_model_at_end=False, metric_for_best_model=None, greater_is_better=None, ignore_data_skip=False)
+Reusing dataset glue (/n/home11/yuntian/.cache/huggingface/datasets/glue/mnli/1.0.0/7c99657241149a24692c402a5c3f34d4c9f1df5ac2e4c3759fadea38f6cb29c4)
+[INFO|configuration_utils.py:420] 2021-01-27 22:37:39,843 >> loading configuration file soft/mnli/config.json
+[INFO|configuration_utils.py:458] 2021-01-27 22:37:39,844 >> Model config BertConfig {
+  "_name_or_path": "bert-base-cased",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "mnli",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+[INFO|configuration_utils.py:420] 2021-01-27 22:37:39,847 >> loading configuration file soft/mnli/config.json
+[INFO|configuration_utils.py:458] 2021-01-27 22:37:39,848 >> Model config BertConfig {
+  "_name_or_path": "bert-base-cased",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "mnli",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+[INFO|tokenization_utils_base.py:1713] 2021-01-27 22:37:39,848 >> Model name 'soft/mnli' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased, TurkuNLP/bert-base-finnish-cased-v1, TurkuNLP/bert-base-finnish-uncased-v1, wietsedv/bert-base-dutch-cased). Assuming 'soft/mnli' is a path, a model identifier, or url to a directory containing tokenizer files.
+[INFO|tokenization_utils_base.py:1746] 2021-01-27 22:37:39,849 >> Didn't find file soft/mnli/tokenizer.json. We won't load it.
+[INFO|tokenization_utils_base.py:1746] 2021-01-27 22:37:39,849 >> Didn't find file soft/mnli/added_tokens.json. We won't load it.
+[INFO|tokenization_utils_base.py:1791] 2021-01-27 22:37:39,849 >> loading file soft/mnli/vocab.txt
+[INFO|tokenization_utils_base.py:1791] 2021-01-27 22:37:39,849 >> loading file None
+[INFO|tokenization_utils_base.py:1791] 2021-01-27 22:37:39,849 >> loading file None
+[INFO|tokenization_utils_base.py:1791] 2021-01-27 22:37:39,849 >> loading file soft/mnli/special_tokens_map.json
+[INFO|tokenization_utils_base.py:1791] 2021-01-27 22:37:39,849 >> loading file soft/mnli/tokenizer_config.json
+[INFO|modeling_utils.py:1012] 2021-01-27 22:37:39,933 >> loading weights file soft/mnli/pytorch_model.bin
+[INFO|modeling_utils.py:1130] 2021-01-27 22:37:42,542 >> All model checkpoint weights were used when initializing BertForSequenceClassification.
+
+[INFO|modeling_utils.py:1139] 2021-01-27 22:37:42,542 >> All the weights of BertForSequenceClassification were initialized from the model checkpoint at soft/mnli.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertForSequenceClassification for predictions without further training.
+Loading cached processed dataset at /n/home11/yuntian/.cache/huggingface/datasets/glue/mnli/1.0.0/7c99657241149a24692c402a5c3f34d4c9f1df5ac2e4c3759fadea38f6cb29c4/cache-eb8294deeb6aa843.arrow
+Loading cached processed dataset at /n/home11/yuntian/.cache/huggingface/datasets/glue/mnli/1.0.0/7c99657241149a24692c402a5c3f34d4c9f1df5ac2e4c3759fadea38f6cb29c4/cache-fa22b1c744c1dd01.arrow
+Loading cached processed dataset at /n/home11/yuntian/.cache/huggingface/datasets/glue/mnli/1.0.0/7c99657241149a24692c402a5c3f34d4c9f1df5ac2e4c3759fadea38f6cb29c4/cache-887855e0efcef815.arrow
+Loading cached processed dataset at /n/home11/yuntian/.cache/huggingface/datasets/glue/mnli/1.0.0/7c99657241149a24692c402a5c3f34d4c9f1df5ac2e4c3759fadea38f6cb29c4/cache-0d812f20e077bbfa.arrow
+Loading cached processed dataset at /n/home11/yuntian/.cache/huggingface/datasets/glue/mnli/1.0.0/7c99657241149a24692c402a5c3f34d4c9f1df5ac2e4c3759fadea38f6cb29c4/cache-29d84a8f53e2490f.arrow
+01/27/2021 22:37:58 - INFO - __main__ -   Sample 335243 of the training set: {'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'hypothesis': "Parents are busy and it's sometimes hard to get them out.", 'idx': 335243, 'input_ids': [101, 1128, 1221, 1165, 1147, 2153, 1435, 1105, 1122, 112, 188, 1662, 1106, 1243, 1172, 1149, 1105, 170, 1974, 1104, 2153, 1138, 2844, 1106, 1301, 1105, 1105, 1614, 1176, 1115, 1105, 1122, 112, 188, 1523, 1120, 1480, 1177, 102, 24261, 1132, 5116, 1105, 1122, 112, 188, 2121, 1662, 1106, 1243, 1172, 1149, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'label': 0, 'premise': "you know when their parents come and it's hard to get them out and a lot of parents have places to go and and things like that and it's late at night so", 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}.
+01/27/2021 22:37:58 - INFO - __main__ -   Sample 58369 of the training set: {'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'hypothesis': 'Where and what is art? ', 'idx': 58369, 'input_ids': [101, 2777, 1110, 1893, 136, 102, 2777, 1105, 1184, 1110, 1893, 136, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'label': 1, 'premise': 'Where is art?', 'token_type_ids': [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}.
+01/27/2021 22:37:58 - INFO - __main__ -   Sample 13112 of the training set: {'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'hypothesis': 'The list says alcohol and injury are negatives facing staff.', 'idx': 13112, 'input_ids': [101, 2586, 2528, 14084, 1105, 3773, 117, 1112, 1218, 1112, 4094, 22496, 117, 1132, 1113, 1103, 2190, 119, 102, 1109, 2190, 1867, 6272, 1105, 3773, 1132, 4366, 1116, 4749, 2546, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'label': 1, 'premise': 'Alcohol and injury, as well as brief interventions, are on the list.', 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}.
+[INFO|trainer.py:372] 2021-01-27 22:38:21,110 >> The following columns in the training set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: hypothesis, premise, idx.
+[INFO|trainer.py:372] 2021-01-27 22:38:21,111 >> The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: hypothesis, premise, idx.
+01/27/2021 22:38:21 - INFO - __main__ -   *** Evaluate ***
+[INFO|trainer.py:372] 2021-01-27 22:38:21,113 >> The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: hypothesis, premise, idx.
+[INFO|trainer.py:1516] 2021-01-27 22:38:21,114 >> ***** Running Evaluation *****
+[INFO|trainer.py:1517] 2021-01-27 22:38:21,114 >>   Num examples = 9815
+[INFO|trainer.py:1518] 2021-01-27 22:38:21,114 >>   Batch size = 1
+[INFO|trainer.py:1561] 2021-01-27 22:38:22,067 >> ------------------0: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:22,067 >> --predicted label: 1, predicted probs: 0.0018836568342521787/0.9962235689163208 true label: 1 -- final kl: 0.0029283566400408745, avg kl so far: 0.0029283566400408745
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,067 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,067 >> The      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> new      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> rights   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> are      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> nice     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> enough   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,068 >> [SEP]    , attn: 1.0, added at iter: 1, added kl: 0.017465824261307716, added p 0.005072436295449734/0.972499430179596
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> Everyone , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,068 >> really   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,069 >> likes    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,069 >> the      , attn: 1.0, added at iter: 2, added kl: 0.0029283566400408745, added p 0.006842967122793198/0.989803671836853
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,069 >> newest   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,069 >> benefits , attn: 1.0, added at iter: 0, added kl: 0.04243316501379013, added p 0.014824730344116688/0.9454822540283203
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,069 >> [SEP]    , attn: 0.0
+  0%|          | 0/9815 [00:00<?, ?it/s][INFO|trainer.py:1561] 2021-01-27 22:38:22,723 >> ------------------1: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:22,723 >> --predicted label: 2, predicted probs: 0.0002730242849793285/0.0020036096684634686 true label: 2 -- final kl: 0.00387741019949317, avg kl so far: 0.003402883419767022
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> This     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> site     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> includes , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> a        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> list     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,723 >> of       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> all      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> award    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> winners  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> and      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> a        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,724 >> search   , attn: 1.0, added at iter: 2, added kl: 0.019063670188188553, added p 0.002918904647231102/0.023717349395155907
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> ##able   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> database , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> of       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> Government, attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> Executive, attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,724 >> articles , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,725 >> .        , attn: 0.7325477004051208, added at iter: 6, added kl: 0.00387741019949317, added p 0.0013503790833055973/0.00798538513481617
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,725 >> The      , attn: 1.0, added at iter: 5, added kl: 0.005644895136356354, added p 0.0017523393034934998/0.009817342273890972
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,725 >> Government, attn: 1.0, added at iter: 1, added kl: 0.05329849570989609, added p 0.0076770600862801075/0.05357826501131058
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,725 >> Executive, attn: 1.0, added at iter: 0, added kl: 0.20520395040512085, added p 0.054566890001297/0.14126533269882202
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> articles , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> housed   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> on       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> website  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> are      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,725 >> not      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,726 >> able     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,726 >> to       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,726 >> be       , attn: 0.5821099281311035, added at iter: 4, added kl: 0.007261212915182114, added p 0.0018661050125956535/0.0116615891456604
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,726 >> searched , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:22,726 >> .        , attn: 0.4093809723854065, added at iter: 3, added kl: 0.010324966162443161, added p 0.0021993101108819246/0.01487820502370596
+[INFO|trainer.py:1595] 2021-01-27 22:38:22,726 >> [SEP]    , attn: 0.0
+  0%|          | 2/9815 [00:00<58:18,  2.80it/s][INFO|trainer.py:1561] 2021-01-27 22:38:23,916 >> ------------------2: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:23,916 >> --predicted label: 0, predicted probs: 0.9876905679702759/0.011188168078660965 true label: 0 -- final kl: 0.06835558265447617, avg kl so far: 0.02505378316467007
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,916 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,916 >> uh       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,916 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> don      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> '        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> t        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> know     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> have     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> mixed    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> emotions , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> about    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> him      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,917 >> uh       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,918 >> sometimes, attn: 0.8062210083007812, added at iter: 3, added kl: 0.2343381941318512, added p 0.7504246234893799/0.22116516530513763
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,918 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,918 >> like     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,918 >> him      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,918 >> but      , attn: 1.0, added at iter: 0, added kl: 1.1127076148986816, added p 0.3051922917366028/0.44466471672058105
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,918 >> at       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,918 >> the      , attn: 1.0, added at iter: 4, added kl: 0.19725660979747772, added p 0.7807509899139404/0.17698733508586884
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,918 >> same     , attn: 1.0, added at iter: 2, added kl: 0.2976927161216736, added p 0.7024105191230774/0.2501550614833832
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,918 >> times    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,918 >> i        , attn: 0.9420443773269653, added at iter: 5, added kl: 0.17326149344444275, added p 0.8007071018218994/0.1675751656293869
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,918 >> love     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,918 >> to       , attn: 1.0, added at iter: 9, added kl: 0.06835558265447617, added p 0.8980518579483032/0.08332096040248871
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> see      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> somebody , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,919 >> beat     , attn: 1.0, added at iter: 8, added kl: 0.09631633013486862, added p 0.8705857992172241/0.1023230329155922
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> him      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> I        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> like     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> him      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> for      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> most     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,919 >> part     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> ,        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,920 >> but      , attn: 1.0, added at iter: 1, added kl: 0.4021282196044922, added p 0.6301010251045227/0.3248234689235687
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> would    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> still    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> enjoy    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> seeing   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> someone  , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,920 >> beat     , attn: 1.0, added at iter: 7, added kl: 0.10473817586898804, added p 0.8621885180473328/0.1157953292131424
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> him      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:23,920 >> .        , attn: 0.7399478554725647, added at iter: 6, added kl: 0.14881907403469086, added p 0.8220335841178894/0.14632011950016022
+[INFO|trainer.py:1595] 2021-01-27 22:38:23,920 >> [SEP]    , attn: 0.0
+  0%|          | 3/9815 [00:01<1:36:38,  1.69it/s][INFO|trainer.py:1561] 2021-01-27 22:38:25,078 >> ------------------3: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:25,078 >> --predicted label: 2, predicted probs: 0.00023310365213546902/0.056984949856996536 true label: 2 -- final kl: 0.001614200882613659, avg kl so far: 0.019193887594155967
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> yeah     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> think    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> my       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> favorite , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> restaurant, attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> is       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,079 >> always   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,079 >> been     , attn: 0.3540611267089844, added at iter: 7, added kl: 0.0018311444437131286, added p 0.002620488405227661/0.057563576847314835
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> one      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> closest  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> you      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,080 >> know     , attn: 0.3540611267089844, added at iter: 6, added kl: 0.0017970618791878223, added p 0.002588441362604499/0.056875281035900116
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> the      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,080 >> closest  , attn: 0.2903284728527069, added at iter: 4, added kl: 0.0029050083830952644, added p 0.00377834914252162/0.05732475221157074
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> as       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,080 >> long     , attn: 0.39243876934051514, added at iter: 8, added kl: 0.0017351738642901182, added p 0.0025153192691504955/0.057575248181819916
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> as       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,080 >> it       , attn: 0.18508733808994293, added at iter: 9, added kl: 0.001614200882613659, added p 0.0023395358584821224/0.059036824852228165
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,080 >> '        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> s        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> it       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> meets    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> the      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,081 >> minimum  , attn: 0.8407952785491943, added at iter: 2, added kl: 0.007606367580592632, added p 0.008633856661617756/0.05763929709792137
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> criteria , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> you      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> know     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> of       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> good     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> food     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,081 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> My       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> favorite , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> restaurants, attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> are      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> always   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> at       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> least    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,082 >> a        , attn: 1.0, added at iter: 1, added kl: 0.02176300808787346, added p 0.014858613722026348/0.08973351866006851
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,082 >> hundred  , attn: 1.0, added at iter: 0, added kl: 0.15768305957317352, added p 0.044883377850055695/0.22128449380397797
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> miles    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> away     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,082 >> from     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,083 >> my       , attn: 0.414376825094223, added at iter: 5, added kl: 0.0023701880127191544, added p 0.0028509353287518024/0.06299423426389694
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,083 >> house    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,083 >> .        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,083 >> [SEP]    , attn: 0.8407952785491943, added at iter: 3, added kl: 0.005789386108517647, added p 0.0049134804867208/0.07166344672441483
+  0%|          | 4/9815 [00:03<2:04:40,  1.31it/s][INFO|trainer.py:1561] 2021-01-27 22:38:25,296 >> ------------------4: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:25,296 >> --predicted label: 2, predicted probs: 9.596997551852837e-05/0.00045030051842331886 true label: 2 -- final kl: 0.01722089946269989, avg kl so far: 0.01879928996786475
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,296 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,296 >> i        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,296 >> don      , attn: 0.7743353843688965, added at iter: 1, added kl: 0.19812597334384918, added p 0.009854154661297798/0.1729746162891388
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,296 >> '        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> t        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> know     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> um       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> do       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> you      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> do       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> a        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> lot      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> of       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> camping  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,297 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,297 >> I        , attn: 0.7743353843688965, added at iter: 2, added kl: 0.10740017145872116, added p 0.004464978817850351/0.10042642056941986
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,298 >> know     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,298 >> exactly  , attn: 0.7743353843688965, added at iter: 0, added kl: 0.2670007050037384, added p 0.012503811158239841/0.22484925389289856
+[INFO|trainer.py:1591] 2021-01-27 22:38:25,298 >> .        , attn: 0.7743353843688965, added at iter: 3, added kl: 0.01722089946269989, added p 0.002451969776302576/0.017080875113606453
+[INFO|trainer.py:1595] 2021-01-27 22:38:25,298 >> [SEP]    , attn: 0.0
+  0%|          | 5/9815 [00:03<1:37:48,  1.67it/s][INFO|trainer.py:1561] 2021-01-27 22:38:26,777 >> ------------------5: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:26,778 >> --predicted label: 2, predicted probs: 0.00021170188847463578/0.00044087719288654625 true label: 2 -- final kl: 0.0022480839397758245, avg kl so far: 0.01604075562984993
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> well     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> that     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> would    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> be       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> a        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,778 >> help     , attn: 0.24781334400177002, added at iter: 4, added kl: 0.005526203662157059, added p 0.0008917514351196587/0.0067710573785007
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,778 >> wish     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> they     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> would    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,779 >> do       , attn: 0.25404882431030273, added at iter: 9, added kl: 0.002531055361032486, added p 0.000586901733186096/0.0037497004959732294
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> that     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> here     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> we       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> have     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> got      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> so       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> little   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> land     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,779 >> ##fill   , attn: 0.15812745690345764, added at iter: 8, added kl: 0.0028001475147902966, added p 0.0006619584164582193/0.003995920065790415
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,779 >> space    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> left     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> that     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> we       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,780 >> '        , attn: 0.25404882431030273, added at iter: 5, added kl: 0.004707530606538057, added p 0.0008283870993182063/0.005948998965322971
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,780 >> re       , attn: 0.25404882431030273, added at iter: 6, added kl: 0.004161487333476543, added p 0.0007772810640744865/0.005401482339948416
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> going    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> to       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> run      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> out      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> before   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,780 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> end      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> of       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> this     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> decade   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> and      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> it       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,781 >> '        , attn: 0.25404882431030273, added at iter: 7, added kl: 0.0033401562832295895, added p 0.0007163009722717106/0.0045529017224907875
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> s        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> really   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> going    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> to       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> be       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,781 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,782 >> We       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,782 >> have     , attn: 1.0, added at iter: 2, added kl: 0.01681024394929409, added p 0.002485663164407015/0.01692844182252884
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,782 >> plenty   , attn: 1.0, added at iter: 1, added kl: 0.06468222290277481, added p 0.013294385746121407/0.05278646573424339
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,782 >> of       , attn: 1.0, added at iter: 3, added kl: 0.007960387505590916, added p 0.0015928507782518864/0.008715879172086716
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,782 >> space    , attn: 1.0, added at iter: 0, added kl: 0.6199355721473694, added p 0.1849174052476883/0.27996838092803955
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,782 >> in       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,782 >> the      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:26,782 >> land     , attn: 1.0, added at iter: 10, added kl: 0.0022480839397758245, added p 0.0005348176346160471/0.003465615212917328
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,782 >> ##fill   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,782 >> .        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:26,782 >> [SEP]    , attn: 0.0
+  0%|          | 6/9815 [00:04<2:21:16,  1.16it/s][INFO|trainer.py:1561] 2021-01-27 22:38:27,137 >> ------------------6: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:27,137 >> --predicted label: 2, predicted probs: 0.00014386160182766616/0.0005702482885681093 true label: 2 -- final kl: 0.010868014767765999, avg kl so far: 0.015301792649552226
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,137 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:27,137 >> yeah     , attn: 0.36675381660461426, added at iter: 3, added kl: 0.01281822007149458, added p 0.00032421635114587843/0.01508357934653759
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,137 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,137 >> know     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,137 >> and      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,137 >> i        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,137 >> did      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> that     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> all      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> through  , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:27,138 >> college  , attn: 0.20788811147212982, added at iter: 4, added kl: 0.010868014767765999, added p 0.00028627749998122454/0.013101191259920597
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> and      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> it       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> worked   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:27,138 >> too      , attn: 0.36675381660461426, added at iter: 2, added kl: 0.01443308312445879, added p 0.0003343812713865191/0.016725365072488785
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> I        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> did      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,138 >> that     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,139 >> all      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,139 >> through  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,139 >> college  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,139 >> but      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,139 >> it       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:27,139 >> never    , attn: 1.0, added at iter: 0, added kl: 0.020933736115694046, added p 0.00042736055911518633/0.023223623633384705
+[INFO|trainer.py:1595] 2021-01-27 22:38:27,139 >> worked   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:27,139 >> [SEP]    , attn: 1.0, added at iter: 1, added kl: 0.016289085149765015, added p 0.0003499962331261486/0.018599756062030792
+  0%|          | 7/9815 [00:05<1:56:22,  1.40it/s][INFO|trainer.py:1561] 2021-01-27 22:38:29,428 >> ------------------7: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:29,429 >> --predicted label: 1, predicted probs: 0.002779436530545354/0.9861875772476196 true label: 1 -- final kl: 1.2924501788802445e-06, avg kl so far: 0.013389230124630558
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> Calcutta , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> seems    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> to       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> be       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> only     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> other    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> production, attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,429 >> center   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,430 >> having   , attn: 0.16491174697875977, added at iter: 3, added kl: 1.223542494699359e-05, added p 0.002620851853862405/0.9867419600486755
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> any      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> pre      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> ##tens   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,430 >> ##ions   , attn: 0.14252743124961853, added at iter: 5, added kl: 2.8733484214171767e-07, added p 0.00280625163577497/0.9862183928489685
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> to       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> artistic , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,430 >> creativity, attn: 1.0, added at iter: 2, added kl: 8.17657564766705e-05, added p 0.0021668612025678158/0.9865840077400208
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> at       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> all      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> ,        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> but      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,430 >> ironic   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> ##ally   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> you      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> '        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,431 >> re       , attn: 0.7073132991790771, added at iter: 13, added kl: 1.2924501788802445e-06, added p 0.002740228548645973/0.9860934019088745
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> actually , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> more     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> likely   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> to       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,431 >> see      , attn: 0.29478177428245544, added at iter: 11, added kl: 3.332552296342328e-07, added p 0.0028031382244080305/0.9861571788787842
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,431 >> the      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,432 >> works    , attn: 0.29478177428245544, added at iter: 10, added kl: 1.5853875083848834e-06, added p 0.0026973960921168327/0.9863552451133728
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,432 >> of       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,432 >> Sa       , attn: 0.060828786343336105, added at iter: 7, added kl: 7.340422598645091e-07, added p 0.0028208375442773104/0.9860537648200989
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,432 >> ##ty     , attn: 0.060828786343336105, added at iter: 12, added kl: 2.7908754418604076e-06, added p 0.002900495659559965/0.9861197471618652
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,432 >> ##aj     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,432 >> ##it     , attn: 0.04452310502529144, added at iter: 8, added kl: 1.3213430065661669e-06, added p 0.002780006732791662/0.9860135912895203
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,432 >> Ray      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,432 >> or       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,432 >> Mr       , attn: 0.13442227244377136, added at iter: 4, added kl: 9.466020856052637e-07, added p 0.002740490948781371/0.9861154556274414
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,432 >> ##inal   , attn: 0.13442227244377136, added at iter: 9, added kl: 6.756963557563722e-07, added p 0.0028097147587686777/0.9862402081489563
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,432 >> Sen      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,432 >> shown    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> in       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> Europe   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> or       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> North    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,433 >> America  , attn: 0.29478177428245544, added at iter: 6, added kl: 3.8151483749970794e-07, added p 0.0027818065136671066/0.9861261248588562
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> than     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> in       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> India    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> itself   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> .        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,433 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,434 >> Most     , attn: 1.0, added at iter: 0, added kl: 0.17418397963047028, added p 0.02205289900302887/0.7963597774505615
+[INFO|trainer.py:1591] 2021-01-27 22:38:29,434 >> of       , attn: 1.0, added at iter: 1, added kl: 0.0006504834163933992, added p 0.0017966346349567175/0.9838505387306213
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> Mr       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> ##inal   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> Sen      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> '        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> s        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> work     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> can      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> be       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> found    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> in       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,434 >> European , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,435 >> collections, attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,435 >> .        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:29,435 >> [SEP]    , attn: 0.0
+  0%|          | 8/9815 [00:07<3:14:01,  1.19s/it][INFO|trainer.py:1561] 2021-01-27 22:38:31,082 >> ------------------8: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:31,082 >> --predicted label: 2, predicted probs: 0.025405410677194595/0.13102006912231445 true label: 2 -- final kl: 3.655441105365753e-06, avg kl so far: 0.011901944048683314
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> If       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,083 >> that     , attn: 0.06228305399417877, added at iter: 5, added kl: 0.00016526127001270652, added p 0.028368216007947922/0.13027925789356232
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> investor , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> were     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> willing  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> to       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> pay      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,083 >> extra    , attn: 0.2360895425081253, added at iter: 11, added kl: 3.655441105365753e-06, added p 0.02513892762362957/0.13177219033241272
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> for      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,083 >> security , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,084 >> of       , attn: 0.2843892276287079, added at iter: 9, added kl: 2.4283071979880333e-06, added p 0.02528751827776432/0.13176070153713226
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> limited  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> down     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> ##side   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> ,        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> she      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> could    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> buy      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> put      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> options  , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> with     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,084 >> a        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> strike   , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,085 >> price    , attn: 0.8554564714431763, added at iter: 6, added kl: 3.839435521513224e-06, added p 0.02573300339281559/0.13032571971416473
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> of       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> $        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> 98       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> ,        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,085 >> which    , attn: 0.09431672841310501, added at iter: 8, added kl: 1.2782402336597443e-07, added p 0.02539423294365406/0.13130997121334076
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> would    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> lock     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,085 >> in       , attn: 0.09608432650566101, added at iter: 7, added kl: 5.73068973608315e-07, added p 0.025232667103409767/0.13088358938694
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> her      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> profit   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,085 >> on       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,086 >> the      , attn: 0.7210102081298828, added at iter: 10, added kl: 8.088245522230864e-07, added p 0.02550632134079933/0.13056707382202148
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> shares   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> at       , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,086 >> $        , attn: 0.8554564714431763, added at iter: 3, added kl: 0.0006440426222980022, added p 0.031078089028596878/0.12618914246559143
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> 18       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> ,        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,086 >> less     , attn: 0.5032039880752563, added at iter: 4, added kl: 0.0004153680056333542, added p 0.028780775144696236/0.12389448285102844
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> whatever , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,086 >> options  , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,086 >> cost     , attn: 0.8554564714431763, added at iter: 0, added kl: 0.17826895415782928, added p 0.15212780237197876/0.26933732628822327
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> .        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> [SEP]    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> T        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> ##H      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> ##e      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> strike   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> price    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> could    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> be       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> $        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,087 >> 8        , attn: 0.7023593783378601, added at iter: 2, added kl: 0.013593379408121109, added p 0.04944257438182831/0.16714312136173248
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,087 >> .        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,087 >> [SEP]    , attn: 0.7210102081298828, added at iter: 1, added kl: 0.05624590814113617, added p 0.09345918148756027/0.19072021543979645
+  0%|          | 9/9815 [00:09<3:36:49,  1.33s/it][INFO|trainer.py:1561] 2021-01-27 22:38:31,876 >> ------------------9: 0----------------------
+[INFO|trainer.py:1573] 2021-01-27 22:38:31,876 >> --predicted label: 1, predicted probs: 0.003093258710578084/0.9371647834777832 true label: 1 -- final kl: 0.020203085616230965, avg kl so far: 0.012732058205438079
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,876 >> [CLS]    , attn: 1.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,876 >> 3        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,876 >> )        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,876 >> Dare     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,876 >> you      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> rise     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> to       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> occasion , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> ,        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> like     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> Ra       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> ##sko    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> ##ln     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> ##iko    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,877 >> ##v      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,877 >> ,        , attn: 0.1842583268880844, added at iter: 6, added kl: 0.022868240252137184, added p 0.028401482850313187/0.8901258111000061
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,878 >> and      , attn: 0.4493222236633301, added at iter: 7, added kl: 0.020203085616230965, added p 0.026158086955547333/0.8941924571990967
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> reject   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> the      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> petty    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> rules    , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,878 >> that     , attn: 0.31490442156791687, added at iter: 5, added kl: 0.02631106600165367, added p 0.028716210275888443/0.8811138868331909
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> govern   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> lesser   , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> men      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,878 >> ?        , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,878 >> [SEP]    , attn: 0.6841134428977966, added at iter: 3, added kl: 0.054165177047252655, added p 0.036690156906843185/0.8360568284988403
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> Would    , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> you      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> rise     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,879 >> up       , attn: 0.3741346299648285, added at iter: 4, added kl: 0.03529471158981323, added p 0.03470907360315323/0.8678758144378662
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> and      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,879 >> def      , attn: 1.0, added at iter: 2, added kl: 0.08378362655639648, added p 0.040591198951005936/0.7974104285240173
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> ##ea     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> ##at     , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> all      , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> evil     , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,879 >> lords    , attn: 0.9764987826347351, added at iter: 0, added kl: 0.3616534471511841, added p 0.08579356223344803/0.5628697872161865
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,879 >> in       , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,880 >> the      , attn: 0.0
+[INFO|trainer.py:1591] 2021-01-27 22:38:31,880 >> town     , attn: 1.0, added at iter: 1, added kl: 0.12005235254764557, added p 0.040363844484090805/0.7560634613037109
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,880 >> ?        , attn: 0.0
+[INFO|trainer.py:1595] 2021-01-27 22:38:31,880 >> [SEP]    , attn: 0.0
+  0%|          | 10/9815 [00:09<3:10:36,  1.17s/it]
