@@ -25,7 +25,7 @@
 |                           |                      | 1.0                     | 84.48       |                                     |                                |
 |                           |                      | 0.1                     | 82.64       | [0.1.txt](mnli/log_density_0.1.txt) | [mnli/json/0.1](mnli/json/0.1) |
 |                           |                      | 0.2                     | 84.10       | [0.2.txt](mnli/log_density_0.2.txt) | [mnli/json/0.2](mnli/json/0.2) |
-|                           |                      | 0.3                     |             |                                     | [mnli/json/0.3](mnli/json/0.3) |
+|                           |                      | 0.3                     | 84.34       | [0.3.txt](mnli/log_density_0.3.txt) | [mnli/json/0.3](mnli/json/0.3) |
 | qnli                      | accuracy             | 1.0                     | 90.66       | Huggingface                         |                                |
 |                           |                      | 1.0                     | 90.68       |                                     |                                |
 |                           |                      | 0.1                     | 90.37       | [0.1.txt](qnli/log_density_0.1.txt) | [qnli/json/0.1](qnli/json/0.1) |
