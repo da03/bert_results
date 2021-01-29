@@ -1,0 +1,168 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "When",
+        "did",
+        "the",
+        "Warsaw",
+        "Uprising",
+        "begin",
+        "?",
+        "[SEP]",
+        "the",
+        "Polish",
+        "government",
+        "-",
+        "in",
+        "-",
+        "exile",
+        "in",
+        "London",
+        "gave",
+        "orders",
+        "to",
+        "the",
+        "underground",
+        "Home",
+        "Army",
+        "(",
+        "AK",
+        ")",
+        "to",
+        "try",
+        "to",
+        "seize",
+        "control",
+        "of",
+        "Warsaw",
+        "from",
+        "the",
+        "Germans",
+        "before",
+        "the",
+        "Red",
+        "Army",
+        "arrived",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            35,
+            37,
+            44
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "Uprising",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9634695053100586,
+                        0.03653055429458618
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989018440246582,
+                        0.0010981890372931957
+                    ],
+                    "kl": 0.032227519899606705
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "from",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9049160480499268,
+                        0.09508392214775085
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989018440246582,
+                        0.0010981890372931957
+                    ],
+                    "kl": 0.09380686283111572
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "Germans",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9398790001869202,
+                        0.06012099236249924
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989018440246582,
+                        0.0010981890372931957
+                    ],
+                    "kl": 0.05644286423921585
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9751694798469543,
+                        0.024830549955368042
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989018440246582,
+                        0.0010981890372931957
+                    ],
+                    "kl": 0.020594339817762375
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                35,
+                37,
+                44
+            ]
+        }
+    ]
+}

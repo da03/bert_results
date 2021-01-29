@@ -1,0 +1,206 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "role",
+        "in",
+        "economics",
+        "did",
+        "the",
+        "university",
+        "play",
+        "a",
+        "major",
+        "part",
+        "in",
+        "?",
+        "[SEP]",
+        "In",
+        "economics",
+        ",",
+        "the",
+        "university",
+        "has",
+        "played",
+        "an",
+        "important",
+        "role",
+        "in",
+        "shaping",
+        "ideas",
+        "about",
+        "the",
+        "free",
+        "market",
+        "and",
+        "is",
+        "the",
+        "namesake",
+        "of",
+        "the",
+        "Chicago",
+        "school",
+        "of",
+        "economics",
+        ",",
+        "the",
+        "school",
+        "of",
+        "economic",
+        "thought",
+        "supported",
+        "by",
+        "Milton",
+        "Friedman",
+        "and",
+        "other",
+        "economists",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            8,
+            11,
+            21,
+            24
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "did",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8586220145225525,
+                        0.1413780003786087
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986087679862976,
+                        0.0013912651920691133
+                    ],
+                    "kl": 0.14439496397972107
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "play",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9362467527389526,
+                        0.06375326216220856
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986087679862976,
+                        0.0013912651920691133
+                    ],
+                    "kl": 0.05907309055328369
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "part",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5463773608207703,
+                        0.45362260937690735
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986087679862976,
+                        0.0013912651920691133
+                    ],
+                    "kl": 0.7796896696090698
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "played",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9876368045806885,
+                        0.012363203801214695
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986087679862976,
+                        0.0013912651920691133
+                    ],
+                    "kl": 0.00799347460269928
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": "role",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9955072402954102,
+                        0.004492746200412512
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986087679862976,
+                        0.0013912651920691133
+                    ],
+                    "kl": 0.0014754077419638634
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                8,
+                11,
+                21,
+                24
+            ]
+        }
+    ]
+}

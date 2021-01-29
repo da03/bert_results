@@ -1,0 +1,92 @@
+{
+    "true_target_label": 2.5999999046325684,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "lady",
+        "cracked",
+        "an",
+        "egg",
+        "into",
+        "a",
+        "bowl",
+        ".",
+        "[SEP]",
+        "The",
+        "man",
+        "is",
+        "cracking",
+        "eggs",
+        "into",
+        "a",
+        "bowl",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            18
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "bowl",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.4486823081970215,
+                        2.4486823081970215
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.001949310302734,
+                        4.001949310302734
+                    ],
+                    "kl": 2.4126384258270264
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "bowl",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9122010469436646,
+                        0.9122010469436646
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.001949310302734,
+                        4.001949310302734
+                    ],
+                    "kl": 9.546545028686523
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                18
+            ]
+        }
+    ]
+}

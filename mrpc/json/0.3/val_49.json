@@ -1,0 +1,114 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "United",
+        "issued",
+        "a",
+        "statement",
+        "saying",
+        "it",
+        "will",
+        "\"",
+        "work",
+        "professionally",
+        "and",
+        "cooperative",
+        "##ly",
+        "with",
+        "all",
+        "its",
+        "unions",
+        ".",
+        "\"",
+        "[SEP]",
+        "Senior",
+        "vice",
+        "president",
+        "Sara",
+        "Fields",
+        "said",
+        "the",
+        "airline",
+        "\"",
+        "will",
+        "work",
+        "professionally",
+        "and",
+        "cooperative",
+        "##ly",
+        "with",
+        "all",
+        "our",
+        "unions",
+        ".",
+        "\"",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "professionally",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8350118398666382,
+                        0.16498814523220062
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9702792167663574,
+                        0.0297208521515131
+                    ],
+                    "kl": 1.619916558265686
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "professionally",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.948353111743927,
+                        0.051646918058395386
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9702792167663574,
+                        0.0297208521515131
+                    ],
+                    "kl": 0.005754420533776283
+                }
+            ],
+            "unmasked_source_words": [
+                10,
+                32
+            ]
+        }
+    ]
+}

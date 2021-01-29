@@ -1,0 +1,32 @@
+{
+    "true_target_label": 0.800000011920929,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "finding",
+        "something",
+        ".",
+        "[SEP]",
+        "A",
+        "woman",
+        "is",
+        "s",
+        "##licing",
+        "something",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

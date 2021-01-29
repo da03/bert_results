@@ -1,0 +1,137 @@
+{
+    "true_target_label": 0.6359999775886536,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "speaking",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "spit",
+        "##ting",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            8,
+            9,
+            11
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "man",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6914070844650269,
+                        0.6914070844650269
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8644174337387085,
+                        0.8644174337387085
+                    ],
+                    "kl": 0.029932580888271332
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "man",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.956507682800293,
+                        0.956507682800293
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8644174337387085,
+                        0.8644174337387085
+                    ],
+                    "kl": 0.008480614051222801
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6882675886154175,
+                        0.6882675886154175
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8644174337387085,
+                        0.8644174337387085
+                    ],
+                    "kl": 0.03102876804769039
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "##ting",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8819819688796997,
+                        0.8819819688796997
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8644174337387085,
+                        0.8644174337387085
+                    ],
+                    "kl": 0.00030851288465783
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                8,
+                9,
+                11
+            ]
+        }
+    ]
+}

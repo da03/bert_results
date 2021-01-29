@@ -1,0 +1,61 @@
+{
+    "true_target_label": 4.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "chef",
+        "is",
+        "preparing",
+        "some",
+        "food",
+        ".",
+        "[SEP]",
+        "A",
+        "chef",
+        "prepared",
+        "a",
+        "meal",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            11
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "prepared",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8070598840713501,
+                        0.8070598840713501
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.202866554260254,
+                        4.202866554260254
+                    ],
+                    "kl": 11.531503677368164
+                }
+            ],
+            "unmasked_source_words": [
+                11
+            ]
+        }
+    ]
+}

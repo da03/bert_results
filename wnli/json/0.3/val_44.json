@@ -1,0 +1,70 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "I",
+        "couldn",
+        "'",
+        "t",
+        "put",
+        "the",
+        "pot",
+        "on",
+        "the",
+        "shelf",
+        "because",
+        "it",
+        "was",
+        "too",
+        "high",
+        ".",
+        "[SEP]",
+        "The",
+        "pot",
+        "was",
+        "too",
+        "high",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            20
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "was",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5370545387268066,
+                        0.46294543147087097
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5292343497276306,
+                        0.4707656502723694
+                    ],
+                    "kl": 0.00012285495176911354
+                }
+            ],
+            "unmasked_source_words": [
+                20
+            ]
+        }
+    ]
+}

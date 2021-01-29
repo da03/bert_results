@@ -1,0 +1,114 @@
+{
+    "true_target_label": 3.75,
+    "source_tokens_text": [
+        "[CLS]",
+        "Three",
+        "men",
+        "are",
+        "playing",
+        "guitars",
+        ".",
+        "[SEP]",
+        "Three",
+        "men",
+        "are",
+        "on",
+        "stage",
+        "playing",
+        "guitars",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            10,
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "are",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9855022430419922,
+                        0.9855022430419922
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.355581283569336,
+                        4.355581283569336
+                    ],
+                    "kl": 11.35743236541748
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "are",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.6105875968933105,
+                        1.6105875968933105
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.355581283569336,
+                        4.355581283569336
+                    ],
+                    "kl": 7.534990310668945
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "stage",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8492527008056641,
+                        0.8492527008056641
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.355581283569336,
+                        4.355581283569336
+                    ],
+                    "kl": 12.294340133666992
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                10,
+                12
+            ]
+        }
+    ]
+}

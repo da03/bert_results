@@ -1,0 +1,81 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Look",
+        "!",
+        "There",
+        "is",
+        "a",
+        "min",
+        "##no",
+        "##w",
+        "swimming",
+        "right",
+        "below",
+        "that",
+        "duck",
+        "!",
+        "It",
+        "had",
+        "better",
+        "get",
+        "away",
+        "to",
+        "safety",
+        "fast",
+        "!",
+        "[SEP]",
+        "The",
+        "duck",
+        "had",
+        "better",
+        "get",
+        "away",
+        "to",
+        "safety",
+        "fast",
+        "!",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "!",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5281162858009338,
+                        0.47188371419906616
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5109867453575134,
+                        0.48901328444480896
+                    ],
+                    "kl": 0.0005881860852241516
+                }
+            ],
+            "unmasked_source_words": [
+                14
+            ]
+        }
+    ]
+}

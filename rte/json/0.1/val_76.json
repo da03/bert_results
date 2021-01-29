@@ -1,0 +1,243 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "Disney",
+        "##land",
+        "of",
+        "Europe",
+        "is",
+        "located",
+        "20",
+        "miles",
+        "east",
+        "of",
+        "Paris",
+        ".",
+        "Euro",
+        "Disney",
+        "is",
+        "a",
+        "huge",
+        "complex",
+        "with",
+        "hotels",
+        ",",
+        "restaurants",
+        ",",
+        "shops",
+        "and",
+        "a",
+        "nearby",
+        "golf",
+        "course",
+        "apart",
+        "from",
+        "the",
+        "actual",
+        "theme",
+        "park",
+        ".",
+        "It",
+        "provides",
+        "a",
+        "much",
+        "better",
+        "experience",
+        "than",
+        "its",
+        "American",
+        "cousin",
+        "thanks",
+        "to",
+        "the",
+        "ma",
+        "##rve",
+        "##ls",
+        "of",
+        "modern",
+        "engineering",
+        ".",
+        "[SEP]",
+        "Euro",
+        "-",
+        "Disney",
+        "is",
+        "an",
+        "Entertainment",
+        "Park",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            31,
+            53,
+            61,
+            64,
+            65,
+            66
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "apart",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5595220327377319,
+                        0.44047799706459045
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6630702018737793,
+                        0.3369297981262207
+                    ],
+                    "kl": 0.022295527160167694
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 53,
+                    "from": "source",
+                    "added_token_text": "##ls",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5537140965461731,
+                        0.4462859034538269
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6630702018737793,
+                        0.3369297981262207
+                    ],
+                    "kl": 0.024800725281238556
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 61,
+                    "from": "source",
+                    "added_token_text": "Disney",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.561638593673706,
+                        0.4383614659309387
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6630702018737793,
+                        0.3369297981262207
+                    ],
+                    "kl": 0.021414875984191895
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 64,
+                    "from": "source",
+                    "added_token_text": "Entertainment",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5235888361930847,
+                        0.4764111638069153
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6630702018737793,
+                        0.3369297981262207
+                    ],
+                    "kl": 0.03988530486822128
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 65,
+                    "from": "source",
+                    "added_token_text": "Park",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5201724171638489,
+                        0.4798275828361511
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6630702018737793,
+                        0.3369297981262207
+                    ],
+                    "kl": 0.06814892590045929
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 66,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5409795045852661,
+                        0.4590205252170563
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6630702018737793,
+                        0.3369297981262207
+                    ],
+                    "kl": 0.030748866498470306
+                }
+            ],
+            "unmasked_source_words": [
+                31,
+                53,
+                61,
+                64,
+                65,
+                66
+            ]
+        }
+    ]
+}

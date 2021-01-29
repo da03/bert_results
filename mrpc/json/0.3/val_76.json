@@ -1,0 +1,78 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "M",
+        "##c",
+        "##C",
+        "##abe",
+        "said",
+        "he",
+        "was",
+        "considered",
+        "a",
+        "witness",
+        ",",
+        "not",
+        "a",
+        "suspect",
+        ".",
+        "[SEP]",
+        "\"",
+        "He",
+        "is",
+        "not",
+        "considered",
+        "a",
+        "suspect",
+        ",",
+        "\"",
+        "M",
+        "##c",
+        "##C",
+        "##abe",
+        "said",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "said",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9663411974906921,
+                        0.03365880995988846
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9691819548606873,
+                        0.030818017199635506
+                    ],
+                    "kl": 0.00012755789794027805
+                }
+            ],
+            "unmasked_source_words": [
+                5
+            ]
+        }
+    ]
+}

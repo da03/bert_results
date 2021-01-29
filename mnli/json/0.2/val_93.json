@@ -1,0 +1,83 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "yeah",
+        "really",
+        "no",
+        "kidding",
+        "[SEP]",
+        "Really",
+        "?",
+        "No",
+        "kidding",
+        "!",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            8
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "no",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.553058385848999,
+                        0.21589334309101105
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9925307631492615,
+                        0.006093491800129414
+                    ],
+                    "kl": 0.5516390800476074
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "No",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6366610527038574,
+                        0.13575880229473114
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9925307631492615,
+                        0.006093491800129414
+                    ],
+                    "kl": 0.41476425528526306
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "man",
+        "couldn",
+        "'",
+        "t",
+        "lift",
+        "his",
+        "son",
+        "because",
+        "he",
+        "was",
+        "so",
+        "heavy",
+        ".",
+        "[SEP]",
+        "The",
+        "son",
+        "was",
+        "so",
+        "heavy",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            18
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "was",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5371026396751404,
+                        0.46289733052253723
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5282815098762512,
+                        0.4717184901237488
+                    ],
+                    "kl": 0.00015635229647159576
+                }
+            ],
+            "unmasked_source_words": [
+                18
+            ]
+        }
+    ]
+}

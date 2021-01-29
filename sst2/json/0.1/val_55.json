@@ -1,0 +1,56 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "a",
+        "tender",
+        ",",
+        "heart",
+        "##fe",
+        "##lt",
+        "family",
+        "drama",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "tender",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8820896148681641,
+                        0.11791034042835236
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9999172687530518,
+                        8.277611777884886e-05
+                    ],
+                    "kl": 0.12476766109466553
+                }
+            ],
+            "unmasked_source_words": [
+                2
+            ]
+        }
+    ]
+}

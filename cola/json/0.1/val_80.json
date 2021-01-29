@@ -1,0 +1,59 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "proof",
+        "this",
+        "set",
+        "is",
+        "re",
+        "##cu",
+        "##rs",
+        "##ive",
+        "is",
+        "difficult",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            11
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "difficult",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.798506498336792,
+                        0.201493501663208
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9689764976501465,
+                        0.031023483723402023
+                    ],
+                    "kl": 0.12944895029067993
+                }
+            ],
+            "unmasked_source_words": [
+                11
+            ]
+        }
+    ]
+}

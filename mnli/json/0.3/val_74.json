@@ -1,0 +1,115 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Do",
+        "you",
+        "think",
+        "Mrs",
+        ".",
+        "In",
+        "##gle",
+        "##th",
+        "##or",
+        "##p",
+        "made",
+        "a",
+        "will",
+        "leaving",
+        "all",
+        "her",
+        "money",
+        "to",
+        "Miss",
+        "Howard",
+        "?",
+        "I",
+        "asked",
+        "in",
+        "a",
+        "low",
+        "voice",
+        ",",
+        "with",
+        "some",
+        "curiosity",
+        ".",
+        "[SEP]",
+        "I",
+        "yelled",
+        "at",
+        "the",
+        "top",
+        "of",
+        "my",
+        "lungs",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            31,
+            35
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "curiosity",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.0023793955333530903,
+                        0.0004224120348226279
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0013430641265586019,
+                        0.00014310948608908802
+                    ],
+                    "kl": 0.0003935090498998761
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "yelled",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.3465268611907959,
+                        0.020714640617370605
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0013430641265586019,
+                        0.00014310948608908802
+                    ],
+                    "kl": 0.44733116030693054
+                }
+            ],
+            "unmasked_source_words": [
+                31,
+                35
+            ]
+        }
+    ]
+}

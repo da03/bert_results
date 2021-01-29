@@ -1,0 +1,88 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Alice",
+        "looked",
+        "for",
+        "her",
+        "friend",
+        "Jade",
+        "in",
+        "the",
+        "crowd",
+        ".",
+        "Since",
+        "she",
+        "always",
+        "wears",
+        "a",
+        "red",
+        "t",
+        "##ur",
+        "##ban",
+        ",",
+        "Alice",
+        "spotted",
+        "her",
+        "quickly",
+        ".",
+        "[SEP]",
+        "Since",
+        "Alice",
+        "always",
+        "wears",
+        "a",
+        "red",
+        "t",
+        "##ur",
+        "##ban",
+        ",",
+        "Alice",
+        "spotted",
+        "her",
+        "quickly",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            39
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "her",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5220135450363159,
+                        0.4779864549636841
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5110341310501099,
+                        0.4889658987522125
+                    ],
+                    "kl": 0.00024146679788827896
+                }
+            ],
+            "unmasked_source_words": [
+                39
+            ]
+        }
+    ]
+}

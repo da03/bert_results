@@ -1,0 +1,144 @@
+{
+    "true_target_label": 4.599999904632568,
+    "source_tokens_text": [
+        "[CLS]",
+        "Elephant",
+        "##s",
+        "are",
+        "walking",
+        "down",
+        "a",
+        "trail",
+        ".",
+        "[SEP]",
+        "A",
+        "herd",
+        "of",
+        "elephants",
+        "are",
+        "walking",
+        "along",
+        "a",
+        "trail",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            7,
+            16,
+            18
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "walking",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.2680180072784424,
+                        2.2680180072784424
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.099352836608887,
+                        4.099352836608887
+                    ],
+                    "kl": 3.3537871837615967
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "trail",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.0824198722839355,
+                        1.0824198722839355
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.099352836608887,
+                        4.099352836608887
+                    ],
+                    "kl": 9.101884841918945
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "along",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8411308526992798,
+                        0.8411308526992798
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.099352836608887,
+                        4.099352836608887
+                    ],
+                    "kl": 10.616011619567871
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "trail",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.9585041999816895,
+                        1.9585041999816895
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.099352836608887,
+                        4.099352836608887
+                    ],
+                    "kl": 4.583232879638672
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                7,
+                16,
+                18
+            ]
+        }
+    ]
+}

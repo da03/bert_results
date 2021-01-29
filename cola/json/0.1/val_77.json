@@ -1,0 +1,59 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Mu",
+        "##riel",
+        "said",
+        "nothing",
+        "else",
+        "than",
+        "that",
+        "she",
+        "had",
+        "been",
+        "insulted",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "##riel",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6797002553939819,
+                        0.3202997148036957
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9721249341964722,
+                        0.02787512168288231
+                    ],
+                    "kl": 0.27980002760887146
+                }
+            ],
+            "unmasked_source_words": [
+                2
+            ]
+        }
+    ]
+}

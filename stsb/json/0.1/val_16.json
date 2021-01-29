@@ -1,0 +1,62 @@
+{
+    "true_target_label": 2.4000000953674316,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "girl",
+        "sang",
+        "into",
+        "a",
+        "microphone",
+        ".",
+        "[SEP]",
+        "The",
+        "lady",
+        "sang",
+        "into",
+        "the",
+        "microphone",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            6
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "microphone",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.2777090072631836,
+                        1.2777090072631836
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.9911441802978516,
+                        3.9911441802978516
+                    ],
+                    "kl": 7.362730503082275
+                }
+            ],
+            "unmasked_source_words": [
+                6
+            ]
+        }
+    ]
+}

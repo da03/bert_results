@@ -1,0 +1,164 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Taking",
+        "an",
+        "e",
+        "##cumenical",
+        "ta",
+        "##ck",
+        ",",
+        "nation",
+        "officials",
+        "in",
+        "Chicago",
+        "recently",
+        "issued",
+        "ed",
+        "##ict",
+        "##s",
+        "commanding",
+        "preacher",
+        "##s",
+        "to",
+        "back",
+        "off",
+        "their",
+        "anti",
+        "-",
+        "Semitic",
+        "rhetoric",
+        ".",
+        "[SEP]",
+        "Nation",
+        "officials",
+        "in",
+        "Chicago",
+        "are",
+        "involved",
+        "in",
+        "religious",
+        "issues",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9,
+            11,
+            22,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "officials",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6780204176902771,
+                        0.27122601866722107
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8466866612434387,
+                        0.15270857512950897
+                    ],
+                    "kl": 0.0976962000131607
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "Chicago",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.500884473323822,
+                        0.40204548835754395
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8466866612434387,
+                        0.15270857512950897
+                    ],
+                    "kl": 0.2935742139816284
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "off",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5993536710739136,
+                        0.3318314850330353
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8466866612434387,
+                        0.15270857512950897
+                    ],
+                    "kl": 0.17113256454467773
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.4261280298233032,
+                        0.38629546761512756
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8466866612434387,
+                        0.15270857512950897
+                    ],
+                    "kl": 0.5042383670806885
+                }
+            ],
+            "unmasked_source_words": [
+                9,
+                11,
+                22,
+                32
+            ]
+        }
+    ]
+}

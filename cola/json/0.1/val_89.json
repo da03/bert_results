@@ -1,0 +1,56 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Mike",
+        "talked",
+        "about",
+        "politics",
+        "yesterday",
+        "to",
+        "my",
+        "friends",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "yesterday",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.919691264629364,
+                        0.0803087055683136
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9894283413887024,
+                        0.01057167537510395
+                    ],
+                    "kl": 0.050880372524261475
+                }
+            ],
+            "unmasked_source_words": [
+                5
+            ]
+        }
+    ]
+}

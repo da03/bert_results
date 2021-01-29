@@ -1,0 +1,78 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "John",
+        "owns",
+        "the",
+        "book",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            6
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "John",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8074237704277039,
+                        0.19257621467113495
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9901607036590576,
+                        0.009839230217039585
+                    ],
+                    "kl": 0.17274834215641022
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9704552292823792,
+                        0.02954479679465294
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9901607036590576,
+                        0.009839230217039585
+                    ],
+                    "kl": 0.009085824713110924
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                6
+            ]
+        }
+    ]
+}

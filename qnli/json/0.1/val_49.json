@@ -1,0 +1,172 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "were",
+        "the",
+        "Saxon",
+        "Palace",
+        "and",
+        "B",
+        "##r",
+        "##\u00fc",
+        "##hl",
+        "Palace",
+        "in",
+        "pre",
+        "##war",
+        "Warsaw",
+        "?",
+        "[SEP]",
+        "Warsaw",
+        "\u2019",
+        "s",
+        "municipal",
+        "government",
+        "authorities",
+        "have",
+        "decided",
+        "to",
+        "rebuild",
+        "the",
+        "Saxon",
+        "Palace",
+        "and",
+        "the",
+        "B",
+        "##r",
+        "##\u00fc",
+        "##hl",
+        "Palace",
+        ",",
+        "the",
+        "most",
+        "distinctive",
+        "buildings",
+        "in",
+        "pre",
+        "##war",
+        "Warsaw",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            8,
+            34,
+            37
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "Palace",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9611660242080688,
+                        0.038833994418382645
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9868173003196716,
+                        0.013182681053876877
+                    ],
+                    "kl": 0.011748077347874641
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "##r",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6398590207099915,
+                        0.36014097929000854
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9868173003196716,
+                        0.013182681053876877
+                    ],
+                    "kl": 0.9435215592384338
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "##r",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8333970308303833,
+                        0.1666029542684555
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9868173003196716,
+                        0.013182681053876877
+                    ],
+                    "kl": 0.1333065778017044
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "Palace",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9101191163063049,
+                        0.08988092839717865
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9868173003196716,
+                        0.013182681053876877
+                    ],
+                    "kl": 0.05453753098845482
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                8,
+                34,
+                37
+            ]
+        }
+    ]
+}

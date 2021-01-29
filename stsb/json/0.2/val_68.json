@@ -1,0 +1,115 @@
+{
+    "true_target_label": 4.25,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "shoots",
+        "a",
+        "man",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "with",
+        "a",
+        "pistol",
+        "shoots",
+        "another",
+        "man",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            3,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "A",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.3307595252990723,
+                        3.3307595252990723
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.015327453613281,
+                        4.015327453613281
+                    ],
+                    "kl": 0.468633234500885
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "shoots",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8647848963737488,
+                        0.8647848963737488
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.015327453613281,
+                        4.015327453613281
+                    ],
+                    "kl": 9.925917625427246
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "shoots",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.1037979125976562,
+                        3.1037979125976562
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.015327453613281,
+                        4.015327453613281
+                    ],
+                    "kl": 0.8308861255645752
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                3,
+                13
+            ]
+        }
+    ]
+}

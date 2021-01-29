@@ -1,0 +1,388 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "one",
+        "of",
+        "the",
+        "largest",
+        "music",
+        "schools",
+        "in",
+        "Europe",
+        "?",
+        "[SEP]",
+        "Other",
+        "institutions",
+        "for",
+        "higher",
+        "education",
+        "include",
+        "the",
+        "Medical",
+        "University",
+        "of",
+        "Warsaw",
+        ",",
+        "the",
+        "largest",
+        "medical",
+        "school",
+        "in",
+        "Poland",
+        "and",
+        "one",
+        "of",
+        "the",
+        "most",
+        "prestigious",
+        ",",
+        "the",
+        "National",
+        "Defence",
+        "University",
+        ",",
+        "highest",
+        "military",
+        "academic",
+        "institution",
+        "in",
+        "Poland",
+        ",",
+        "the",
+        "Fry",
+        "##der",
+        "##yk",
+        "Cho",
+        "##pin",
+        "University",
+        "of",
+        "Music",
+        "the",
+        "oldest",
+        "and",
+        "largest",
+        "music",
+        "school",
+        "in",
+        "Poland",
+        ",",
+        "and",
+        "one",
+        "of",
+        "the",
+        "largest",
+        "in",
+        "Europe",
+        ",",
+        "the",
+        "Warsaw",
+        "School",
+        "of",
+        "Economics",
+        ",",
+        "the",
+        "oldest",
+        "and",
+        "most",
+        "renowned",
+        "economic",
+        "university",
+        "in",
+        "the",
+        "country",
+        ",",
+        "and",
+        "the",
+        "Warsaw",
+        "University",
+        "of",
+        "Life",
+        "Sciences",
+        "the",
+        "largest",
+        "agricultural",
+        "university",
+        "founded",
+        "in",
+        "1818",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            6,
+            7,
+            27,
+            36,
+            62,
+            63,
+            75,
+            77,
+            79,
+            106
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "largest",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8528400659561157,
+                        0.14715997874736786
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.14703096449375153
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "music",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9806533455848694,
+                        0.019346583634614944
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.012333715334534645
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 27,
+                    "from": "source",
+                    "added_token_text": "medical",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9947774410247803,
+                        0.005222607403993607
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.0010551123414188623
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "prestigious",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9911609888076782,
+                        0.008838987909257412
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.003487930167466402
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 62,
+                    "from": "source",
+                    "added_token_text": "largest",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.733410656452179,
+                        0.26658934354782104
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 1.303573489189148
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 63,
+                    "from": "source",
+                    "added_token_text": "music",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9936561584472656,
+                        0.006343842949718237
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.0017365929670631886
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 75,
+                    "from": "source",
+                    "added_token_text": ",",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9968865513801575,
+                        0.003113497281447053
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.00012265285477042198
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 77,
+                    "from": "source",
+                    "added_token_text": "Warsaw",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9654309153556824,
+                        0.03456912189722061
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.02661762572824955
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 79,
+                    "from": "source",
+                    "added_token_text": "of",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9958001971244812,
+                        0.004199820104986429
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.0005273363785818219
+                },
+                {
+                    "num_unmasked": 10,
+                    "added_token": 106,
+                    "from": "source",
+                    "added_token_text": "1818",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9333061575889587,
+                        0.06669389456510544
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977176189422607,
+                        0.0022824143525213003
+                    ],
+                    "kl": 0.058881744742393494
+                }
+            ],
+            "unmasked_source_words": [
+                6,
+                7,
+                27,
+                36,
+                62,
+                63,
+                75,
+                77,
+                79,
+                106
+            ]
+        }
+    ]
+}

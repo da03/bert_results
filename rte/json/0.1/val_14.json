@@ -1,0 +1,103 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Take",
+        "consumer",
+        "products",
+        "giant",
+        "Pro",
+        "##cter",
+        "and",
+        "G",
+        "##amble",
+        ".",
+        "Even",
+        "with",
+        "a",
+        "$",
+        "1",
+        ".",
+        "8",
+        "billion",
+        "Research",
+        "and",
+        "Development",
+        "budget",
+        ",",
+        "it",
+        "still",
+        "manages",
+        "500",
+        "active",
+        "partnerships",
+        "each",
+        "year",
+        ",",
+        "many",
+        "of",
+        "them",
+        "with",
+        "small",
+        "companies",
+        ".",
+        "[SEP]",
+        "Pro",
+        "##cter",
+        "and",
+        "G",
+        "##amble",
+        "spends",
+        "$",
+        "1",
+        ".",
+        "8",
+        "billion",
+        "for",
+        "Research",
+        "and",
+        "Development",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            48
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "1",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5149286985397339,
+                        0.4850713014602661
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5887882709503174,
+                        0.41121166944503784
+                    ],
+                    "kl": 0.010993003845214844
+                }
+            ],
+            "unmasked_source_words": [
+                48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "If",
+        "you",
+        "had",
+        "eaten",
+        "more",
+        ",",
+        "you",
+        "would",
+        "want",
+        "less",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            11,
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "would",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8599634170532227,
+                        0.14003661274909973
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9873670339584351,
+                        0.0126329455524683
+                    ],
+                    "kl": 0.10601697117090225
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9611490368843079,
+                        0.03885098919272423
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9873670339584351,
+                        0.0126329455524683
+                    ],
+                    "kl": 0.012380177155137062
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8840745687484741,
+                        0.11592543125152588
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9873670339584351,
+                        0.0126329455524683
+                    ],
+                    "kl": 0.08110182732343674
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                11,
+                12
+            ]
+        }
+    ]
+}

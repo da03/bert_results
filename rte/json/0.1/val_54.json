@@ -1,0 +1,171 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Nokia",
+        ",",
+        "Texas",
+        "Instruments",
+        "and",
+        "other",
+        "leading",
+        "makers",
+        "of",
+        "mobile",
+        "phones",
+        "have",
+        "formally",
+        "complained",
+        "to",
+        "Brussels",
+        "that",
+        "Q",
+        "##ual",
+        "##com",
+        "##m",
+        ",",
+        "the",
+        "US",
+        "mobile",
+        "chip",
+        "##maker",
+        ",",
+        "has",
+        "unfair",
+        "##ly",
+        "used",
+        "its",
+        "patents",
+        "on",
+        "3",
+        "##G",
+        "technologies",
+        ".",
+        "[SEP]",
+        "Texas",
+        "Instruments",
+        "produces",
+        "mobile",
+        "phones",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            40,
+            42,
+            44,
+            47
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.558005154132843,
+                        0.441994845867157
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8065944314002991,
+                        0.19340555369853973
+                    ],
+                    "kl": 0.13734056055545807
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 42,
+                    "from": "source",
+                    "added_token_text": "Instruments",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5172571539878845,
+                        0.4827428460121155
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8065944314002991,
+                        0.19340555369853973
+                    ],
+                    "kl": 0.181447371840477
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "mobile",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5771095752716064,
+                        0.42289042472839355
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8065944314002991,
+                        0.19340555369853973
+                    ],
+                    "kl": 0.11873307824134827
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 47,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5680935382843018,
+                        0.43190649151802063
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8065944314002991,
+                        0.19340555369853973
+                    ],
+                    "kl": 0.12735360860824585
+                }
+            ],
+            "unmasked_source_words": [
+                40,
+                42,
+                44,
+                47
+            ]
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "did",
+        "Carolina",
+        "face",
+        "in",
+        "the",
+        "opening",
+        "drive",
+        "that",
+        "they",
+        "had",
+        "not",
+        "faced",
+        "the",
+        "entire",
+        "postseason",
+        "?",
+        "[SEP]",
+        "A",
+        "pair",
+        "of",
+        "carries",
+        "by",
+        "C",
+        ".",
+        "J",
+        ".",
+        "Anderson",
+        "moved",
+        "the",
+        "ball",
+        "up",
+        "20",
+        "yards",
+        "to",
+        "the",
+        "Panthers",
+        "14",
+        "-",
+        "yard",
+        "line",
+        ",",
+        "but",
+        "Carolina",
+        "'",
+        "s",
+        "defense",
+        "dug",
+        "in",
+        "over",
+        "the",
+        "next",
+        "three",
+        "plays",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            20,
+            22,
+            33
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "drive",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9455176591873169,
+                        0.054482344537973404
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9773484468460083,
+                        0.022651594132184982
+                    ],
+                    "kl": 0.012480640783905983
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "pair",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9018422365188599,
+                        0.09815774112939835
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9773484468460083,
+                        0.022651594132184982
+                    ],
+                    "kl": 0.04536735266447067
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "carries",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.974083662033081,
+                        0.02591627463698387
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9773484468460083,
+                        0.022651594132184982
+                    ],
+                    "kl": 0.00022045965306460857
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "20",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9647808074951172,
+                        0.03521914407610893
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9773484468460083,
+                        0.022651594132184982
+                    ],
+                    "kl": 0.0026516541838645935
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                20,
+                22,
+                33
+            ]
+        }
+    ]
+}

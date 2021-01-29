@@ -1,0 +1,128 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Unable",
+        "to",
+        "find",
+        "a",
+        "home",
+        "for",
+        "him",
+        ",",
+        "a",
+        "judge",
+        "told",
+        "mental",
+        "health",
+        "authorities",
+        "they",
+        "needed",
+        "to",
+        "find",
+        "supervised",
+        "housing",
+        "and",
+        "treatment",
+        "for",
+        "De",
+        "##V",
+        "##ries",
+        "somewhere",
+        "in",
+        "California",
+        ".",
+        "[SEP]",
+        "The",
+        "judge",
+        "had",
+        "told",
+        "the",
+        "state",
+        "Department",
+        "of",
+        "Mental",
+        "Health",
+        "to",
+        "find",
+        "supervised",
+        "housing",
+        "and",
+        "treatment",
+        "for",
+        "De",
+        "##V",
+        "##ries",
+        "somewhere",
+        "in",
+        "California",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            27,
+            43
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 27,
+                    "from": "source",
+                    "added_token_text": "somewhere",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8349478244781494,
+                        0.16505217552185059
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.7189550399780273,
+                        0.28104493021965027
+                    ],
+                    "kl": 0.04205264151096344
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "find",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7523542642593384,
+                        0.24764570593833923
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.7189550399780273,
+                        0.28104493021965027
+                    ],
+                    "kl": 0.002909921109676361
+                }
+            ],
+            "unmasked_source_words": [
+                27,
+                43
+            ]
+        }
+    ]
+}

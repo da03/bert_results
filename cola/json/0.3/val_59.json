@@ -1,0 +1,79 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "problem",
+        "perceive",
+        "##s",
+        "easily",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "problem",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6509881019592285,
+                        0.3490118682384491
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9792298674583435,
+                        0.020770100876688957
+                    ],
+                    "kl": 0.3411904275417328
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "perceive",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8757807612419128,
+                        0.12421924620866776
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9792298674583435,
+                        0.020770100876688957
+                    ],
+                    "kl": 0.07218368351459503
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                3
+            ]
+        }
+    ]
+}

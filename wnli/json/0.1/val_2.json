@@ -1,0 +1,49 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Beth",
+        "didn",
+        "'",
+        "t",
+        "get",
+        "angry",
+        "with",
+        "Sally",
+        ",",
+        "who",
+        "had",
+        "cut",
+        "her",
+        "off",
+        ",",
+        "because",
+        "she",
+        "stopped",
+        "and",
+        "counted",
+        "to",
+        "ten",
+        ".",
+        "[SEP]",
+        "Sally",
+        "stopped",
+        "and",
+        "counted",
+        "to",
+        "ten",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

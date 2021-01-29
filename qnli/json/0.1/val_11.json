@@ -1,0 +1,236 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "act",
+        "sets",
+        "forth",
+        "the",
+        "functions",
+        "of",
+        "the",
+        "Scottish",
+        "Parliament",
+        "?",
+        "[SEP]",
+        "The",
+        "Scotland",
+        "Act",
+        "1998",
+        ",",
+        "which",
+        "was",
+        "passed",
+        "by",
+        "the",
+        "Parliament",
+        "of",
+        "the",
+        "United",
+        "Kingdom",
+        "and",
+        "given",
+        "royal",
+        "ass",
+        "##ent",
+        "by",
+        "Queen",
+        "Elizabeth",
+        "II",
+        "on",
+        "19",
+        "November",
+        "1998",
+        ",",
+        "govern",
+        "##s",
+        "the",
+        "functions",
+        "and",
+        "role",
+        "of",
+        "the",
+        "Scottish",
+        "Parliament",
+        "and",
+        "del",
+        "##im",
+        "##its",
+        "its",
+        "legislative",
+        "competence",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            6,
+            9,
+            39,
+            45,
+            51
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "act",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9944028258323669,
+                        0.005597155075520277
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9984134435653687,
+                        0.0015865875175222754
+                    ],
+                    "kl": 0.0020184277091175318
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "functions",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.623636782169342,
+                        0.37636318802833557
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9984134435653687,
+                        0.0015865875175222754
+                    ],
+                    "kl": 0.4611756205558777
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "Scottish",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9956164360046387,
+                        0.004383604042232037
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9984134435653687,
+                        0.0015865875175222754
+                    ],
+                    "kl": 0.001188355847261846
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "November",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9890329837799072,
+                        0.010967032983899117
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9984134435653687,
+                        0.0015865875175222754
+                    ],
+                    "kl": 0.006357367150485516
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": "functions",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9763969779014587,
+                        0.023603064939379692
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9984134435653687,
+                        0.0015865875175222754
+                    ],
+                    "kl": 0.01797938346862793
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 51,
+                    "from": "source",
+                    "added_token_text": "Parliament",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9928001165390015,
+                        0.007199913263320923
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9984134435653687,
+                        0.0015865875175222754
+                    ],
+                    "kl": 0.0032294897828251123
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                6,
+                9,
+                39,
+                45,
+                51
+            ]
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "there",
+        "is",
+        "nothing",
+        "outstanding",
+        "about",
+        "this",
+        "film",
+        ",",
+        "but",
+        "it",
+        "is",
+        "good",
+        "enough",
+        "and",
+        "will",
+        "likely",
+        "be",
+        "appreciated",
+        "most",
+        "by",
+        "sailors",
+        "and",
+        "folks",
+        "who",
+        "know",
+        "their",
+        "way",
+        "around",
+        "a",
+        "submarine",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            4,
+            5,
+            7,
+            30,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9517149925231934,
+                        0.04828507825732231
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.999298095703125,
+                        0.0007018850301392376
+                    ],
+                    "kl": 0.045783597975969315
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "outstanding",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.841549813747406,
+                        0.15845023095607758
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.999298095703125,
+                        0.0007018850301392376
+                    ],
+                    "kl": 0.16788353025913239
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "about",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9926736950874329,
+                        0.0073263500817120075
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.999298095703125,
+                        0.0007018850301392376
+                    ],
+                    "kl": 0.005000249482691288
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "film",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9781907796859741,
+                        0.021809231489896774
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.999298095703125,
+                        0.0007018850301392376
+                    ],
+                    "kl": 0.018921589478850365
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "submarine",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9944543242454529,
+                        0.0055456627160310745
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.999298095703125,
+                        0.0007018850301392376
+                    ],
+                    "kl": 0.0034047625958919525
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.985771656036377,
+                        0.014228417538106441
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.999298095703125,
+                        0.0007018850301392376
+                    ],
+                    "kl": 0.01150678563863039
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                4,
+                5,
+                7,
+                30,
+                32
+            ]
+        }
+    ]
+}

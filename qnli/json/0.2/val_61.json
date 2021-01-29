@@ -1,0 +1,240 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "other",
+        "location",
+        "did",
+        "Apollo",
+        "1",
+        "test",
+        "at",
+        "besides",
+        "Kennedy",
+        "Space",
+        "Center",
+        "?",
+        "[SEP]",
+        "They",
+        "trained",
+        "and",
+        "conducted",
+        "tests",
+        "of",
+        "their",
+        "spacecraft",
+        "at",
+        "North",
+        "American",
+        ",",
+        "and",
+        "in",
+        "the",
+        "altitude",
+        "chamber",
+        "at",
+        "the",
+        "Kennedy",
+        "Space",
+        "Center",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            4,
+            10,
+            28,
+            34,
+            35,
+            36
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "location",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6490470767021179,
+                        0.3509528636932373
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 1.0292832851409912
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "did",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6597222089767456,
+                        0.340277761220932
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 0.40107932686805725
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "Kennedy",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9007498621940613,
+                        0.09925007075071335
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 0.09325221180915833
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8581787347793579,
+                        0.1418212354183197
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 0.14072677493095398
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "Kennedy",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9361590147018433,
+                        0.0638410672545433
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 0.055807776749134064
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "Space",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.97747802734375,
+                        0.022521939128637314
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 0.015135159716010094
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "Center",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9910506010055542,
+                        0.008949429728090763
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9976796507835388,
+                        0.0023203978780657053
+                    ],
+                    "kl": 0.0035189990885555744
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                4,
+                10,
+                28,
+                34,
+                35,
+                36
+            ]
+        }
+    ]
+}

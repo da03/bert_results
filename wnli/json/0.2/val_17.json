@@ -1,0 +1,90 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Everyone",
+        "really",
+        "loved",
+        "the",
+        "o",
+        "##at",
+        "##me",
+        "##al",
+        "cookies",
+        ";",
+        "only",
+        "a",
+        "few",
+        "people",
+        "liked",
+        "the",
+        "chocolate",
+        "chip",
+        "cookies",
+        ".",
+        "Next",
+        "time",
+        ",",
+        "we",
+        "should",
+        "make",
+        "fewer",
+        "of",
+        "them",
+        ".",
+        "[SEP]",
+        "We",
+        "should",
+        "make",
+        "fewer",
+        "of",
+        "the",
+        "o",
+        "##at",
+        "##me",
+        "##al",
+        "cookies",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            35
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "fewer",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.516119658946991,
+                        0.48388034105300903
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5060923099517822,
+                        0.4939076900482178
+                    ],
+                    "kl": 0.00020123738795518875
+                }
+            ],
+            "unmasked_source_words": [
+                35
+            ]
+        }
+    ]
+}

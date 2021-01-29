@@ -1,0 +1,167 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "extension",
+        "of",
+        "the",
+        "effective",
+        "period",
+        "of",
+        "marketing",
+        "ex",
+        "##c",
+        "##lus",
+        "##ivity",
+        "for",
+        "drugs",
+        "is",
+        "designed",
+        "to",
+        "give",
+        "pharmaceutical",
+        "companies",
+        "a",
+        "fair",
+        "return",
+        ".",
+        "[SEP]",
+        "Prospect",
+        "##ive",
+        "drugs",
+        "must",
+        "have",
+        "long",
+        "market",
+        "life",
+        "after",
+        "regulatory",
+        "approval",
+        "in",
+        "order",
+        "to",
+        "be",
+        "developed",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            19,
+            22,
+            23,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "pharmaceutical",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7807536721229553,
+                        0.2192462980747223
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.02055138349533081
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "fair",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.608566164970398,
+                        0.39143383502960205
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.1539955884218216
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "return",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8087480664253235,
+                        0.19125191867351532
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.009314082562923431
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "market",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7382646203041077,
+                        0.26173537969589233
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.043964944779872894
+                }
+            ],
+            "unmasked_source_words": [
+                19,
+                22,
+                23,
+                32
+            ]
+        }
+    ]
+}

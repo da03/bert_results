@@ -1,0 +1,208 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "In",
+        "1979",
+        ",",
+        "the",
+        "leaders",
+        "signed",
+        "the",
+        "Egypt",
+        "-",
+        "Israel",
+        "peace",
+        "treaty",
+        "on",
+        "the",
+        "White",
+        "House",
+        "lawn",
+        ".",
+        "Both",
+        "President",
+        "Be",
+        "##gin",
+        "and",
+        "Sad",
+        "##at",
+        "received",
+        "the",
+        "Nobel",
+        "Peace",
+        "Prize",
+        "for",
+        "their",
+        "work",
+        ".",
+        "The",
+        "two",
+        "nations",
+        "have",
+        "enjoyed",
+        "peaceful",
+        "relations",
+        "to",
+        "this",
+        "day",
+        ".",
+        "[SEP]",
+        "The",
+        "Israel",
+        "-",
+        "Egypt",
+        "Peace",
+        "Agreement",
+        "was",
+        "signed",
+        "in",
+        "1979",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            45,
+            47,
+            52,
+            56,
+            57
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5832476615905762,
+                        0.41675233840942383
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9048402905464172,
+                        0.09515964239835739
+                    ],
+                    "kl": 0.25681281089782715
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 47,
+                    "from": "source",
+                    "added_token_text": "The",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.570391058921814,
+                        0.42960894107818604
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9048402905464172,
+                        0.09515964239835739
+                    ],
+                    "kl": 0.27409014105796814
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 52,
+                    "from": "source",
+                    "added_token_text": "Agreement",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5715335011482239,
+                        0.4284664988517761
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9048402905464172,
+                        0.09515964239835739
+                    ],
+                    "kl": 0.2725330591201782
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 56,
+                    "from": "source",
+                    "added_token_text": "1979",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5318583846092224,
+                        0.4681415855884552
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9048402905464172,
+                        0.09515964239835739
+                    ],
+                    "kl": 0.32920533418655396
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 57,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.564136266708374,
+                        0.43586376309394836
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9048402905464172,
+                        0.09515964239835739
+                    ],
+                    "kl": 0.2826918065547943
+                }
+            ],
+            "unmasked_source_words": [
+                45,
+                47,
+                52,
+                56,
+                57
+            ]
+        }
+    ]
+}

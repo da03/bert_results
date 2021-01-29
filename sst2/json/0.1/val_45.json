@@ -1,0 +1,64 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "it",
+        "offers",
+        "little",
+        "beyond",
+        "the",
+        "moment",
+        "##ary",
+        "joy",
+        "##s",
+        "of",
+        "pretty",
+        "and",
+        "weight",
+        "##less",
+        "intellectual",
+        "entertainment",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "##less",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9590633511543274,
+                        0.04093659296631813
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9799970388412476,
+                        0.020003007724881172
+                    ],
+                    "kl": 0.006835478357970715
+                }
+            ],
+            "unmasked_source_words": [
+                14
+            ]
+        }
+    ]
+}

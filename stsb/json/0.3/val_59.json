@@ -1,0 +1,144 @@
+{
+    "true_target_label": 3.5,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "mixing",
+        "ing",
+        "##red",
+        "##iant",
+        "##s",
+        ".",
+        "[SEP]",
+        "A",
+        "woman",
+        "is",
+        "mixing",
+        "food",
+        "in",
+        "a",
+        "bowl",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            4,
+            7,
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "A",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.1476073265075684,
+                        3.1476073265075684
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.1000053882598877,
+                        3.1000053882598877
+                    ],
+                    "kl": 0.0022659446112811565
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "mixing",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.1543831825256348,
+                        3.1543831825256348
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.1000053882598877,
+                        3.1000053882598877
+                    ],
+                    "kl": 0.002956944517791271
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "##iant",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.078709602355957,
+                        3.078709602355957
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.1000053882598877,
+                        3.1000053882598877
+                    ],
+                    "kl": 0.00045351049629971385
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "mixing",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.869933009147644,
+                        0.869933009147644
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.1000053882598877,
+                        3.1000053882598877
+                    ],
+                    "kl": 4.9732232093811035
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                4,
+                7,
+                14
+            ]
+        }
+    ]
+}

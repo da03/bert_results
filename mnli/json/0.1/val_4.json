@@ -1,0 +1,91 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "i",
+        "don",
+        "'",
+        "t",
+        "know",
+        "um",
+        "do",
+        "you",
+        "do",
+        "a",
+        "lot",
+        "of",
+        "camping",
+        "[SEP]",
+        "I",
+        "know",
+        "exactly",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            17
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "don",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.1729743629693985,
+                        0.009854139760136604
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.00045030072215013206,
+                        9.596997551852837e-05
+                    ],
+                    "kl": 0.19812573492527008
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "exactly",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.22484904527664185,
+                        0.012503808364272118
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.00045030072215013206,
+                        9.596997551852837e-05
+                    ],
+                    "kl": 0.2670004665851593
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                17
+            ]
+        }
+    ]
+}

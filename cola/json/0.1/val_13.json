@@ -1,0 +1,59 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "more",
+        "does",
+        "Bill",
+        "smoke",
+        ",",
+        "the",
+        "more",
+        "Susan",
+        "hates",
+        "him",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "does",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7067548632621765,
+                        0.2932451069355011
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8978431820869446,
+                        0.10215684771537781
+                    ],
+                    "kl": 0.10713991522789001
+                }
+            ],
+            "unmasked_source_words": [
+                3
+            ]
+        }
+    ]
+}

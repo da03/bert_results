@@ -1,0 +1,267 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Steve",
+        "Job",
+        "##s",
+        "was",
+        "attacked",
+        "by",
+        "Sc",
+        "##ull",
+        "##ey",
+        "and",
+        "other",
+        "Apple",
+        "executives",
+        "for",
+        "not",
+        "delivering",
+        "enough",
+        "hot",
+        "new",
+        "products",
+        "and",
+        "resigned",
+        "from",
+        "the",
+        "company",
+        "a",
+        "few",
+        "weeks",
+        "later",
+        ".",
+        "[SEP]",
+        "Steve",
+        "Job",
+        "##s",
+        "worked",
+        "for",
+        "Apple",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            17,
+            21,
+            32,
+            33,
+            34,
+            36,
+            37,
+            38
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "enough",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5548369884490967,
+                        0.44516298174858093
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.1904953420162201
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "and",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5388472676277161,
+                        0.4611527919769287
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.20967230200767517
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "Steve",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5673146843910217,
+                        0.43268534541130066
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.1761588305234909
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "Job",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5764670372009277,
+                        0.4235329031944275
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.16598576307296753
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "##s",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5101243853569031,
+                        0.4898756444454193
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.27434951066970825
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "for",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5464447140693665,
+                        0.45355528593063354
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.2004462629556656
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "Apple",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.596316397190094,
+                        0.4036835730075836
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.14489969611167908
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 38,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5866520404815674,
+                        0.413347989320755
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8440238833427429,
+                        0.1559761017560959
+                    ],
+                    "kl": 0.1550004482269287
+                }
+            ],
+            "unmasked_source_words": [
+                17,
+                21,
+                32,
+                33,
+                34,
+                36,
+                37,
+                38
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "drain",
+        "is",
+        "c",
+        "##log",
+        "##ged",
+        "with",
+        "hair",
+        ".",
+        "It",
+        "has",
+        "to",
+        "be",
+        "removed",
+        ".",
+        "[SEP]",
+        "The",
+        "drain",
+        "has",
+        "to",
+        "be",
+        "removed",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            21
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "be",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5328077077865601,
+                        0.46719229221343994
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5249671339988708,
+                        0.47503286600112915
+                    ],
+                    "kl": 0.00012342538684606552
+                }
+            ],
+            "unmasked_source_words": [
+                21
+            ]
+        }
+    ]
+}

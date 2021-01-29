@@ -1,0 +1,62 @@
+{
+    "true_target_label": 0.25,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "taking",
+        "a",
+        "picture",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "playing",
+        "a",
+        "guitar",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "guitar",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.2900364398956299,
+                        0.2900364398956299
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.03314785659313202,
+                        0.03314785659313202
+                    ],
+                    "kl": 0.06599173694849014
+                }
+            ],
+            "unmasked_source_words": [
+                14
+            ]
+        }
+    ]
+}

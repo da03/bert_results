@@ -1,0 +1,137 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "the",
+        "water",
+        "did",
+        "to",
+        "the",
+        "whole",
+        "bottle",
+        "was",
+        "fill",
+        "it",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            8,
+            12,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "water",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5937661528587341,
+                        0.40623390674591064
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9796726703643799,
+                        0.020327376201748848
+                    ],
+                    "kl": 0.4296746551990509
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "bottle",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6781165599822998,
+                        0.3218833804130554
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9796726703643799,
+                        0.020327376201748848
+                    ],
+                    "kl": 0.3042720854282379
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8699318766593933,
+                        0.1300681233406067
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9796726703643799,
+                        0.020327376201748848
+                    ],
+                    "kl": 0.07865916192531586
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8721477389335632,
+                        0.12785227596759796
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9796726703643799,
+                        0.020327376201748848
+                    ],
+                    "kl": 0.0765162855386734
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                8,
+                12,
+                13
+            ]
+        }
+    ]
+}

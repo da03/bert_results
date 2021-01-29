@@ -1,0 +1,244 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Without",
+        "a",
+        "natural",
+        "greenhouse",
+        "effect",
+        ",",
+        "the",
+        "temperature",
+        "of",
+        "the",
+        "Earth",
+        "would",
+        "be",
+        "about",
+        "zero",
+        "degrees",
+        "F",
+        "(",
+        "-",
+        "18",
+        "##C",
+        ")",
+        "instead",
+        "of",
+        "its",
+        "present",
+        "57",
+        "##F",
+        "(",
+        "14",
+        "##C",
+        ")",
+        ".",
+        "[SEP]",
+        "Green",
+        "##house",
+        "effect",
+        "changes",
+        "global",
+        "climate",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            4,
+            8,
+            16,
+            33,
+            34,
+            39
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "natural",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8095219731330872,
+                        0.19047802686691284
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.004703257232904434
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "greenhouse",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6495246291160583,
+                        0.35047540068626404
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.09758473932743073
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "temperature",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7830037474632263,
+                        0.21699625253677368
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.012904584407806396
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "degrees",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7376559972763062,
+                        0.26234400272369385
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.03429902344942093
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.824073314666748,
+                        0.17592668533325195
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.0018119290471076965
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8131780624389648,
+                        0.18682192265987396
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.0038615670055150986
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "global",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8346015214920044,
+                        0.16539853811264038
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.846592366695404,
+                        0.15340757369995117
+                    ],
+                    "kl": 0.0005312357097864151
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                4,
+                8,
+                16,
+                33,
+                34,
+                39
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "When",
+        "the",
+        "sponsors",
+        "of",
+        "the",
+        "bill",
+        "got",
+        "to",
+        "the",
+        "town",
+        "hall",
+        ",",
+        "they",
+        "were",
+        "surprised",
+        "to",
+        "find",
+        "that",
+        "the",
+        "room",
+        "was",
+        "full",
+        "of",
+        "opponents",
+        ".",
+        "They",
+        "were",
+        "very",
+        "much",
+        "in",
+        "the",
+        "majority",
+        ".",
+        "[SEP]",
+        "The",
+        "sponsors",
+        "were",
+        "very",
+        "much",
+        "in",
+        "the",
+        "majority",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            42
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 42,
+                    "from": "source",
+                    "added_token_text": "majority",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5231287479400635,
+                        0.47687122225761414
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5128727555274963,
+                        0.48712724447250366
+                    ],
+                    "kl": 0.0002108672633767128
+                }
+            ],
+            "unmasked_source_words": [
+                42
+            ]
+        }
+    ]
+}

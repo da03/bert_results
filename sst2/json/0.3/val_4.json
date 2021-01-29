@@ -1,0 +1,84 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "it",
+        "'",
+        "s",
+        "slow",
+        "-",
+        "-",
+        "very",
+        ",",
+        "very",
+        "slow",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            7
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "slow",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9837957620620728,
+                        0.016204264014959335
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9978227615356445,
+                        0.002177283400669694
+                    ],
+                    "kl": 0.009756235405802727
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "very",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9944887161254883,
+                        0.005511306691914797
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9978227615356445,
+                        0.002177283400669694
+                    ],
+                    "kl": 0.0013175378553569317
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                7
+            ]
+        }
+    ]
+}

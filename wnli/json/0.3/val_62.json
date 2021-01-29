@@ -1,0 +1,79 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "If",
+        "the",
+        "con",
+        "artist",
+        "has",
+        "succeeded",
+        "in",
+        "fool",
+        "##ing",
+        "Sam",
+        ",",
+        "he",
+        "would",
+        "have",
+        "gotten",
+        "a",
+        "lot",
+        "of",
+        "money",
+        ".",
+        "[SEP]",
+        "The",
+        "con",
+        "artist",
+        "would",
+        "have",
+        "gotten",
+        "a",
+        "lot",
+        "of",
+        "money",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            25
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 25,
+                    "from": "source",
+                    "added_token_text": "would",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5298861265182495,
+                        0.4701138734817505
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5207494497299194,
+                        0.4792505204677582
+                    ],
+                    "kl": 0.00016739405691623688
+                }
+            ],
+            "unmasked_source_words": [
+                25
+            ]
+        }
+    ]
+}

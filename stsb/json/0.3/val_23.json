@@ -1,0 +1,139 @@
+{
+    "true_target_label": 2.1670000553131104,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "playing",
+        "a",
+        "flute",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "playing",
+        "guitar",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            4,
+            12,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.4241365194320679,
+                        1.4241365194320679
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        1.402249813079834,
+                        1.402249813079834
+                    ],
+                    "kl": 0.00047902791993692517
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "playing",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7868317365646362,
+                        0.7868317365646362
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        1.402249813079834,
+                        1.402249813079834
+                    ],
+                    "kl": 0.3787394165992737
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "playing",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.3007824420928955,
+                        1.3007824420928955
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        1.402249813079834,
+                        1.402249813079834
+                    ],
+                    "kl": 0.010295627638697624
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "guitar",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.1645216941833496,
+                        1.1645216941833496
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        1.402249813079834,
+                        1.402249813079834
+                    ],
+                    "kl": 0.05651465803384781
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                4,
+                12,
+                13
+            ]
+        }
+    ]
+}

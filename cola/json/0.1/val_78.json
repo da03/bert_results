@@ -1,0 +1,53 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Himself",
+        "is",
+        "understood",
+        "by",
+        "Rutherford",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6885337829589844,
+                        0.3114662170410156
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9639175534248352,
+                        0.036082517355680466
+                    ],
+                    "kl": 0.2465265393257141
+                }
+            ],
+            "unmasked_source_words": [
+                2
+            ]
+        }
+    ]
+}

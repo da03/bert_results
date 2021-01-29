@@ -1,0 +1,203 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "compound",
+        "in",
+        "breast",
+        "milk",
+        "has",
+        "been",
+        "found",
+        "to",
+        "destroy",
+        "many",
+        "skin",
+        "war",
+        "##ts",
+        ",",
+        "raising",
+        "hopes",
+        "it",
+        "also",
+        "might",
+        "prove",
+        "effective",
+        "against",
+        "c",
+        "##er",
+        "##vic",
+        "##al",
+        "cancer",
+        "and",
+        "other",
+        "lethal",
+        "diseases",
+        "caused",
+        "by",
+        "the",
+        "same",
+        "virus",
+        ".",
+        "[SEP]",
+        "B",
+        "##rea",
+        "##st",
+        "milk",
+        "may",
+        "help",
+        "fight",
+        "c",
+        "##er",
+        "##vic",
+        "##al",
+        "cancer",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            36,
+            39,
+            44,
+            47,
+            51
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "same",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7388955354690552,
+                        0.2611044645309448
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8330684900283813,
+                        0.16693149507045746
+                    ],
+                    "kl": 0.02525966614484787
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7180342078208923,
+                        0.2819657623767853
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8330684900283813,
+                        0.16693149507045746
+                    ],
+                    "kl": 0.03628697246313095
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "may",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6129463911056519,
+                        0.38705363869667053
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8330684900283813,
+                        0.16693149507045746
+                    ],
+                    "kl": 0.11523136496543884
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 47,
+                    "from": "source",
+                    "added_token_text": "c",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7356246709823608,
+                        0.2643752694129944
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8330684900283813,
+                        0.16693149507045746
+                    ],
+                    "kl": 0.026877425611019135
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 51,
+                    "from": "source",
+                    "added_token_text": "cancer",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5282569527626038,
+                        0.47174304723739624
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8330684900283813,
+                        0.16693149507045746
+                    ],
+                    "kl": 0.20607329905033112
+                }
+            ],
+            "unmasked_source_words": [
+                36,
+                39,
+                44,
+                47,
+                51
+            ]
+        }
+    ]
+}

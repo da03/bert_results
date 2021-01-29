@@ -1,0 +1,61 @@
+{
+    "true_target_label": 2.1670000553131104,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "playing",
+        "a",
+        "flute",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "playing",
+        "guitar",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "playing",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7868317365646362,
+                        0.7868317365646362
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        1.402249813079834,
+                        1.402249813079834
+                    ],
+                    "kl": 0.3787394165992737
+                }
+            ],
+            "unmasked_source_words": [
+                4
+            ]
+        }
+    ]
+}

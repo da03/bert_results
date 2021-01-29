@@ -1,0 +1,135 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Who",
+        "designed",
+        "the",
+        "Scottish",
+        "Parliament",
+        "building",
+        "?",
+        "[SEP]",
+        "Since",
+        "September",
+        "2004",
+        ",",
+        "the",
+        "official",
+        "home",
+        "of",
+        "the",
+        "Scottish",
+        "Parliament",
+        "has",
+        "been",
+        "a",
+        "new",
+        "Scottish",
+        "Parliament",
+        "Building",
+        ",",
+        "in",
+        "the",
+        "Holy",
+        "##roo",
+        "##d",
+        "area",
+        "of",
+        "Edinburgh",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            11,
+            27
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9542384147644043,
+                        0.04576152563095093
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9988616704940796,
+                        0.0011383118107914925
+                    ],
+                    "kl": 0.041445985436439514
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "2004",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8921216130256653,
+                        0.10787837952375412
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9988616704940796,
+                        0.0011383118107914925
+                    ],
+                    "kl": 0.10770424455404282
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 27,
+                    "from": "source",
+                    "added_token_text": ",",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9665173292160034,
+                        0.03348270431160927
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9988616704940796,
+                        0.0011383118107914925
+                    ],
+                    "kl": 0.029030490666627884
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                11,
+                27
+            ]
+        }
+    ]
+}

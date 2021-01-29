@@ -1,0 +1,166 @@
+{
+    "true_target_label": 2.75,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "pressing",
+        "microwave",
+        "buttons",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "turns",
+        "on",
+        "the",
+        "microwave",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            5,
+            9,
+            14,
+            16
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.2552671432495117,
+                        3.2552671432495117
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.311309814453125,
+                        4.311309814453125
+                    ],
+                    "kl": 1.115226149559021
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "microwave",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.067326068878174,
+                        3.067326068878174
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.311309814453125,
+                        4.311309814453125
+                    ],
+                    "kl": 1.5474956035614014
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "A",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.502140998840332,
+                        3.502140998840332
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.311309814453125,
+                        4.311309814453125
+                    ],
+                    "kl": 0.6547541618347168
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "microwave",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.6040313243865967,
+                        1.6040313243865967
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.311309814453125,
+                        4.311309814453125
+                    ],
+                    "kl": 7.329356670379639
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.610617160797119,
+                        3.610617160797119
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.311309814453125,
+                        4.311309814453125
+                    ],
+                    "kl": 0.4909701943397522
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                5,
+                9,
+                14,
+                16
+            ]
+        }
+    ]
+}

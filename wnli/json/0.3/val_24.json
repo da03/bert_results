@@ -1,0 +1,61 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Jane",
+        "gave",
+        "Joan",
+        "candy",
+        "because",
+        "she",
+        "was",
+        "hungry",
+        ".",
+        "[SEP]",
+        "Jane",
+        "was",
+        "hungry",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "gave",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5356662273406982,
+                        0.46433374285697937
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5187804102897644,
+                        0.4812195599079132
+                    ],
+                    "kl": 0.00057234987616539
+                }
+            ],
+            "unmasked_source_words": [
+                2
+            ]
+        }
+    ]
+}

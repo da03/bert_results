@@ -1,0 +1,87 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "journalists",
+        "interviewed",
+        "the",
+        "stars",
+        "of",
+        "the",
+        "new",
+        "movie",
+        ".",
+        "They",
+        "were",
+        "very",
+        "persistent",
+        ",",
+        "so",
+        "the",
+        "interview",
+        "lasted",
+        "for",
+        "a",
+        "long",
+        "time",
+        ".",
+        "[SEP]",
+        "The",
+        "journalists",
+        "were",
+        "very",
+        "persistent",
+        ",",
+        "so",
+        "the",
+        "interview",
+        "lasted",
+        "for",
+        "a",
+        "long",
+        "time",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "interviewed",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5357752442359924,
+                        0.46422478556632996
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5189499855041504,
+                        0.4810499846935272
+                    ],
+                    "kl": 0.0005683507770299911
+                }
+            ],
+            "unmasked_source_words": [
+                3
+            ]
+        }
+    ]
+}

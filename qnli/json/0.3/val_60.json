@@ -1,0 +1,120 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Where",
+        "is",
+        "the",
+        "border",
+        "of",
+        "Swiss",
+        "and",
+        "Austria",
+        "?",
+        "[SEP]",
+        "It",
+        "is",
+        "located",
+        "at",
+        "approximately",
+        "47",
+        "##\u00b0",
+        "##39",
+        "\u2032",
+        "N",
+        "9",
+        "##\u00b0",
+        "##19",
+        "\u2032",
+        "E",
+        "/",
+        "47",
+        ".",
+        "650",
+        "##\u00b0",
+        "##N",
+        "9",
+        ".",
+        "31",
+        "##7",
+        "##\u00b0",
+        "##E",
+        "/",
+        "47",
+        ".",
+        "650",
+        ";",
+        "9",
+        ".",
+        "31",
+        "##7",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            21,
+            45
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "9",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9644226431846619,
+                        0.035577401518821716
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9716945290565491,
+                        0.02830546535551548
+                    ],
+                    "kl": 0.0008270125836133957
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": "31",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9252376556396484,
+                        0.07476237416267395
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9716945290565491,
+                        0.02830546535551548
+                    ],
+                    "kl": 0.020112169906497
+                }
+            ],
+            "unmasked_source_words": [
+                21,
+                45
+            ]
+        }
+    ]
+}

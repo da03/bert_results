@@ -1,0 +1,139 @@
+{
+    "true_target_label": 4.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "plays",
+        "a",
+        "keyboard",
+        ".",
+        "[SEP]",
+        "A",
+        "person",
+        "is",
+        "playing",
+        "the",
+        "keyboard",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            5,
+            7,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "a",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.2437875270843506,
+                        3.2437875270843506
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.995586395263672,
+                        3.995586395263672
+                    ],
+                    "kl": 0.5652015209197998
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "keyboard",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.1155380010604858,
+                        1.1155380010604858
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.995586395263672,
+                        3.995586395263672
+                    ],
+                    "kl": 8.294677734375
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.91280198097229,
+                        2.91280198097229
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.995586395263672,
+                        3.995586395263672
+                    ],
+                    "kl": 1.1724220514297485
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "keyboard",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.5462656021118164,
+                        2.5462656021118164
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.995586395263672,
+                        3.995586395263672
+                    ],
+                    "kl": 2.1005308628082275
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                5,
+                7,
+                13
+            ]
+        }
+    ]
+}

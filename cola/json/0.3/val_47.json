@@ -1,0 +1,137 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "I",
+        "can",
+        "'",
+        "t",
+        "believe",
+        "Fred",
+        "won",
+        "'",
+        "t",
+        ",",
+        "either",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            5,
+            6,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "I",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6611923575401306,
+                        0.33880770206451416
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9862791299819946,
+                        0.013720855116844177
+                    ],
+                    "kl": 0.3504115641117096
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "believe",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7625434398651123,
+                        0.2374565303325653
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9862791299819946,
+                        0.013720855116844177
+                    ],
+                    "kl": 0.21463072299957275
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "Fred",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8843263983726501,
+                        0.11567360162734985
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9862791299819946,
+                        0.013720855116844177
+                    ],
+                    "kl": 0.07836520671844482
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9390158653259277,
+                        0.060984108597040176
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9862791299819946,
+                        0.013720855116844177
+                    ],
+                    "kl": 0.027965933084487915
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                5,
+                6,
+                13
+            ]
+        }
+    ]
+}

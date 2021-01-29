@@ -1,0 +1,137 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Which",
+        "hat",
+        "did",
+        "Mike",
+        "q",
+        "##ui",
+        "##p",
+        "that",
+        "she",
+        "never",
+        "wore",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            8,
+            12,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "Which",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8626499176025391,
+                        0.13735008239746094
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9685086607933044,
+                        0.03149132430553436
+                    ],
+                    "kl": 0.06572236865758896
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "that",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6526312828063965,
+                        0.34736868739128113
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9685086607933044,
+                        0.03149132430553436
+                    ],
+                    "kl": 0.306713730096817
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "?",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7854071855545044,
+                        0.2145928293466568
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9685086607933044,
+                        0.03149132430553436
+                    ],
+                    "kl": 0.14252322912216187
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6819115281105042,
+                        0.31808844208717346
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9685086607933044,
+                        0.03149132430553436
+                    ],
+                    "kl": 0.26698124408721924
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                8,
+                12,
+                13
+            ]
+        }
+    ]
+}

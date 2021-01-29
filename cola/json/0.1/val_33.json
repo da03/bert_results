@@ -1,0 +1,59 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "the",
+        "water",
+        "did",
+        "to",
+        "the",
+        "whole",
+        "bottle",
+        "was",
+        "fill",
+        "it",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "water",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5937661528587341,
+                        0.40623390674591064
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9796726703643799,
+                        0.020327376201748848
+                    ],
+                    "kl": 0.4296746551990509
+                }
+            ],
+            "unmasked_source_words": [
+                3
+            ]
+        }
+    ]
+}

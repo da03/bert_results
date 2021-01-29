@@ -1,0 +1,138 @@
+{
+    "true_target_label": 5.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "plays",
+        "the",
+        "violin",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "playing",
+        "violin",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            5,
+            7,
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "plays",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.337970733642578,
+                        3.337970733642578
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.4778642654418945,
+                        4.4778642654418945
+                    ],
+                    "kl": 1.299357295036316
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "violin",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8901165723800659,
+                        0.8901165723800659
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.4778642654418945,
+                        4.4778642654418945
+                    ],
+                    "kl": 12.871932983398438
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.213634967803955,
+                        3.213634967803955
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.4778642654418945,
+                        4.4778642654418945
+                    ],
+                    "kl": 1.5982756614685059
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "violin",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.02522611618042,
+                        3.02522611618042
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.4778642654418945,
+                        4.4778642654418945
+                    ],
+                    "kl": 2.1101574897766113
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                5,
+                7,
+                12
+            ]
+        }
+    ]
+}

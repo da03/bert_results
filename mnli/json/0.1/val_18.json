@@ -1,0 +1,132 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "5",
+        "The",
+        "share",
+        "of",
+        "gross",
+        "national",
+        "saving",
+        "used",
+        "to",
+        "replace",
+        "de",
+        "##p",
+        "##re",
+        "##cia",
+        "##ted",
+        "capital",
+        "has",
+        "increased",
+        "over",
+        "the",
+        "past",
+        "40",
+        "years",
+        ".",
+        "[SEP]",
+        "Gross",
+        "national",
+        "saving",
+        "was",
+        "highest",
+        "this",
+        "year",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            28,
+            30,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "saving",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9096425175666809,
+                        0.009935715235769749
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9794608354568481,
+                        0.0006834813975729048
+                    ],
+                    "kl": 0.04282839968800545
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "highest",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8345094919204712,
+                        0.014214991591870785
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9794608354568481,
+                        0.0006834813975729048
+                    ],
+                    "kl": 0.114475317299366
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "year",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.470671683549881,
+                        0.06919892877340317
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9794608354568481,
+                        0.0006834813975729048
+                    ],
+                    "kl": 0.6522270441055298
+                }
+            ],
+            "unmasked_source_words": [
+                28,
+                30,
+                32
+            ]
+        }
+    ]
+}

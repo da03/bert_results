@@ -1,0 +1,41 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "drain",
+        "is",
+        "c",
+        "##log",
+        "##ged",
+        "with",
+        "hair",
+        ".",
+        "It",
+        "has",
+        "to",
+        "be",
+        "cleaned",
+        ".",
+        "[SEP]",
+        "The",
+        "hair",
+        "has",
+        "to",
+        "be",
+        "cleaned",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

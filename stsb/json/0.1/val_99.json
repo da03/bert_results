@@ -1,0 +1,64 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "ch",
+        "##opping",
+        "on",
+        "##ion",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "doing",
+        "a",
+        "card",
+        "trick",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.48842695355415344,
+                        0.48842695355415344
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0032129772007465363,
+                        0.0032129772007465363
+                    ],
+                    "kl": 0.23543259501457214
+                }
+            ],
+            "unmasked_source_words": [
+                12
+            ]
+        }
+    ]
+}

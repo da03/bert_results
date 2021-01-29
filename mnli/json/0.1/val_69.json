@@ -1,0 +1,163 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "'",
+        "Dave",
+        "Hanson",
+        ",",
+        "to",
+        "whom",
+        "nothing",
+        "was",
+        "impossible",
+        ".",
+        "'",
+        "Well",
+        ",",
+        "we",
+        "have",
+        "a",
+        "nearly",
+        "impossible",
+        "task",
+        ":",
+        "a",
+        "task",
+        "of",
+        "engineering",
+        "and",
+        "building",
+        ".",
+        "[SEP]",
+        "This",
+        "building",
+        "job",
+        "will",
+        "be",
+        "very",
+        "difficult",
+        "to",
+        "complete",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            22,
+            26,
+            30,
+            35
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "task",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8356034755706787,
+                        0.09442803263664246
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8142079710960388,
+                        0.18254545331001282
+                    ],
+                    "kl": 0.08923916518688202
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "building",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8223460912704468,
+                        0.13883385062217712
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8142079710960388,
+                        0.18254545331001282
+                    ],
+                    "kl": 0.03381301462650299
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "building",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8013181090354919,
+                        0.1865442842245102
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8142079710960388,
+                        0.18254545331001282
+                    ],
+                    "kl": 0.00475605484098196
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "difficult",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8198222517967224,
+                        0.0647832378745079
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8142079710960388,
+                        0.18254545331001282
+                    ],
+                    "kl": 0.17192058265209198
+                }
+            ],
+            "unmasked_source_words": [
+                22,
+                26,
+                30,
+                35
+            ]
+        }
+    ]
+}

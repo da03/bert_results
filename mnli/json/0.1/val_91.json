@@ -1,0 +1,131 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "you",
+        "sound",
+        "like",
+        "this",
+        "girl",
+        "that",
+        "i",
+        "talked",
+        "to",
+        "about",
+        "books",
+        "and",
+        "we",
+        "got",
+        "into",
+        "movies",
+        "one",
+        "night",
+        "[SEP]",
+        "I",
+        "found",
+        "out",
+        "about",
+        "so",
+        "many",
+        "movies",
+        "I",
+        "had",
+        "never",
+        "heard",
+        "of",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            25,
+            28,
+            30
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 25,
+                    "from": "source",
+                    "added_token_text": "many",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7362813353538513,
+                        0.059973280876874924
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9890133142471313,
+                        0.0010565478587523103
+                    ],
+                    "kl": 0.2575838267803192
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "had",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9555325508117676,
+                        0.02136986143887043
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9890133142471313,
+                        0.0010565478587523103
+                    ],
+                    "kl": 0.022500894963741302
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "heard",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9689978957176208,
+                        0.012591988779604435
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9890133142471313,
+                        0.0010565478587523103
+                    ],
+                    "kl": 0.011472441256046295
+                }
+            ],
+            "unmasked_source_words": [
+                25,
+                28,
+                30
+            ]
+        }
+    ]
+}

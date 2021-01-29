@@ -1,0 +1,198 @@
+{
+    "true_target_label": 5.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "feeding",
+        "a",
+        "mouse",
+        "to",
+        "a",
+        "snake",
+        ".",
+        "[SEP]",
+        "The",
+        "man",
+        "is",
+        "feeding",
+        "a",
+        "mouse",
+        "to",
+        "the",
+        "snake",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            6,
+            9,
+            11,
+            17,
+            20,
+            22
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "mouse",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.5601229667663574,
+                        3.5601229667663574
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.592206001281738,
+                        4.592206001281738
+                    ],
+                    "kl": 1.0651954412460327
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "snake",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.730393886566162,
+                        2.730393886566162
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.592206001281738,
+                        4.592206001281738
+                    ],
+                    "kl": 3.4663443565368652
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.861207962036133,
+                        2.861207962036133
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.592206001281738,
+                        4.592206001281738
+                    ],
+                    "kl": 2.996354103088379
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "mouse",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.0581207275390625,
+                        3.0581207275390625
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.592206001281738,
+                        4.592206001281738
+                    ],
+                    "kl": 2.3534176349639893
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "snake",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9396685361862183,
+                        0.9396685361862183
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.592206001281738,
+                        4.592206001281738
+                    ],
+                    "kl": 13.341029167175293
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.9503164291381836,
+                        2.9503164291381836
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.592206001281738,
+                        4.592206001281738
+                    ],
+                    "kl": 2.695801258087158
+                }
+            ],
+            "unmasked_source_words": [
+                6,
+                9,
+                11,
+                17,
+                20,
+                22
+            ]
+        }
+    ]
+}

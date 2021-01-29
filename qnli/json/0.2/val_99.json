@@ -1,0 +1,192 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "was",
+        "developed",
+        "from",
+        "Watt",
+        "'",
+        "s",
+        "measurements",
+        "on",
+        "a",
+        "model",
+        "steam",
+        "engine",
+        "?",
+        "[SEP]",
+        "The",
+        "steam",
+        "engine",
+        "contributed",
+        "much",
+        "to",
+        "the",
+        "development",
+        "of",
+        "the",
+        "##rm",
+        "##ody",
+        "##nam",
+        "##ic",
+        "theory",
+        ";",
+        "however",
+        ",",
+        "the",
+        "only",
+        "applications",
+        "of",
+        "scientific",
+        "theory",
+        "that",
+        "influenced",
+        "the",
+        "steam",
+        "engine",
+        "were",
+        "the",
+        "original",
+        "concepts",
+        "of",
+        "harness",
+        "##ing",
+        "the",
+        "power",
+        "of",
+        "steam",
+        "and",
+        "atmospheric",
+        "pressure",
+        "and",
+        "knowledge",
+        "of",
+        "properties",
+        "of",
+        "heat",
+        "and",
+        "steam",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            32,
+            36,
+            58,
+            64
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "however",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9169559478759766,
+                        0.08304407447576523
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9881522059440613,
+                        0.011847730726003647
+                    ],
+                    "kl": 0.050821103155612946
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "applications",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9681451916694641,
+                        0.031854793429374695
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9881522059440613,
+                        0.011847730726003647
+                    ],
+                    "kl": 0.008494284935295582
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 58,
+                    "from": "source",
+                    "added_token_text": "pressure",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.986257791519165,
+                        0.013742164708673954
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9881522059440613,
+                        0.011847730726003647
+                    ],
+                    "kl": 0.00013889104593545198
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 64,
+                    "from": "source",
+                    "added_token_text": "heat",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9787382483482361,
+                        0.021261775866150856
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9881522059440613,
+                        0.011847730726003647
+                    ],
+                    "kl": 0.00253084022551775
+                }
+            ],
+            "unmasked_source_words": [
+                32,
+                36,
+                58,
+                64
+            ]
+        }
+    ]
+}

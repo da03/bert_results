@@ -1,0 +1,39 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "putting",
+        "her",
+        "baby",
+        "in",
+        "a",
+        "waste",
+        "bin",
+        ".",
+        "[SEP]",
+        "The",
+        "woman",
+        "is",
+        "poking",
+        "holes",
+        "in",
+        "the",
+        "potato",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Amazon",
+        "shares",
+        "fell",
+        "nearly",
+        "4",
+        "percent",
+        "following",
+        "the",
+        "results",
+        "as",
+        "the",
+        "company",
+        "said",
+        "operating",
+        "income",
+        "would",
+        "drop",
+        "as",
+        "much",
+        "as",
+        "42",
+        "percent",
+        "in",
+        "the",
+        "second",
+        "quarter",
+        ".",
+        "[SEP]",
+        "S",
+        "##hare",
+        "##s",
+        "of",
+        "Amazon",
+        "fell",
+        "4",
+        "percent",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            15,
+            36
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "shares",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8237491846084595,
+                        0.17625077068805695
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8364412188529968,
+                        0.1635587513446808
+                    ],
+                    "kl": 0.0005656732246279716
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "income",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6938681602478027,
+                        0.3061317801475525
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8364412188529968,
+                        0.1635587513446808
+                    ],
+                    "kl": 0.0537836030125618
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "percent",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7838942408561707,
+                        0.21610580384731293
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8364412188529968,
+                        0.1635587513446808
+                    ],
+                    "kl": 0.008703339844942093
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                15,
+                36
+            ]
+        }
+    ]
+}

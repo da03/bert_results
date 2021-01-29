@@ -1,0 +1,63 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "man",
+        "is",
+        "riding",
+        "a",
+        "horse",
+        ".",
+        "[SEP]",
+        "A",
+        "woman",
+        "is",
+        "using",
+        "a",
+        "ho",
+        "##e",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "woman",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.41019177436828613,
+                        0.41019177436828613
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.4300762414932251,
+                        0.4300762414932251
+                    ],
+                    "kl": 0.00039539203862659633
+                }
+            ],
+            "unmasked_source_words": [
+                10
+            ]
+        }
+    ]
+}

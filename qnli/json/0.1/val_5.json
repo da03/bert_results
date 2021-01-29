@@ -1,0 +1,168 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "year",
+        "did",
+        "the",
+        "the",
+        "case",
+        "go",
+        "before",
+        "the",
+        "supreme",
+        "court",
+        "?",
+        "[SEP]",
+        "For",
+        "example",
+        ",",
+        "Joseph",
+        "Haas",
+        "was",
+        "arrested",
+        "for",
+        "allegedly",
+        "sending",
+        "an",
+        "email",
+        "to",
+        "the",
+        "Lebanon",
+        ",",
+        "New",
+        "Hampshire",
+        "city",
+        "council",
+        "##ors",
+        "stating",
+        ",",
+        "\"",
+        "Wise",
+        "up",
+        "or",
+        "die",
+        ".",
+        "\"",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            15,
+            18,
+            28,
+            43
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "example",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9925988912582397,
+                        0.007401107810437679
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9991779923439026,
+                        0.0008220208692364395
+                    ],
+                    "kl": 0.004794421140104532
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "Haas",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9545224905014038,
+                        0.04547755792737007
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9991779923439026,
+                        0.0008220208692364395
+                    ],
+                    "kl": 0.042385246604681015
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "Lebanon",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9112589359283447,
+                        0.08874106407165527
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9991779923439026,
+                        0.0008220208692364395
+                    ],
+                    "kl": 0.08818169683218002
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "\"",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9831011891365051,
+                        0.016898758709430695
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9991779923439026,
+                        0.0008220208692364395
+                    ],
+                    "kl": 0.013722317293286324
+                }
+            ],
+            "unmasked_source_words": [
+                15,
+                18,
+                28,
+                43
+            ]
+        }
+    ]
+}

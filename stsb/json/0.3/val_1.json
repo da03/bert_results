@@ -1,0 +1,167 @@
+{
+    "true_target_label": 4.75,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "young",
+        "child",
+        "is",
+        "riding",
+        "a",
+        "horse",
+        ".",
+        "[SEP]",
+        "A",
+        "child",
+        "is",
+        "riding",
+        "a",
+        "horse",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            5,
+            7,
+            15,
+            17
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "young",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.5912258625030518,
+                        2.5912258625030518
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.424787521362305,
+                        4.424787521362305
+                    ],
+                    "kl": 3.361948251724243
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "riding",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.0324347019195557,
+                        3.0324347019195557
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.424787521362305,
+                        4.424787521362305
+                    ],
+                    "kl": 1.9386463165283203
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "horse",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.259817123413086,
+                        2.259817123413086
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.424787521362305,
+                        4.424787521362305
+                    ],
+                    "kl": 4.68709659576416
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "horse",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9073425531387329,
+                        0.9073425531387329
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.424787521362305,
+                        4.424787521362305
+                    ],
+                    "kl": 12.372420310974121
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.808980941772461,
+                        2.808980941772461
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.424787521362305,
+                        4.424787521362305
+                    ],
+                    "kl": 2.610830783843994
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                5,
+                7,
+                15,
+                17
+            ]
+        }
+    ]
+}

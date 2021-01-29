@@ -1,0 +1,63 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "No",
+        "one",
+        "joins",
+        "Facebook",
+        "to",
+        "be",
+        "sad",
+        "and",
+        "lonely",
+        ".",
+        "But",
+        "a",
+        "new",
+        "study",
+        "from",
+        "the",
+        "University",
+        "of",
+        "Wisconsin",
+        "psychologist",
+        "George",
+        "Lincoln",
+        "argues",
+        "that",
+        "that",
+        "'",
+        "s",
+        "exactly",
+        "how",
+        "it",
+        "makes",
+        "us",
+        "feel",
+        ".",
+        "[SEP]",
+        "That",
+        "'",
+        "s",
+        "exactly",
+        "how",
+        "Facebook",
+        "makes",
+        "us",
+        "feel",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

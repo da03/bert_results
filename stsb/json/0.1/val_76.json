@@ -1,0 +1,64 @@
+{
+    "true_target_label": 3.75,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "turtle",
+        "walks",
+        "over",
+        "the",
+        "ground",
+        ".",
+        "[SEP]",
+        "A",
+        "large",
+        "turtle",
+        "crawl",
+        "##s",
+        "in",
+        "the",
+        "grass",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8141546845436096,
+                        0.8141546845436096
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        2.9030203819274902,
+                        2.9030203819274902
+                    ],
+                    "kl": 4.3633599281311035
+                }
+            ],
+            "unmasked_source_words": [
+                14
+            ]
+        }
+    ]
+}

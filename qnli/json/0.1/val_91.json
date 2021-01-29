@@ -1,0 +1,128 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "portion",
+        "of",
+        "Berlin",
+        "'",
+        "s",
+        "population",
+        "spoke",
+        "French",
+        "by",
+        "1700",
+        "?",
+        "[SEP]",
+        "By",
+        "1700",
+        ",",
+        "one",
+        "-",
+        "fifth",
+        "of",
+        "the",
+        "city",
+        "'",
+        "s",
+        "population",
+        "was",
+        "French",
+        "speaking",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            12,
+            28
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "spoke",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7062468528747559,
+                        0.29375317692756653
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9979767203330994,
+                        0.0020233045797795057
+                    ],
+                    "kl": 0.334993451833725
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "?",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9905626773834229,
+                        0.009437297470867634
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9979767203330994,
+                        0.0020233045797795057
+                    ],
+                    "kl": 0.004325928632169962
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "speaking",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9745586514472961,
+                        0.025441361591219902
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9979767203330994,
+                        0.0020233045797795057
+                    ],
+                    "kl": 0.018574846908450127
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                12,
+                28
+            ]
+        }
+    ]
+}

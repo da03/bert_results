@@ -1,0 +1,60 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "new",
+        "rights",
+        "are",
+        "nice",
+        "enough",
+        "[SEP]",
+        "Everyone",
+        "really",
+        "likes",
+        "the",
+        "newest",
+        "benefits",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "benefits",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.945482611656189,
+                        0.014824679121375084
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9962235689163208,
+                        0.0018836576491594315
+                    ],
+                    "kl": 0.04243295267224312
+                }
+            ],
+            "unmasked_source_words": [
+                13
+            ]
+        }
+    ]
+}

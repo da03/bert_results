@@ -1,0 +1,62 @@
+{
+    "true_target_label": 3.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "plays",
+        "the",
+        "guitar",
+        ".",
+        "[SEP]",
+        "The",
+        "man",
+        "sang",
+        "and",
+        "played",
+        "his",
+        "guitar",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            11
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "and",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8871345520019531,
+                        0.8871345520019531
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.249074697494507,
+                        3.249074697494507
+                    ],
+                    "kl": 5.578761100769043
+                }
+            ],
+            "unmasked_source_words": [
+                11
+            ]
+        }
+    ]
+}

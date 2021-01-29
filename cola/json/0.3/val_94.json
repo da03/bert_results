@@ -1,0 +1,139 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "I",
+        "'",
+        "ll",
+        "work",
+        "on",
+        "it",
+        "if",
+        "Sam",
+        "will",
+        "be",
+        "working",
+        "on",
+        "it",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9,
+            13,
+            14,
+            15
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "will",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8115625381469727,
+                        0.18843752145767212
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8802202343940735,
+                        0.11977972090244293
+                    ],
+                    "kl": 0.017209690064191818
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "it",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8909347653388977,
+                        0.1090652197599411
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8802202343940735,
+                        0.11977972090244293
+                    ],
+                    "kl": 0.0005744388327002525
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8687731623649597,
+                        0.13122683763504028
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8802202343940735,
+                        0.11977972090244293
+                    ],
+                    "kl": 0.0005894312635064125
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8654682636260986,
+                        0.13453179597854614
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8802202343940735,
+                        0.11977972090244293
+                    ],
+                    "kl": 0.0009650886058807373
+                }
+            ],
+            "unmasked_source_words": [
+                9,
+                13,
+                14,
+                15
+            ]
+        }
+    ]
+}

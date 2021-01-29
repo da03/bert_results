@@ -1,0 +1,83 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "s",
+        "##cha",
+        "##ef",
+        "##fer",
+        "has",
+        "to",
+        "find",
+        "some",
+        "hook",
+        "on",
+        "which",
+        "to",
+        "hang",
+        "his",
+        "persistent",
+        "##ly",
+        "useless",
+        "movies",
+        ",",
+        "and",
+        "it",
+        "might",
+        "as",
+        "well",
+        "be",
+        "the",
+        "re",
+        "##sus",
+        "##citation",
+        "of",
+        "the",
+        "middle",
+        "-",
+        "aged",
+        "character",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            17
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "useless",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9963825941085815,
+                        0.0036174103152006865
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9977230429649353,
+                        0.0022768874187022448
+                    ],
+                    "kl": 0.00028729846235364676
+                }
+            ],
+            "unmasked_source_words": [
+                17
+            ]
+        }
+    ]
+}

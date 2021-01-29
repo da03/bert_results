@@ -1,0 +1,224 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "see",
+        "now",
+        "in",
+        "a",
+        "situation",
+        "like",
+        "that",
+        "the",
+        "boys",
+        "are",
+        "only",
+        "sixteen",
+        "years",
+        "old",
+        "and",
+        "they",
+        "were",
+        "sexually",
+        "involved",
+        "with",
+        "her",
+        "and",
+        "i",
+        "think",
+        "like",
+        "at",
+        "that",
+        "particular",
+        "point",
+        "she",
+        "was",
+        "twenty",
+        "three",
+        "you",
+        "know",
+        "so",
+        "she",
+        "wasn",
+        "'",
+        "t",
+        "really",
+        "that",
+        "much",
+        "older",
+        "than",
+        "them",
+        "and",
+        "being",
+        "a",
+        "boy",
+        "at",
+        "that",
+        "age",
+        "i",
+        "think",
+        "that",
+        "they",
+        "'",
+        "re",
+        "very",
+        "um",
+        "you",
+        "know",
+        "let",
+        "'",
+        "s",
+        "face",
+        "it",
+        "that",
+        "'",
+        "s",
+        "at",
+        "a",
+        "point",
+        "in",
+        "your",
+        "life",
+        "when",
+        "you",
+        "you",
+        "'",
+        "re",
+        "just",
+        "starting",
+        "to",
+        "realize",
+        "all",
+        "the",
+        "things",
+        "of",
+        "life",
+        "[SEP]",
+        "Everyone",
+        "involved",
+        "was",
+        "the",
+        "same",
+        "age",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            18,
+            94,
+            97,
+            98
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "sexually",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.10725921392440796,
+                        0.042331818491220474
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0032147804740816355,
+                        0.0005239495658315718
+                    ],
+                    "kl": 0.1441231369972229
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 94,
+                    "from": "source",
+                    "added_token_text": "involved",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.004625033587217331,
+                        0.000671822635922581
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0032147804740816355,
+                        0.0005239495658315718
+                    ],
+                    "kl": 0.0002595799742266536
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 97,
+                    "from": "source",
+                    "added_token_text": "same",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.011835931800305843,
+                        0.0031181946396827698
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0032147804740816355,
+                        0.0005239495658315718
+                    ],
+                    "kl": 0.006154131144285202
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 98,
+                    "from": "source",
+                    "added_token_text": "age",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.32128581404685974,
+                        0.1636926531791687
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0032147804740816355,
+                        0.0005239495658315718
+                    ],
+                    "kl": 0.6395210027694702
+                }
+            ],
+            "unmasked_source_words": [
+                18,
+                94,
+                97,
+                98
+            ]
+        }
+    ]
+}

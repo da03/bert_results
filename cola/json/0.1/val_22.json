@@ -1,0 +1,62 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "I",
+        "said",
+        "that",
+        "never",
+        "in",
+        "my",
+        "life",
+        "had",
+        "I",
+        "seen",
+        "a",
+        "place",
+        "like",
+        "Bangor",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "never",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7561287879943848,
+                        0.24387122690677643
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9829658269882202,
+                        0.017034152522683144
+                    ],
+                    "kl": 0.21255844831466675
+                }
+            ],
+            "unmasked_source_words": [
+                4
+            ]
+        }
+    ]
+}

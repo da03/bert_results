@@ -1,0 +1,135 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "S",
+        "##sang",
+        "##yon",
+        "##g",
+        "Motor",
+        "was",
+        "taken",
+        "over",
+        "by",
+        "creditors",
+        "after",
+        "it",
+        "collapsed",
+        "under",
+        "heavy",
+        "debts",
+        "during",
+        "the",
+        "1997",
+        "-",
+        "98",
+        "Asian",
+        "financial",
+        "crisis",
+        ".",
+        "[SEP]",
+        "Asian",
+        "financial",
+        "crisis",
+        "takes",
+        "over",
+        "S",
+        "##sang",
+        "##yon",
+        "##g",
+        "Motor",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            26,
+            27,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5512517094612122,
+                        0.44874832034111023
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.78578782081604,
+                        0.21421214938163757
+                    ],
+                    "kl": 0.12014921009540558
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 27,
+                    "from": "source",
+                    "added_token_text": "Asian",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5000353455543518,
+                        0.4999646842479706
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.78578782081604,
+                        0.21421214938163757
+                    ],
+                    "kl": 0.1736224740743637
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "S",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5402339100837708,
+                        0.459766149520874
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.78578782081604,
+                        0.21421214938163757
+                    ],
+                    "kl": 0.13081789016723633
+                }
+            ],
+            "unmasked_source_words": [
+                26,
+                27,
+                32
+            ]
+        }
+    ]
+}

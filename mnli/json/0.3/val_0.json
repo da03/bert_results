@@ -1,0 +1,138 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "new",
+        "rights",
+        "are",
+        "nice",
+        "enough",
+        "[SEP]",
+        "Everyone",
+        "really",
+        "likes",
+        "the",
+        "newest",
+        "benefits",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7,
+            9,
+            11,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.972499430179596,
+                        0.005072429310530424
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9962235689163208,
+                        0.0018836576491594315
+                    ],
+                    "kl": 0.017465833574533463
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "really",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9917445778846741,
+                        0.003497692057862878
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9962235689163208,
+                        0.0018836576491594315
+                    ],
+                    "kl": 0.0015787079464644194
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9898037910461426,
+                        0.006842929404228926
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9962235689163208,
+                        0.0018836576491594315
+                    ],
+                    "kl": 0.0029281284660100937
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "benefits",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.945482611656189,
+                        0.014824679121375084
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9962235689163208,
+                        0.0018836576491594315
+                    ],
+                    "kl": 0.04243295267224312
+                }
+            ],
+            "unmasked_source_words": [
+                7,
+                9,
+                11,
+                13
+            ]
+        }
+    ]
+}

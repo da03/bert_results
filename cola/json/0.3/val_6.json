@@ -1,0 +1,138 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "I",
+        "demand",
+        "that",
+        "the",
+        "more",
+        "John",
+        "eat",
+        ",",
+        "the",
+        "more",
+        "he",
+        "pays",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            7,
+            9,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "that",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5740423202514648,
+                        0.42595767974853516
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6379052400588989,
+                        0.36209481954574585
+                    ],
+                    "kl": 0.008473977446556091
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "eat",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6873465180397034,
+                        0.31265342235565186
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6379052400588989,
+                        0.36209481954574585
+                    ],
+                    "kl": 0.0055404603481292725
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6223996877670288,
+                        0.3776002824306488
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6379052400588989,
+                        0.36209481954574585
+                    ],
+                    "kl": 0.0005143424496054649
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7019268870353699,
+                        0.2980731129646301
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6379052400588989,
+                        0.36209481954574585
+                    ],
+                    "kl": 0.009442880749702454
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                7,
+                9,
+                13
+            ]
+        }
+    ]
+}

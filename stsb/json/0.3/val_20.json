@@ -1,0 +1,138 @@
+{
+    "true_target_label": 3.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "cooking",
+        "eggs",
+        ".",
+        "[SEP]",
+        "A",
+        "woman",
+        "is",
+        "cooking",
+        "something",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            2,
+            3,
+            9
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "A",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.7432589530944824,
+                        2.7432589530944824
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.52138090133667,
+                        3.52138090133667
+                    ],
+                    "kl": 0.6054737567901611
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "woman",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7111031413078308,
+                        0.7111031413078308
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.52138090133667,
+                        3.52138090133667
+                    ],
+                    "kl": 7.897660732269287
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.3861260414123535,
+                        2.3861260414123535
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.52138090133667,
+                        3.52138090133667
+                    ],
+                    "kl": 1.2888035774230957
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "woman",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.085200548171997,
+                        2.085200548171997
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.52138090133667,
+                        3.52138090133667
+                    ],
+                    "kl": 2.0626139640808105
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                2,
+                3,
+                9
+            ]
+        }
+    ]
+}

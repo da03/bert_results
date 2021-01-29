@@ -1,0 +1,82 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "George",
+        "got",
+        "free",
+        "tickets",
+        "to",
+        "the",
+        "play",
+        ",",
+        "but",
+        "he",
+        "gave",
+        "them",
+        "to",
+        "Eric",
+        ",",
+        "because",
+        "he",
+        "was",
+        "not",
+        "particularly",
+        "eager",
+        "to",
+        "see",
+        "it",
+        ".",
+        "[SEP]",
+        "Eric",
+        "was",
+        "not",
+        "particularly",
+        "eager",
+        "to",
+        "see",
+        "it",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            30
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "particularly",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.526365339756012,
+                        0.47363466024398804
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5114250183105469,
+                        0.4885750114917755
+                    ],
+                    "kl": 0.0004472872242331505
+                }
+            ],
+            "unmasked_source_words": [
+                30
+            ]
+        }
+    ]
+}

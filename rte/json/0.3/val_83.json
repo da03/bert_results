@@ -1,0 +1,314 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "official",
+        "visit",
+        "of",
+        "the",
+        "Argentine",
+        "minister",
+        "marks",
+        "a",
+        "further",
+        "step",
+        "in",
+        "the",
+        "normal",
+        "##isation",
+        "of",
+        "UK",
+        "-",
+        "Argentine",
+        "relations",
+        ".",
+        "[SEP]",
+        "Relations",
+        "between",
+        "Argentina",
+        "and",
+        "Great",
+        "Britain",
+        "are",
+        "growing",
+        "more",
+        "cooperative",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            6,
+            7,
+            8,
+            12,
+            15,
+            19,
+            22,
+            30,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8428555727005005,
+                        0.15714438259601593
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.004130920395255089
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "Argentine",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8058302402496338,
+                        0.1941697597503662
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.016980290412902832
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "minister",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8239887356758118,
+                        0.17601124942302704
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.009760797023773193
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "marks",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7904190421104431,
+                        0.20958103239536285
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.024324782192707062
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.73502117395401,
+                        0.2649787962436676
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.05857396125793457
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "##isation",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.859253466129303,
+                        0.1407465934753418
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.0010526999831199646
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "Argentine",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6511249542236328,
+                        0.3488750159740448
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.13022063672542572
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8492372035980225,
+                        0.15076276659965515
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.002715412527322769
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "growing",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8401502370834351,
+                        0.15984976291656494
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.004809396341443062
+                },
+                {
+                    "num_unmasked": 10,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "cooperative",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8321622014045715,
+                        0.16783778369426727
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8749535083770752,
+                        0.1250464916229248
+                    ],
+                    "kl": 0.0070703960955142975
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                6,
+                7,
+                8,
+                12,
+                15,
+                19,
+                22,
+                30,
+                32
+            ]
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "but",
+        "uh",
+        "these",
+        "guys",
+        "were",
+        "actually",
+        "on",
+        "the",
+        "road",
+        "uh",
+        "two",
+        "thousand",
+        "miles",
+        "from",
+        "from",
+        "home",
+        "when",
+        "they",
+        "had",
+        "to",
+        "file",
+        "their",
+        "uh",
+        "their",
+        "final",
+        "exams",
+        "and",
+        "send",
+        "them",
+        "in",
+        "[SEP]",
+        "These",
+        "men",
+        "filed",
+        "their",
+        "mid",
+        "##ter",
+        "##m",
+        "exams",
+        "from",
+        "home",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            19,
+            26,
+            31,
+            33,
+            39
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8390652537345886,
+                        0.042543984949588776
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8411486148834229,
+                        0.044616129249334335
+                    ],
+                    "kl": 0.00012613111175596714
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "had",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8377452492713928,
+                        0.04355957731604576
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8411486148834229,
+                        0.044616129249334335
+                    ],
+                    "kl": 0.00010443199425935745
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "exams",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8221306204795837,
+                        0.04643625020980835
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8411486148834229,
+                        0.044616129249334335
+                    ],
+                    "kl": 0.0014322511851787567
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8343026638031006,
+                        0.04814058169722557
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8411486148834229,
+                        0.044616129249334335
+                    ],
+                    "kl": 0.0002077864482998848
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "men",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6251154541969299,
+                        0.07823912799358368
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8411486148834229,
+                        0.044616129249334335
+                    ],
+                    "kl": 0.11560800671577454
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "exams",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7699833512306213,
+                        0.02754010260105133
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8411486148834229,
+                        0.044616129249334335
+                    ],
+                    "kl": 0.03049815446138382
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                19,
+                26,
+                31,
+                33,
+                39
+            ]
+        }
+    ]
+}

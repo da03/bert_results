@@ -1,0 +1,61 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "an",
+        "##g",
+        "##rier",
+        "Mary",
+        "got",
+        ",",
+        "the",
+        "more",
+        "she",
+        "looked",
+        "at",
+        "pictures",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "Mary",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7905164957046509,
+                        0.20948344469070435
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9811774492263794,
+                        0.018822597339749336
+                    ],
+                    "kl": 0.16664515435695648
+                }
+            ],
+            "unmasked_source_words": [
+                5
+            ]
+        }
+    ]
+}

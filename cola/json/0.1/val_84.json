@@ -1,0 +1,60 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Which",
+        "boy",
+        "'",
+        "s",
+        "did",
+        "we",
+        "elect",
+        "guardian",
+        "'",
+        "s",
+        "employer",
+        "president",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "s",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6738755702972412,
+                        0.3261243999004364
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9642728567123413,
+                        0.03572707623243332
+                    ],
+                    "kl": 0.2665208876132965
+                }
+            ],
+            "unmasked_source_words": [
+                4
+            ]
+        }
+    ]
+}

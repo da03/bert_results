@@ -1,0 +1,61 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Oh",
+        ",",
+        "what",
+        "a",
+        "fool",
+        "I",
+        "feel",
+        "!",
+        "[SEP]",
+        "I",
+        "am",
+        "beyond",
+        "proud",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            11
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "am",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.25069233775138855,
+                        0.15905621647834778
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.1226952075958252,
+                        0.10913489758968353
+                    ],
+                    "kl": 0.07360714673995972
+                }
+            ],
+            "unmasked_source_words": [
+                11
+            ]
+        }
+    ]
+}

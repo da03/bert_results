@@ -1,0 +1,195 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "did",
+        "Luther",
+        "explain",
+        "about",
+        "acquiring",
+        "God",
+        "'",
+        "s",
+        "grace",
+        "?",
+        "[SEP]",
+        "In",
+        "this",
+        "work",
+        ",",
+        "one",
+        "of",
+        "his",
+        "most",
+        "em",
+        "##pha",
+        "##tic",
+        "statements",
+        "on",
+        "faith",
+        ",",
+        "he",
+        "argued",
+        "that",
+        "every",
+        "good",
+        "work",
+        "designed",
+        "to",
+        "attract",
+        "God",
+        "'",
+        "s",
+        "favor",
+        "is",
+        "a",
+        "sin",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            17,
+            34,
+            37,
+            40,
+            43
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "one",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.894158124923706,
+                        0.10584187507629395
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9938526153564453,
+                        0.006147375795990229
+                    ],
+                    "kl": 0.08756144344806671
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "designed",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9740623235702515,
+                        0.025937657803297043
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9938526153564453,
+                        0.006147375795990229
+                    ],
+                    "kl": 0.011139744892716408
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "God",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9895499348640442,
+                        0.01044998038560152
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9938526153564453,
+                        0.006147375795990229
+                    ],
+                    "kl": 0.0010501900687813759
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": "favor",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9838277101516724,
+                        0.016172314062714577
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9938526153564453,
+                        0.006147375795990229
+                    ],
+                    "kl": 0.004129505716264248
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "sin",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9919821619987488,
+                        0.008017863146960735
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9938526153564453,
+                        0.006147375795990229
+                    ],
+                    "kl": 0.0002391365123912692
+                }
+            ],
+            "unmasked_source_words": [
+                17,
+                34,
+                37,
+                40,
+                43
+            ]
+        }
+    ]
+}

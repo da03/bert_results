@@ -1,0 +1,289 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "percentage",
+        "of",
+        "Warsaw",
+        "'",
+        "s",
+        "population",
+        "was",
+        "Protestant",
+        "in",
+        "1901",
+        "?",
+        "[SEP]",
+        "After",
+        "the",
+        "war",
+        ",",
+        "the",
+        "new",
+        "communist",
+        "authorities",
+        "of",
+        "Poland",
+        "discouraged",
+        "church",
+        "construction",
+        "and",
+        "only",
+        "a",
+        "small",
+        "number",
+        "were",
+        "rebuilt",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            6,
+            7,
+            13,
+            24,
+            25,
+            26,
+            28,
+            33
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "Warsaw",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9961534142494202,
+                        0.003846597857773304
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.0008753575384616852
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "s",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9977236390113831,
+                        0.002276313491165638
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.00012467603664845228
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "population",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.912480354309082,
+                        0.08751961588859558
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.08357775956392288
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9904416799545288,
+                        0.009558379650115967
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.00519063975661993
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": "discouraged",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.993368923664093,
+                        0.00663110101595521
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.0028169110883027315
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 25,
+                    "from": "source",
+                    "added_token_text": "church",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9948920011520386,
+                        0.005108031909912825
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.0016960265347734094
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "construction",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9550901055335999,
+                        0.04490988329052925
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.03905528783798218
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "only",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9769655466079712,
+                        0.023034527897834778
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.01749095879495144
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "rebuilt",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9856955409049988,
+                        0.01430443860590458
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984334111213684,
+                        0.0015665158862248063
+                    ],
+                    "kl": 0.009355228394269943
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                6,
+                7,
+                13,
+                24,
+                25,
+                26,
+                28,
+                33
+            ]
+        }
+    ]
+}

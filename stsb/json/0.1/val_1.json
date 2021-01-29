@@ -1,0 +1,63 @@
+{
+    "true_target_label": 4.75,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "young",
+        "child",
+        "is",
+        "riding",
+        "a",
+        "horse",
+        ".",
+        "[SEP]",
+        "A",
+        "child",
+        "is",
+        "riding",
+        "a",
+        "horse",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            15
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "horse",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9073425531387329,
+                        0.9073425531387329
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.424787521362305,
+                        4.424787521362305
+                    ],
+                    "kl": 12.372420310974121
+                }
+            ],
+            "unmasked_source_words": [
+                15
+            ]
+        }
+    ]
+}

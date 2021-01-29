@@ -1,0 +1,93 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Papa",
+        "looked",
+        "down",
+        "at",
+        "the",
+        "children",
+        "'",
+        "s",
+        "faces",
+        ",",
+        "so",
+        "puzzled",
+        "and",
+        "sad",
+        "now",
+        ".",
+        "It",
+        "was",
+        "bad",
+        "enough",
+        "that",
+        "they",
+        "had",
+        "to",
+        "be",
+        "denied",
+        "so",
+        "many",
+        "things",
+        "because",
+        "he",
+        "couldn",
+        "'",
+        "t",
+        "afford",
+        "them",
+        ".",
+        "[SEP]",
+        "He",
+        "couldn",
+        "'",
+        "t",
+        "afford",
+        "the",
+        "children",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            45
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": "children",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.535065770149231,
+                        0.46493425965309143
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5241394639015198,
+                        0.4758605659008026
+                    ],
+                    "kl": 0.00023968331515789032
+                }
+            ],
+            "unmasked_source_words": [
+                45
+            ]
+        }
+    ]
+}

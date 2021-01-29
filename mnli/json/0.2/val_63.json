@@ -1,0 +1,84 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "the",
+        "net",
+        "cost",
+        "of",
+        "operations",
+        ".",
+        "[SEP]",
+        "The",
+        "gross",
+        "cost",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            9
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "The",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.018143784254789352,
+                        0.0017320234328508377
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.006315693259239197,
+                        0.004148111678659916
+                    ],
+                    "kl": 0.01150665432214737
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "gross",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.038596343249082565,
+                        0.0017409366555511951
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.006315693259239197,
+                        0.004148111678659916
+                    ],
+                    "kl": 0.029219776391983032
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                9
+            ]
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "most",
+        "important",
+        "directions",
+        "are",
+        "simply",
+        "up",
+        "and",
+        "up",
+        "leads",
+        "eventually",
+        "to",
+        "the",
+        "cathedral",
+        "and",
+        "fortress",
+        "commanding",
+        "the",
+        "hill",
+        "##top",
+        ",",
+        "and",
+        "down",
+        "inevitably",
+        "leads",
+        "to",
+        "one",
+        "of",
+        "three",
+        "gates",
+        "through",
+        "the",
+        "wall",
+        "to",
+        "the",
+        "new",
+        "town",
+        ".",
+        "[SEP]",
+        "Go",
+        "downward",
+        "##s",
+        "to",
+        "one",
+        "of",
+        "the",
+        "gates",
+        ",",
+        "all",
+        "of",
+        "which",
+        "will",
+        "lead",
+        "you",
+        "into",
+        "the",
+        "cathedral",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            14,
+            29,
+            31,
+            57
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "The",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5802744626998901,
+                        0.26295503973960876
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.745394766330719,
+                        0.16748599708080292
+                    ],
+                    "kl": 0.0599232092499733
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "cathedral",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.36340007185935974,
+                        0.3260979950428009
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.745394766330719,
+                        0.16748599708080292
+                    ],
+                    "kl": 0.3757733106613159
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "three",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7277531027793884,
+                        0.17912420630455017
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.745394766330719,
+                        0.16748599708080292
+                    ],
+                    "kl": 0.0007963702082633972
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "through",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6642249226570129,
+                        0.21773308515548706
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.745394766330719,
+                        0.16748599708080292
+                    ],
+                    "kl": 0.015531878918409348
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 57,
+                    "from": "source",
+                    "added_token_text": "cathedral",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.47690942883491516,
+                        0.3078306317329407
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.745394766330719,
+                        0.16748599708080292
+                    ],
+                    "kl": 0.1521381437778473
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                14,
+                29,
+                31,
+                57
+            ]
+        }
+    ]
+}

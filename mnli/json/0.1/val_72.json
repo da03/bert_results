@@ -1,0 +1,170 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "There",
+        "are",
+        "no",
+        "shares",
+        "of",
+        "a",
+        "stock",
+        "that",
+        "might",
+        "someday",
+        "come",
+        "back",
+        ",",
+        "just",
+        "piles",
+        "of",
+        "options",
+        "as",
+        "worthless",
+        "as",
+        "those",
+        "shares",
+        "of",
+        "Cook",
+        "'",
+        "s",
+        "American",
+        "Business",
+        "Alliance",
+        ".",
+        "[SEP]",
+        "Cook",
+        "'",
+        "s",
+        "American",
+        "Business",
+        "Alliance",
+        "caused",
+        "shares",
+        "of",
+        "stock",
+        "to",
+        "come",
+        "back",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7,
+            32,
+            36,
+            45
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "stock",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.059461046010255814,
+                        0.007911809720098972
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.04107407480478287,
+                        0.023849831894040108
+                    ],
+                    "kl": 0.013573633506894112
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "Cook",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.15117652714252472,
+                        0.016846178099513054
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.04107407480478287,
+                        0.023849831894040108
+                    ],
+                    "kl": 0.06400740891695023
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "Business",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.0492827408015728,
+                        0.02120363339781761
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.04107407480478287,
+                        0.023849831894040108
+                    ],
+                    "kl": 0.0009005856700241566
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.0683739185333252,
+                        0.02492878958582878
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.04107407480478287,
+                        0.023849831894040108
+                    ],
+                    "kl": 0.006831306964159012
+                }
+            ],
+            "unmasked_source_words": [
+                7,
+                32,
+                36,
+                45
+            ]
+        }
+    ]
+}

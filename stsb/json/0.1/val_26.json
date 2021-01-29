@@ -1,0 +1,63 @@
+{
+    "true_target_label": 4.25,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "lifting",
+        "weights",
+        "in",
+        "a",
+        "garage",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "lifting",
+        "weights",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            6
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9246008992195129,
+                        0.9246008992195129
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.739520788192749,
+                        3.739520788192749
+                    ],
+                    "kl": 7.923774242401123
+                }
+            ],
+            "unmasked_source_words": [
+                6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "vineyards",
+        "hug",
+        "the",
+        "gentle",
+        "slopes",
+        "between",
+        "the",
+        "V",
+        "##os",
+        "##ges",
+        "and",
+        "the",
+        "Rhine",
+        "Valley",
+        "along",
+        "a",
+        "single",
+        "narrow",
+        "120",
+        "-",
+        "km",
+        "(",
+        "75",
+        "-",
+        "mile",
+        ")",
+        "strip",
+        "that",
+        "stretches",
+        "from",
+        "Mar",
+        "##len",
+        "##heim",
+        ",",
+        "just",
+        "west",
+        "of",
+        "Strasbourg",
+        ",",
+        "down",
+        "to",
+        "Than",
+        "##n",
+        ",",
+        "outside",
+        "Mu",
+        "##l",
+        "##house",
+        ".",
+        "[SEP]",
+        "The",
+        "slopes",
+        "between",
+        "the",
+        "V",
+        "##os",
+        "##ges",
+        "and",
+        "Rhine",
+        "Valley",
+        "are",
+        "the",
+        "only",
+        "place",
+        "appropriate",
+        "for",
+        "vineyards",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            51,
+            55,
+            60,
+            65,
+            67,
+            68
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "gentle",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9324455857276917,
+                        0.031080687418580055
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.03992898017168045
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 51,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9011271595954895,
+                        0.037903282791376114
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.06730026006698608
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 55,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9468071460723877,
+                        0.02653099037706852
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.028746768832206726
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 60,
+                    "from": "source",
+                    "added_token_text": "Rhine",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9574931263923645,
+                        0.02096284180879593
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.020429644733667374
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 65,
+                    "from": "source",
+                    "added_token_text": "place",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9661100506782532,
+                        0.018570860847830772
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.015793809667229652
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 67,
+                    "from": "source",
+                    "added_token_text": "for",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8590654134750366,
+                        0.04976656287908554
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.10941503942012787
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 68,
+                    "from": "source",
+                    "added_token_text": "vineyards",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7216349244117737,
+                        0.07484066486358643
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9871299862861633,
+                        0.0008207800565287471
+                    ],
+                    "kl": 0.27148574590682983
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                51,
+                55,
+                60,
+                65,
+                67,
+                68
+            ]
+        }
+    ]
+}

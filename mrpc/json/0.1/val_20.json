@@ -1,0 +1,82 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Friday",
+        ",",
+        "Stanford",
+        "(",
+        "47",
+        "-",
+        "15",
+        ")",
+        "blank",
+        "##ed",
+        "the",
+        "Game",
+        "##cock",
+        "##s",
+        "8",
+        "-",
+        "0",
+        ".",
+        "[SEP]",
+        "Stanford",
+        "(",
+        "46",
+        "-",
+        "15",
+        ")",
+        "has",
+        "a",
+        "team",
+        "full",
+        "of",
+        "such",
+        "players",
+        "this",
+        "season",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "players",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9754738807678223,
+                        0.024526096880435944
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9868249297142029,
+                        0.013175005093216896
+                    ],
+                    "kl": 0.0032296720892190933
+                }
+            ],
+            "unmasked_source_words": [
+                32
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "When",
+        "Tommy",
+        "dropped",
+        "his",
+        "ice",
+        "cream",
+        ",",
+        "Tim",
+        "##my",
+        "giggled",
+        ",",
+        "so",
+        "father",
+        "gave",
+        "him",
+        "a",
+        "stern",
+        "look",
+        ".",
+        "[SEP]",
+        "Father",
+        "gave",
+        "Tim",
+        "##my",
+        "a",
+        "stern",
+        "look",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

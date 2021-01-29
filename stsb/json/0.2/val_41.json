@@ -1,0 +1,85 @@
+{
+    "true_target_label": 2.799999952316284,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "plane",
+        "is",
+        "landing",
+        ".",
+        "[SEP]",
+        "A",
+        "animated",
+        "airplane",
+        "is",
+        "landing",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            9
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "plane",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.936783790588379,
+                        2.936783790588379
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.9667394161224365,
+                        3.9667394161224365
+                    ],
+                    "kl": 1.060808539390564
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "airplane",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.949935793876648,
+                        0.949935793876648
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.9667394161224365,
+                        3.9667394161224365
+                    ],
+                    "kl": 9.101104736328125
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                9
+            ]
+        }
+    ]
+}

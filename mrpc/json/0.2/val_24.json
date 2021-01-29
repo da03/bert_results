@@ -1,0 +1,330 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Saddam",
+        "loyal",
+        "##ists",
+        "have",
+        "been",
+        "blamed",
+        "for",
+        "sa",
+        "##bot",
+        "##aging",
+        "the",
+        "nation",
+        "'",
+        "s",
+        "infrastructure",
+        ",",
+        "as",
+        "well",
+        "as",
+        "frequent",
+        "attacks",
+        "on",
+        "U",
+        ".",
+        "S",
+        ".",
+        "soldiers",
+        ".",
+        "[SEP]",
+        "Hussein",
+        "loyal",
+        "##ists",
+        "have",
+        "been",
+        "blamed",
+        "for",
+        "sa",
+        "##bot",
+        "##aging",
+        "the",
+        "nation",
+        "'",
+        "s",
+        "infrastructure",
+        "and",
+        "attacking",
+        "US",
+        "soldiers",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            5,
+            7,
+            9,
+            10,
+            18,
+            33,
+            36,
+            39,
+            48
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "have",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.970708429813385,
+                        0.029291603714227676
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.006927746348083019
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "been",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9327954649925232,
+                        0.06720459461212158
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.036506347358226776
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "for",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9836666584014893,
+                        0.01633334718644619
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.0007103863172233105
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "##bot",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9794443845748901,
+                        0.020555676892399788
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.002250088844448328
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "##aging",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8449750542640686,
+                        0.15502497553825378
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 1.7800954580307007
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "well",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9827473759651184,
+                        0.017252538353204727
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.0009886263869702816
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "have",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.981528639793396,
+                        0.018471330404281616
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.0014100903645157814
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "for",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.984387993812561,
+                        0.015611959621310234
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.0005185205955058336
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "##aging",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8220809102058411,
+                        0.17791913449764252
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.14988401532173157
+                },
+                {
+                    "num_unmasked": 10,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "soldiers",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9821184873580933,
+                        0.017881467938423157
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9882087707519531,
+                        0.011791151948273182
+                    ],
+                    "kl": 0.0011990470811724663
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                5,
+                7,
+                9,
+                10,
+                18,
+                33,
+                36,
+                39,
+                48
+            ]
+        }
+    ]
+}

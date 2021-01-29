@@ -1,0 +1,108 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Hands",
+        "Across",
+        "the",
+        "Di",
+        "##vide",
+        "was",
+        "formed",
+        "in",
+        "March",
+        "2001",
+        ",",
+        "and",
+        "one",
+        "of",
+        "its",
+        "immediate",
+        "aims",
+        "was",
+        "to",
+        "press",
+        "for",
+        "more",
+        "freedom",
+        "of",
+        "contact",
+        "and",
+        "communication",
+        "right",
+        "away",
+        "between",
+        "the",
+        "two",
+        "parts",
+        "of",
+        "Cyprus",
+        ",",
+        "and",
+        "for",
+        "early",
+        "progress",
+        "towards",
+        "a",
+        "solution",
+        "to",
+        "'",
+        "the",
+        "Cyprus",
+        "problem",
+        "'",
+        ".",
+        "[SEP]",
+        "Cyprus",
+        "was",
+        "divided",
+        "into",
+        "two",
+        "parts",
+        "in",
+        "March",
+        "2001",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "2001",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7020425200462341,
+                        0.2979574203491211
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7897113561630249,
+                        0.21028859913349152
+                    ],
+                    "kl": 0.019648954272270203
+                }
+            ],
+            "unmasked_source_words": [
+                10
+            ]
+        }
+    ]
+}

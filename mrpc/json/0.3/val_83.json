@@ -1,0 +1,80 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Dan",
+        "##bury",
+        "prosecutor",
+        "Warren",
+        "Murray",
+        "could",
+        "not",
+        "be",
+        "reached",
+        "for",
+        "comment",
+        "Monday",
+        ".",
+        "[SEP]",
+        "Pro",
+        "##secutor",
+        "##s",
+        "could",
+        "not",
+        "be",
+        "reached",
+        "for",
+        "comment",
+        "after",
+        "the",
+        "legal",
+        "papers",
+        "were",
+        "obtained",
+        "late",
+        "Monday",
+        "afternoon",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            29
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "obtained",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9690398573875427,
+                        0.030960116535425186
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9854753017425537,
+                        0.014524709433317184
+                    ],
+                    "kl": 0.005580994300544262
+                }
+            ],
+            "unmasked_source_words": [
+                29
+            ]
+        }
+    ]
+}

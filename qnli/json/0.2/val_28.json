@@ -1,0 +1,106 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "causes",
+        "the",
+        "symptoms",
+        "of",
+        "inflammation",
+        "?",
+        "[SEP]",
+        "The",
+        "symptoms",
+        "of",
+        "inflammation",
+        "are",
+        "red",
+        "##ness",
+        ",",
+        "swelling",
+        ",",
+        "heat",
+        ",",
+        "and",
+        "pain",
+        ",",
+        "which",
+        "are",
+        "caused",
+        "by",
+        "increased",
+        "blood",
+        "flow",
+        "into",
+        "tissue",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            20
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "causes",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8730528950691223,
+                        0.1269470900297165
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9965967535972595,
+                        0.0034033015836030245
+                    ],
+                    "kl": 0.11958290636539459
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": ",",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5948053002357483,
+                        0.4051947593688965
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9965967535972595,
+                        0.0034033015836030245
+                    ],
+                    "kl": 0.8793424367904663
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                20
+            ]
+        }
+    ]
+}

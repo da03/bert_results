@@ -1,0 +1,82 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "police",
+        "arrested",
+        "all",
+        "of",
+        "the",
+        "gang",
+        "members",
+        ".",
+        "They",
+        "were",
+        "trying",
+        "to",
+        "run",
+        "the",
+        "drug",
+        "trade",
+        "in",
+        "the",
+        "neighborhood",
+        ".",
+        "[SEP]",
+        "The",
+        "police",
+        "were",
+        "trying",
+        "to",
+        "run",
+        "the",
+        "drug",
+        "trade",
+        "in",
+        "the",
+        "neighborhood",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            31
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "trade",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5316219329833984,
+                        0.4683780372142792
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5148008465766907,
+                        0.48519909381866455
+                    ],
+                    "kl": 0.0005673728883266449
+                }
+            ],
+            "unmasked_source_words": [
+                31
+            ]
+        }
+    ]
+}

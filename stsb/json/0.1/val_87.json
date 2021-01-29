@@ -1,0 +1,63 @@
+{
+    "true_target_label": 2.5999999046325684,
+    "source_tokens_text": [
+        "[CLS]",
+        "Batman",
+        "and",
+        "Robin",
+        "fly",
+        "a",
+        "helicopter",
+        "over",
+        "water",
+        ".",
+        "[SEP]",
+        "A",
+        "helicopter",
+        "flies",
+        "over",
+        "water",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "helicopter",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.0374611616134644,
+                        1.0374611616134644
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.5517525672912598,
+                        3.5517525672912598
+                    ],
+                    "kl": 6.32166051864624
+                }
+            ],
+            "unmasked_source_words": [
+                12
+            ]
+        }
+    ]
+}

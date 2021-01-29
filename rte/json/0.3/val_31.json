@@ -1,0 +1,277 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Eric",
+        "Harris",
+        "and",
+        "Dylan",
+        "K",
+        "##le",
+        "##bol",
+        "##d",
+        ",",
+        "seniors",
+        "at",
+        "the",
+        "suburban",
+        "Denver",
+        "school",
+        ",",
+        "de",
+        "##ton",
+        "##ated",
+        "home",
+        "##made",
+        "bombs",
+        "and",
+        "opened",
+        "fire",
+        "with",
+        "shotgun",
+        "##s",
+        ",",
+        "a",
+        "rifle",
+        "and",
+        "a",
+        "semi",
+        "##aut",
+        "##oma",
+        "##tic",
+        "hand",
+        "##gun",
+        "on",
+        "April",
+        "20",
+        ",",
+        "1999",
+        ".",
+        "They",
+        "killed",
+        "a",
+        "teacher",
+        "and",
+        "12",
+        "students",
+        "and",
+        "wounded",
+        "23",
+        "others",
+        "before",
+        "committing",
+        "suicide",
+        ".",
+        "The",
+        "massacre",
+        "shocked",
+        "the",
+        "country",
+        "like",
+        "no",
+        "other",
+        ".",
+        "It",
+        "was",
+        "the",
+        "worst",
+        "school",
+        "assault",
+        "in",
+        "American",
+        "history",
+        "at",
+        "that",
+        "time",
+        ",",
+        "and",
+        "it",
+        "came",
+        "in",
+        "the",
+        "wake",
+        "of",
+        "a",
+        "half",
+        "-",
+        "dozen",
+        "others",
+        ".",
+        "It",
+        "played",
+        "out",
+        "on",
+        "live",
+        "television",
+        ",",
+        "watched",
+        "by",
+        "millions",
+        ".",
+        "And",
+        "it",
+        "represented",
+        "the",
+        "violent",
+        "destruction",
+        "of",
+        "a",
+        "ch",
+        "[SEP]",
+        "13",
+        "persons",
+        "were",
+        "killed",
+        "by",
+        "two",
+        "students",
+        "in",
+        "1999",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            21,
+            116,
+            125,
+            126,
+            127
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "##made",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6088553667068481,
+                        0.39114463329315186
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6016803979873657,
+                        0.3983195424079895
+                    ],
+                    "kl": 0.00010784389451146126
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 116,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6098082661628723,
+                        0.3901917338371277
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6016803979873657,
+                        0.3983195424079895
+                    ],
+                    "kl": 0.00013842899352312088
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 125,
+                    "from": "source",
+                    "added_token_text": "1999",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5167112946510315,
+                        0.4832887351512909
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6016803979873657,
+                        0.3983195424079895
+                    ],
+                    "kl": 0.028180859982967377
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 126,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5438333749771118,
+                        0.45616665482521057
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6016803979873657,
+                        0.3983195424079895
+                    ],
+                    "kl": 0.006806381046772003
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 127,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5839065909385681,
+                        0.4160933792591095
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6016803979873657,
+                        0.3983195424079895
+                    ],
+                    "kl": 0.0006529297679662704
+                }
+            ],
+            "unmasked_source_words": [
+                21,
+                116,
+                125,
+                126,
+                127
+            ]
+        }
+    ]
+}

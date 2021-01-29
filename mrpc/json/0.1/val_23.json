@@ -1,0 +1,277 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "ON",
+        "##G",
+        "K",
+        "##ON",
+        "##G",
+        ",",
+        "July",
+        "9",
+        "Ten",
+        "##s",
+        "of",
+        "thousands",
+        "of",
+        "demons",
+        "##tra",
+        "##tors",
+        "gathered",
+        "tonight",
+        "before",
+        "the",
+        "legislature",
+        "building",
+        "here",
+        "to",
+        "call",
+        "for",
+        "free",
+        "elections",
+        "and",
+        "the",
+        "resignation",
+        "of",
+        "Hong",
+        "Kong",
+        "'",
+        "s",
+        "leader",
+        ".",
+        "[SEP]",
+        "Ten",
+        "##s",
+        "of",
+        "thousands",
+        "of",
+        "demons",
+        "##tra",
+        "##tors",
+        "gathered",
+        "yesterday",
+        "evening",
+        "to",
+        "stand",
+        "before",
+        "this",
+        "city",
+        "'",
+        "s",
+        "legislature",
+        "building",
+        "and",
+        "call",
+        "for",
+        "free",
+        "elections",
+        "and",
+        "the",
+        "resignation",
+        "of",
+        "Hong",
+        "Kong",
+        "'",
+        "s",
+        "leader",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            19,
+            21,
+            23,
+            25,
+            42,
+            53,
+            58
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "before",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8116946220397949,
+                        0.18830542266368866
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 1.597308874130249
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "legislature",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5495153665542603,
+                        0.45048466324806213
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 0.7380431294441223
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "here",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9633633494377136,
+                        0.036636583507061005
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 0.013632920570671558
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 25,
+                    "from": "source",
+                    "added_token_text": "call",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9692163467407227,
+                        0.03078368492424488
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 0.00942971557378769
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 42,
+                    "from": "source",
+                    "added_token_text": "of",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.946724534034729,
+                        0.05327548086643219
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 0.0270222220569849
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 53,
+                    "from": "source",
+                    "added_token_text": "before",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9130973219871521,
+                        0.08690263330936432
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 0.05777928978204727
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 58,
+                    "from": "source",
+                    "added_token_text": "legislature",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7408815026283264,
+                        0.2591184973716736
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9897072315216064,
+                        0.01029281783849001
+                    ],
+                    "kl": 0.2533849775791168
+                }
+            ],
+            "unmasked_source_words": [
+                19,
+                21,
+                23,
+                25,
+                42,
+                53,
+                58
+            ]
+        }
+    ]
+}

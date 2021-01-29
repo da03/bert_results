@@ -1,0 +1,151 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Ho",
+        "##dler",
+        "claimed",
+        "there",
+        "were",
+        "also",
+        "irregular",
+        "##ities",
+        "in",
+        "the",
+        "campaigns",
+        "organized",
+        "by",
+        "Atlanta",
+        "for",
+        "the",
+        "1996",
+        "Summer",
+        "Games",
+        ",",
+        "Sydney",
+        "for",
+        "the",
+        "Summer",
+        "Olympics",
+        "in",
+        "2000",
+        "and",
+        "Salt",
+        "Lake",
+        "City",
+        "for",
+        "the",
+        "2002",
+        "Winter",
+        "Games",
+        ".",
+        "[SEP]",
+        "Before",
+        "Salt",
+        "Lake",
+        "City",
+        ",",
+        "Winter",
+        "Olympic",
+        "Games",
+        "took",
+        "place",
+        "in",
+        "Na",
+        "##gano",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            45,
+            49,
+            51
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": "Olympic",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5528970956802368,
+                        0.44710293412208557
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6194395422935486,
+                        0.38056039810180664
+                    ],
+                    "kl": 0.00907018780708313
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 49,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5088837146759033,
+                        0.49111631512641907
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6194395422935486,
+                        0.38056039810180664
+                    ],
+                    "kl": 0.0332118421792984
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 51,
+                    "from": "source",
+                    "added_token_text": "##gano",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6324933767318726,
+                        0.36750665307044983
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6194395422935486,
+                        0.38056039810180664
+                    ],
+                    "kl": 0.00036470312625169754
+                }
+            ],
+            "unmasked_source_words": [
+                45,
+                49,
+                51
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "among",
+        "the",
+        "year",
+        "'",
+        "s",
+        "most",
+        "intriguing",
+        "exploration",
+        "##s",
+        "of",
+        "alien",
+        "##tation",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "intriguing",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.868973970413208,
+                        0.13102604448795319
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9998672008514404,
+                        0.0001327398349530995
+                    ],
+                    "kl": 0.13937576115131378
+                }
+            ],
+            "unmasked_source_words": [
+                7
+            ]
+        }
+    ]
+}

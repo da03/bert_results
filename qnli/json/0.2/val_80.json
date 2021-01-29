@@ -1,0 +1,252 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "many",
+        "plant",
+        "species",
+        "make",
+        "up",
+        "the",
+        "total",
+        "in",
+        "the",
+        "rainforest",
+        "?",
+        "[SEP]",
+        "One",
+        "in",
+        "five",
+        "of",
+        "all",
+        "the",
+        "bird",
+        "species",
+        "in",
+        "the",
+        "world",
+        "live",
+        "in",
+        "the",
+        "rainforest",
+        "##s",
+        "of",
+        "the",
+        "Amazon",
+        ",",
+        "and",
+        "one",
+        "in",
+        "five",
+        "of",
+        "the",
+        "fish",
+        "species",
+        "live",
+        "in",
+        "Amazon",
+        "##ian",
+        "rivers",
+        "and",
+        "streams",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            22,
+            28,
+            37,
+            41,
+            42,
+            44,
+            46
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9664226770401001,
+                        0.033577289432287216
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.02769862487912178
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "rainforest",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9935264587402344,
+                        0.0064735752530395985
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.0026802958454936743
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "five",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.925860583782196,
+                        0.07413945347070694
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.06925878673791885
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 41,
+                    "from": "source",
+                    "added_token_text": "species",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9974566102027893,
+                        0.002543427748605609
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.00021266756812110543
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 42,
+                    "from": "source",
+                    "added_token_text": "live",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9964182376861572,
+                        0.0035817588213831186
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.0007124894764274359
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "Amazon",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.983797013759613,
+                        0.016202939674258232
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.011058288626372814
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 46,
+                    "from": "source",
+                    "added_token_text": "rivers",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9896747469902039,
+                        0.010325209237635136
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9984221458435059,
+                        0.0015779187669977546
+                    ],
+                    "kl": 0.00582181615754962
+                }
+            ],
+            "unmasked_source_words": [
+                22,
+                28,
+                37,
+                41,
+                42,
+                44,
+                46
+            ]
+        }
+    ]
+}

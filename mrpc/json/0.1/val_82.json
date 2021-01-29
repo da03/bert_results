@@ -1,0 +1,206 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "\"",
+        "AP",
+        "##EC",
+        "leaders",
+        "are",
+        "painfully",
+        "aware",
+        "that",
+        "security",
+        "and",
+        "prosperity",
+        "are",
+        "ins",
+        "##ep",
+        "##ara",
+        "##ble",
+        ",",
+        "\"",
+        "Thai",
+        "Prime",
+        "Minister",
+        "T",
+        "##hak",
+        "##sin",
+        "Shin",
+        "##awa",
+        "##tra",
+        "told",
+        "business",
+        "leaders",
+        ".",
+        "[SEP]",
+        "\"",
+        "AP",
+        "##EC",
+        "leaders",
+        "are",
+        "painfully",
+        "aware",
+        "that",
+        "security",
+        "and",
+        "prosperity",
+        "are",
+        "ins",
+        "##ep",
+        "##ara",
+        "##ble",
+        ",",
+        "\"",
+        "T",
+        "##hak",
+        "##sin",
+        "said",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9,
+            11,
+            12,
+            37,
+            43
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "security",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9751639366149902,
+                        0.02483600378036499
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.986634373664856,
+                        0.013365612365305424
+                    ],
+                    "kl": 0.0032559623941779137
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "prosperity",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9043479561805725,
+                        0.09565206617116928
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.986634373664856,
+                        0.013365612365305424
+                    ],
+                    "kl": 0.059617213904857635
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "are",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8853054046630859,
+                        0.11469461023807526
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.986634373664856,
+                        0.013365612365305424
+                    ],
+                    "kl": 2.0672175884246826
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "are",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6723045706748962,
+                        0.32769548892974854
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.986634373664856,
+                        0.013365612365305424
+                    ],
+                    "kl": 1.0351158380508423
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "prosperity",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9683834314346313,
+                        0.03161652013659477
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.986634373664856,
+                        0.013365612365305424
+                    ],
+                    "kl": 0.006914000026881695
+                }
+            ],
+            "unmasked_source_words": [
+                9,
+                11,
+                12,
+                37,
+                43
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "a",
+        "sequence",
+        "of",
+        "ridiculous",
+        "shoot",
+        "-",
+        "'",
+        "em",
+        "-",
+        "up",
+        "scenes",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "ridiculous",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9962129592895508,
+                        0.0037870979867875576
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9989185333251953,
+                        0.0010814802953973413
+                    ],
+                    "kl": 0.001353691564872861
+                }
+            ],
+            "unmasked_source_words": [
+                4
+            ]
+        }
+    ]
+}

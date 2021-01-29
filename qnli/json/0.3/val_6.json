@@ -1,0 +1,108 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "does",
+        "U",
+        "##MC",
+        "stand",
+        "for",
+        "?",
+        "[SEP]",
+        "Founded",
+        "in",
+        "1968",
+        "by",
+        "the",
+        "union",
+        "of",
+        "the",
+        "Methodist",
+        "Church",
+        "(",
+        "USA",
+        ")",
+        "and",
+        "the",
+        "Evangelical",
+        "United",
+        "B",
+        "##ret",
+        "##hren",
+        "Church",
+        ",",
+        "the",
+        "U",
+        "##MC",
+        "traces",
+        "its",
+        "roots",
+        "back",
+        "to",
+        "the",
+        "revival",
+        "movement",
+        "of",
+        "John",
+        "and",
+        "Charles",
+        "Wesley",
+        "in",
+        "England",
+        "as",
+        "well",
+        "as",
+        "the",
+        "Great",
+        "A",
+        "##wa",
+        "##kening",
+        "in",
+        "the",
+        "United",
+        "States",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            37
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "back",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7412959933280945,
+                        0.25870397686958313
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7309296727180481,
+                        0.2690703570842743
+                    ],
+                    "kl": 0.00027778372168540955
+                }
+            ],
+            "unmasked_source_words": [
+                37
+            ]
+        }
+    ]
+}

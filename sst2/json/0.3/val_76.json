@@ -1,0 +1,112 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "the",
+        "movie",
+        "fails",
+        "to",
+        "live",
+        "up",
+        "to",
+        "the",
+        "sum",
+        "of",
+        "its",
+        "parts",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            3,
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "movie",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9940419793128967,
+                        0.005958041176199913
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9990944862365723,
+                        0.0009055155096575618
+                    ],
+                    "kl": 0.0033591571263968945
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "fails",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.986247181892395,
+                        0.013752833008766174
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9990944862365723,
+                        0.0009055155096575618
+                    ],
+                    "kl": 0.01046714372932911
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9982225298881531,
+                        0.0017774876905605197
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9990944862365723,
+                        0.0009055155096575618
+                    ],
+                    "kl": 0.0002615712000988424
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                3,
+                14
+            ]
+        }
+    ]
+}

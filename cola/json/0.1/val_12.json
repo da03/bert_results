@@ -1,0 +1,61 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "more",
+        "people",
+        "you",
+        "give",
+        "beer",
+        "to",
+        ",",
+        "the",
+        "more",
+        "people",
+        "get",
+        "sick",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "people",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7956656217575073,
+                        0.20433437824249268
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.983597457408905,
+                        0.016402577981352806
+                    ],
+                    "kl": 0.16718724370002747
+                }
+            ],
+            "unmasked_source_words": [
+                3
+            ]
+        }
+    ]
+}

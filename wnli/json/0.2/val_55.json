@@ -1,0 +1,74 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Sam",
+        "took",
+        "French",
+        "classes",
+        "from",
+        "Adam",
+        ",",
+        "because",
+        "he",
+        "was",
+        "known",
+        "to",
+        "speak",
+        "it",
+        "fluent",
+        "##ly",
+        ".",
+        "[SEP]",
+        "Sam",
+        "was",
+        "known",
+        "to",
+        "speak",
+        "it",
+        "fluent",
+        "##ly",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            21
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "known",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5348049998283386,
+                        0.4651950001716614
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5153313875198364,
+                        0.4846686124801636
+                    ],
+                    "kl": 0.0007609482854604721
+                }
+            ],
+            "unmasked_source_words": [
+                21
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "this",
+        "one",
+        "is",
+        "definitely",
+        "one",
+        "to",
+        "skip",
+        ",",
+        "even",
+        "for",
+        "horror",
+        "movie",
+        "fan",
+        "##atic",
+        "##s",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

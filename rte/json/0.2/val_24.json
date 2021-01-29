@@ -1,0 +1,303 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "According",
+        "to",
+        "reports",
+        ",",
+        "a",
+        "man",
+        "protesting",
+        "the",
+        "G",
+        "##20",
+        "Summit",
+        "in",
+        "London",
+        ",",
+        "England",
+        "has",
+        "died",
+        "after",
+        "collapsing",
+        "at",
+        "a",
+        "protest",
+        "##er",
+        "camp",
+        ".",
+        "Sky",
+        "News",
+        "says",
+        "the",
+        "man",
+        "collapsed",
+        "on",
+        "the",
+        "street",
+        "inside",
+        "a",
+        "camp",
+        "close",
+        "to",
+        "the",
+        "Bank",
+        "of",
+        "England",
+        "and",
+        "when",
+        "found",
+        "he",
+        "was",
+        "still",
+        "breathing",
+        ",",
+        "but",
+        "efforts",
+        "by",
+        "para",
+        "##med",
+        "##ics",
+        "to",
+        "rescue",
+        "him",
+        "failed",
+        "and",
+        "he",
+        "was",
+        "pronounced",
+        "dead",
+        "at",
+        "an",
+        "area",
+        "hospital",
+        ".",
+        "The",
+        "name",
+        "of",
+        "the",
+        "person",
+        "and",
+        "cause",
+        "of",
+        "death",
+        "are",
+        "not",
+        "yet",
+        "known",
+        ",",
+        "but",
+        "several",
+        "people",
+        "were",
+        "injured",
+        "earlier",
+        "in",
+        "the",
+        "day",
+        ".",
+        "It",
+        "is",
+        "also",
+        "reported",
+        "by",
+        "Sky",
+        "News",
+        "that",
+        "people",
+        "threw",
+        "bottles",
+        "at",
+        "him",
+        "and",
+        "authorities",
+        "when",
+        "they",
+        "were",
+        "taking",
+        "[SEP]",
+        "Sky",
+        "News",
+        "offices",
+        "are",
+        "close",
+        "to",
+        "the",
+        "Bank",
+        "of",
+        "England",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            63,
+            115,
+            116,
+            118,
+            125,
+            127
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 63,
+                    "from": "source",
+                    "added_token_text": "he",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5303996205329895,
+                        0.4696003794670105
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.595979630947113,
+                        0.4040203392505646
+                    ],
+                    "kl": 0.008705399930477142
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 115,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5229455828666687,
+                        0.4770543575286865
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.595979630947113,
+                        0.4040203392505646
+                    ],
+                    "kl": 0.02840864658355713
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 116,
+                    "from": "source",
+                    "added_token_text": "Sky",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5153226852416992,
+                        0.4846772849559784
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.595979630947113,
+                        0.4040203392505646
+                    ],
+                    "kl": 0.024893395602703094
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 118,
+                    "from": "source",
+                    "added_token_text": "offices",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5764915347099304,
+                        0.4235084354877472
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.595979630947113,
+                        0.4040203392505646
+                    ],
+                    "kl": 0.0007812175899744034
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 125,
+                    "from": "source",
+                    "added_token_text": "England",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5083403587341309,
+                        0.49165961146354675
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.595979630947113,
+                        0.4040203392505646
+                    ],
+                    "kl": 0.015475936233997345
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 127,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5306234955787659,
+                        0.4693765342235565
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.595979630947113,
+                        0.4040203392505646
+                    ],
+                    "kl": 0.03218982368707657
+                }
+            ],
+            "unmasked_source_words": [
+                63,
+                115,
+                116,
+                118,
+                125,
+                127
+            ]
+        }
+    ]
+}

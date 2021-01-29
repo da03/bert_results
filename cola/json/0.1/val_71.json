@@ -1,0 +1,64 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "proof",
+        "that",
+        "the",
+        "claim",
+        "had",
+        "been",
+        ".",
+        "made",
+        "was",
+        "give",
+        "##r",
+        "that",
+        "John",
+        "had",
+        "lied",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "been",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6990899443626404,
+                        0.3009100556373596
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9585571885108948,
+                        0.04144277423620224
+                    ],
+                    "kl": 0.2204081416130066
+                }
+            ],
+            "unmasked_source_words": [
+                7
+            ]
+        }
+    ]
+}

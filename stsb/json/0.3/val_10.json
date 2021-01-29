@@ -1,0 +1,110 @@
+{
+    "true_target_label": 3.200000047683716,
+    "source_tokens_text": [
+        "[CLS]",
+        "People",
+        "are",
+        "playing",
+        "cricket",
+        ".",
+        "[SEP]",
+        "Men",
+        "are",
+        "playing",
+        "cricket",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            10,
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "cricket",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7916114330291748,
+                        0.7916114330291748
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.328740358352661,
+                        3.328740358352661
+                    ],
+                    "kl": 6.437023162841797
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "cricket",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.522641181945801,
+                        2.522641181945801
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.328740358352661,
+                        3.328740358352661
+                    ],
+                    "kl": 0.6497958898544312
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.8225769996643066,
+                        2.8225769996643066
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.328740358352661,
+                        3.328740358352661
+                    ],
+                    "kl": 0.2562013566493988
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                10,
+                12
+            ]
+        }
+    ]
+}

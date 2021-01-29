@@ -1,0 +1,131 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "La",
+        "Paz",
+        ",",
+        "30",
+        "May",
+        "89",
+        "-",
+        "La",
+        "Paz",
+        "Department",
+        "Police",
+        "authorities",
+        "have",
+        "disclosed",
+        "that",
+        "investigations",
+        "into",
+        "the",
+        "murder",
+        "of",
+        "two",
+        "young",
+        "U",
+        ".",
+        "S",
+        ".",
+        "citizens",
+        "are",
+        "being",
+        "conducted",
+        "by",
+        "a",
+        "specialized",
+        "group",
+        "summoned",
+        "specially",
+        "to",
+        "c",
+        "##lar",
+        "##ify",
+        "this",
+        "crime",
+        ".",
+        "[SEP]",
+        "Two",
+        "young",
+        "U",
+        ".",
+        "S",
+        ".",
+        "citizens",
+        "were",
+        "killed",
+        "on",
+        "30",
+        "May",
+        "89",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            57,
+            58
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 57,
+                    "from": "source",
+                    "added_token_text": "89",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5374390482902527,
+                        0.4625609815120697
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6727020740509033,
+                        0.3272978663444519
+                    ],
+                    "kl": 0.037798233330249786
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 58,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6562575101852417,
+                        0.3437425196170807
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6727020740509033,
+                        0.3272978663444519
+                    ],
+                    "kl": 0.0006041266024112701
+                }
+            ],
+            "unmasked_source_words": [
+                57,
+                58
+            ]
+        }
+    ]
+}

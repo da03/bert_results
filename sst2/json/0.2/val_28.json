@@ -1,0 +1,116 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "it",
+        "'",
+        "s",
+        "a",
+        "cookie",
+        "-",
+        "cutter",
+        "movie",
+        ",",
+        "a",
+        "cut",
+        "-",
+        "and",
+        "-",
+        "paste",
+        "job",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10,
+            15,
+            16
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "a",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.967011034488678,
+                        0.03298894688487053
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.995029866695404,
+                        0.004970126785337925
+                    ],
+                    "kl": 0.019013850018382072
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "paste",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8428122401237488,
+                        0.15718771517276764
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.995029866695404,
+                        0.004970126785337925
+                    ],
+                    "kl": 0.1480366438627243
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "job",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.920181155204773,
+                        0.07981884479522705
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.995029866695404,
+                        0.004970126785337925
+                    ],
+                    "kl": 0.06401494145393372
+                }
+            ],
+            "unmasked_source_words": [
+                10,
+                15,
+                16
+            ]
+        }
+    ]
+}

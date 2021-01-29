@@ -1,0 +1,136 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "We",
+        "also",
+        "have",
+        "found",
+        "that",
+        "leading",
+        "organizations",
+        "s",
+        "##tri",
+        "##ve",
+        "to",
+        "ensure",
+        "that",
+        "their",
+        "core",
+        "processes",
+        "efficiently",
+        "and",
+        "effectively",
+        "support",
+        "mission",
+        "-",
+        "related",
+        "outcomes",
+        ".",
+        "[SEP]",
+        "Leading",
+        "organizations",
+        "want",
+        "to",
+        "be",
+        "sure",
+        "their",
+        "employees",
+        "are",
+        "safe",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            28,
+            29,
+            36
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "organizations",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5754937529563904,
+                        0.050558142364025116
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9290146231651306,
+                        0.0019998843781650066
+                    ],
+                    "kl": 0.3218410015106201
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "want",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7846719622612,
+                        0.02654324844479561
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9290146231651306,
+                        0.0019998843781650066
+                    ],
+                    "kl": 0.08225257694721222
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "safe",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.4570801258087158,
+                        0.140925794839859
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9290146231651306,
+                        0.0019998843781650066
+                    ],
+                    "kl": 0.5288186073303223
+                }
+            ],
+            "unmasked_source_words": [
+                28,
+                29,
+                36
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Following",
+        "the",
+        "successful",
+        "bid",
+        "to",
+        "bring",
+        "the",
+        "2010",
+        "Ryder",
+        "Cup",
+        "to",
+        "Wales",
+        ",",
+        "the",
+        "Wales",
+        "Tour",
+        "##ist",
+        "Board",
+        "has",
+        "wasted",
+        "little",
+        "time",
+        "in",
+        "commissioning",
+        "work",
+        "to",
+        "ensure",
+        "that",
+        "the",
+        "benefits",
+        "a",
+        "##cc",
+        "##ru",
+        "##ing",
+        "from",
+        "the",
+        "event",
+        "are",
+        "felt",
+        "throughout",
+        "the",
+        "country",
+        ".",
+        "[SEP]",
+        "Wales",
+        "to",
+        "host",
+        "2010",
+        "Ryder",
+        "Cup",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            44,
+            48
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.564336359500885,
+                        0.435663640499115
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5732940435409546,
+                        0.426705926656723
+                    ],
+                    "kl": 0.00016346760094165802
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "2010",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5289083123207092,
+                        0.47109168767929077
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5732940435409546,
+                        0.426705926656723
+                    ],
+                    "kl": 0.003972269594669342
+                }
+            ],
+            "unmasked_source_words": [
+                44,
+                48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "S",
+        "##hat",
+        "##tered",
+        "Glass",
+        ",",
+        "\"",
+        "starring",
+        "Hayden",
+        "Christensen",
+        "as",
+        "Stephen",
+        "Glass",
+        ",",
+        "debuted",
+        "well",
+        "with",
+        "$",
+        "80",
+        ",",
+        "000",
+        "in",
+        "eight",
+        "theaters",
+        ".",
+        "[SEP]",
+        "\"",
+        "S",
+        "##hat",
+        "##tered",
+        "Glass",
+        "\"",
+        "_",
+        "starring",
+        "Hayden",
+        "Christensen",
+        "as",
+        "Stephen",
+        "Glass",
+        ",",
+        "The",
+        "New",
+        "Republic",
+        "journalist",
+        "fired",
+        "for",
+        "fabric",
+        "##ating",
+        "stories",
+        "_",
+        "debuted",
+        "well",
+        "with",
+        "$",
+        "80",
+        ",",
+        "000",
+        "in",
+        "eight",
+        "theaters",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            17,
+            30,
+            37,
+            50
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "$",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9885050654411316,
+                        0.0114949531853199
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993528425693512,
+                        0.006471538450568914
+                    ],
+                    "kl": 0.0013182319235056639
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "Glass",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9911574125289917,
+                        0.008842664770781994
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993528425693512,
+                        0.006471538450568914
+                    ],
+                    "kl": 0.00035371631383895874
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "Stephen",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.991835355758667,
+                        0.008164693601429462
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993528425693512,
+                        0.006471538450568914
+                    ],
+                    "kl": 0.000190592254512012
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 50,
+                    "from": "source",
+                    "added_token_text": "debuted",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9872580170631409,
+                        0.012742026709020138
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993528425693512,
+                        0.006471538450568914
+                    ],
+                    "kl": 0.001905815675854683
+                }
+            ],
+            "unmasked_source_words": [
+                17,
+                30,
+                37,
+                50
+            ]
+        }
+    ]
+}

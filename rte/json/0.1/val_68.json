@@ -1,0 +1,132 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "For",
+        "US",
+        "pharmaceutical",
+        "companies",
+        ",",
+        "the",
+        "impending",
+        "healthcare",
+        "reforms",
+        "promise",
+        "an",
+        "era",
+        "of",
+        "increased",
+        "cost",
+        "-",
+        "contain",
+        "##ment",
+        "and",
+        "pricing",
+        "controls",
+        ".",
+        "[SEP]",
+        "The",
+        "US",
+        "government",
+        "wants",
+        "to",
+        "keep",
+        "drug",
+        "prices",
+        "down",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            9,
+            21
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "healthcare",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7653236389160156,
+                        0.23467634618282318
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.852469265460968,
+                        0.14753076434135437
+                    ],
+                    "kl": 0.02344954013824463
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "reforms",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8111541867256165,
+                        0.18884579837322235
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.852469265460968,
+                        0.14753076434135437
+                    ],
+                    "kl": 0.005925409495830536
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "controls",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6842353343963623,
+                        0.3157646656036377
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.852469265460968,
+                        0.14753076434135437
+                    ],
+                    "kl": 0.07513777166604996
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                9,
+                21
+            ]
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Proto",
+        "##ty",
+        "##ping",
+        ",",
+        "for",
+        "example",
+        ",",
+        "may",
+        "act",
+        "as",
+        "part",
+        "of",
+        "the",
+        "requirements",
+        "definition",
+        "process",
+        ",",
+        "helping",
+        "the",
+        "agency",
+        "identify",
+        "and",
+        "control",
+        "areas",
+        "of",
+        "high",
+        "uncertainty",
+        "and",
+        "technical",
+        "risk",
+        ".",
+        "[SEP]",
+        "Proto",
+        "##ty",
+        "##ping",
+        "is",
+        "not",
+        "important",
+        ",",
+        "testing",
+        "with",
+        "the",
+        "actual",
+        "finished",
+        "product",
+        "is",
+        "better",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            27,
+            30,
+            39,
+            43,
+            44
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 27,
+                    "from": "source",
+                    "added_token_text": "uncertainty",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.0681527704000473,
+                        0.020253293216228485
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0042548635974526405,
+                        0.00010628772724885494
+                    ],
+                    "kl": 0.07544579356908798
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "risk",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.09546603262424469,
+                        0.03406237065792084
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0042548635974526405,
+                        0.00010628772724885494
+                    ],
+                    "kl": 0.11991453915834427
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": ",",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.03953295201063156,
+                        0.01894928701221943
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0042548635974526405,
+                        0.00010628772724885494
+                    ],
+                    "kl": 0.04561220109462738
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "actual",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.27135810256004333,
+                        0.07939280569553375
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0042548635974526405,
+                        0.00010628772724885494
+                    ],
+                    "kl": 0.40731972455978394
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "finished",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.18363730609416962,
+                        0.054694127291440964
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.0042548635974526405,
+                        0.00010628772724885494
+                    ],
+                    "kl": 0.25002211332321167
+                }
+            ],
+            "unmasked_source_words": [
+                27,
+                30,
+                39,
+                43,
+                44
+            ]
+        }
+    ]
+}

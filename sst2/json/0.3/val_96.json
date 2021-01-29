@@ -1,0 +1,78 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "it",
+        "'",
+        "s",
+        "difficult",
+        "to",
+        "imagine",
+        "the",
+        "process",
+        "that",
+        "produced",
+        "such",
+        "a",
+        "script",
+        ",",
+        "but",
+        "here",
+        "'",
+        "s",
+        "guessing",
+        "that",
+        "spray",
+        "cheese",
+        "and",
+        "under",
+        "##arm",
+        "noises",
+        "played",
+        "a",
+        "crucial",
+        "role",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "difficult",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9425639510154724,
+                        0.057436101138591766
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.970397412776947,
+                        0.029602617025375366
+                    ],
+                    "kl": 0.008619563654065132
+                }
+            ],
+            "unmasked_source_words": [
+                4
+            ]
+        }
+    ]
+}

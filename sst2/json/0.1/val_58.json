@@ -1,0 +1,62 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "manages",
+        "to",
+        "be",
+        "both",
+        "re",
+        "##pu",
+        "##lsive",
+        "##ly",
+        "sad",
+        "##istic",
+        "and",
+        "m",
+        "##unda",
+        "##ne",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "sad",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9794356822967529,
+                        0.020564349368214607
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9880698323249817,
+                        0.011930177919566631
+                    ],
+                    "kl": 0.0021762382239103317
+                }
+            ],
+            "unmasked_source_words": [
+                9
+            ]
+        }
+    ]
+}

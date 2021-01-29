@@ -1,0 +1,63 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "this",
+        "one",
+        "is",
+        "definitely",
+        "one",
+        "to",
+        "skip",
+        ",",
+        "even",
+        "for",
+        "horror",
+        "movie",
+        "fan",
+        "##atic",
+        "##s",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "this",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.89084792137146,
+                        0.10915209352970123
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8819621205329895,
+                        0.11803791671991348
+                    ],
+                    "kl": 0.00039671640843153
+                }
+            ],
+            "unmasked_source_words": [
+                1
+            ]
+        }
+    ]
+}

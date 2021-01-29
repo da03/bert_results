@@ -1,0 +1,115 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "b",
+        "##hakti",
+        "movement",
+        "of",
+        "the",
+        "Tamil",
+        "##s",
+        "brought",
+        "a",
+        "new",
+        "warmth",
+        "to",
+        "the",
+        "hit",
+        "##her",
+        "##to",
+        "rigid",
+        "B",
+        "##rah",
+        "##mani",
+        "##c",
+        "ritual",
+        "of",
+        "Hinduism",
+        ".",
+        "[SEP]",
+        "The",
+        "Tamil",
+        "##s",
+        "'",
+        "b",
+        "##hakti",
+        "movement",
+        "froze",
+        "the",
+        "previously",
+        "warm",
+        "ritual",
+        "of",
+        "Hinduism",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            12,
+            35
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "warmth",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.0015354088973253965,
+                        0.0002496657252777368
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.001266083912923932,
+                        0.00046838808339089155
+                    ],
+                    "kl": 0.0001009679981507361
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "froze",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.005598882678896189,
+                        0.0005750427371822298
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.001266083912923932,
+                        0.00046838808339089155
+                    ],
+                    "kl": 0.002470968756824732
+                }
+            ],
+            "unmasked_source_words": [
+                12,
+                35
+            ]
+        }
+    ]
+}

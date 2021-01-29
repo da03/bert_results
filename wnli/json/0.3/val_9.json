@@ -1,0 +1,119 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Bernard",
+        ",",
+        "who",
+        "had",
+        "not",
+        "told",
+        "the",
+        "government",
+        "official",
+        "that",
+        "he",
+        "was",
+        "less",
+        "than",
+        "21",
+        "when",
+        "he",
+        "filed",
+        "for",
+        "a",
+        "homestead",
+        "claim",
+        ",",
+        "did",
+        "not",
+        "consider",
+        "that",
+        "he",
+        "had",
+        "done",
+        "anything",
+        "dish",
+        "##ones",
+        "##t",
+        ".",
+        "Still",
+        ",",
+        "anyone",
+        "who",
+        "knew",
+        "that",
+        "he",
+        "was",
+        "19",
+        "years",
+        "old",
+        "could",
+        "take",
+        "his",
+        "claim",
+        "away",
+        "from",
+        "him",
+        ".",
+        "[SEP]",
+        "Anyone",
+        "who",
+        "knew",
+        "that",
+        "he",
+        "was",
+        "19",
+        "years",
+        "old",
+        "could",
+        "take",
+        "his",
+        "claim",
+        "away",
+        "from",
+        "anyone",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            24
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": "did",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5220595598220825,
+                        0.4779404401779175
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5137495994567871,
+                        0.4862504303455353
+                    ],
+                    "kl": 0.00013829395174980164
+                }
+            ],
+            "unmasked_source_words": [
+                24
+            ]
+        }
+    ]
+}

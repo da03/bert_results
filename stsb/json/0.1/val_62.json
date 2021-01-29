@@ -1,0 +1,63 @@
+{
+    "true_target_label": 3.799999952316284,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "little",
+        "boy",
+        "is",
+        "vacuum",
+        "##ing",
+        "the",
+        "floor",
+        ".",
+        "[SEP]",
+        "A",
+        "boy",
+        "is",
+        "vacuum",
+        "##ing",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "vacuum",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.4154999256134033,
+                        1.4154999256134033
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.298203468322754,
+                        4.298203468322754
+                    ],
+                    "kl": 8.309979438781738
+                }
+            ],
+            "unmasked_source_words": [
+                14
+            ]
+        }
+    ]
+}

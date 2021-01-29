@@ -1,0 +1,262 @@
+{
+    "true_target_label": 3.799999952316284,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "pour",
+        "##s",
+        "oil",
+        "into",
+        "a",
+        "skill",
+        "##et",
+        "from",
+        "a",
+        "plastic",
+        "bottle",
+        "while",
+        "she",
+        "is",
+        "talking",
+        ".",
+        "[SEP]",
+        "An",
+        "older",
+        "woman",
+        "is",
+        "pouring",
+        "oil",
+        "into",
+        "a",
+        "skill",
+        "##et",
+        "on",
+        "the",
+        "stove",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            7,
+            8,
+            13,
+            19,
+            22,
+            24,
+            28
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "pour",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.5260186195373535,
+                        2.5260186195373535
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 1.3607864379882812
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "a",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.5045948028564453,
+                        3.5045948028564453
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 0.03532570227980614
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "skill",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.9462471008300781,
+                        1.9462471008300781
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 3.049560308456421
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "bottle",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.443211555480957,
+                        3.443211555480957
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 0.062167730182409286
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.3157362937927246,
+                        3.3157362937927246
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 0.14198565483093262
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "woman",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.5767822265625,
+                        3.5767822265625
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 0.013401281088590622
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": "pouring",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.2618327140808105,
+                        3.2618327140808105
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 0.18551404774188995
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "skill",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9423007965087891,
+                        0.9423007965087891
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6925461292266846,
+                        3.6925461292266846
+                    ],
+                    "kl": 7.563849449157715
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                7,
+                8,
+                13,
+                19,
+                22,
+                24,
+                28
+            ]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Which",
+        "girl",
+        "did",
+        "Mike",
+        "q",
+        "##ui",
+        "##p",
+        "never",
+        "wore",
+        "this",
+        "hat",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            3,
+            10
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "Which",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9197956323623657,
+                        0.0802043229341507
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9102945327758789,
+                        0.08970551937818527
+                    ],
+                    "kl": 0.0005910322070121765
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "did",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6182742714881897,
+                        0.3817256987094879
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9102945327758789,
+                        0.08970551937818527
+                    ],
+                    "kl": 0.2222258299589157
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "this",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.850701630115509,
+                        0.14929832518100739
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9102945327758789,
+                        0.08970551937818527
+                    ],
+                    "kl": 0.01593577116727829
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                3,
+                10
+            ]
+        }
+    ]
+}

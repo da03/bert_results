@@ -1,0 +1,113 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "On",
+        "Monday",
+        "the",
+        "Palestinian",
+        "Prime",
+        "Minister",
+        ",",
+        "Ma",
+        "##hm",
+        "##oud",
+        "Abbas",
+        ",",
+        "will",
+        "report",
+        "to",
+        "the",
+        "Palestinian",
+        "parliament",
+        "on",
+        "his",
+        "Government",
+        "'",
+        "s",
+        "achievements",
+        "in",
+        "its",
+        "first",
+        "100",
+        "days",
+        "in",
+        "office",
+        ".",
+        "[SEP]",
+        "Palestinian",
+        "Prime",
+        "Minister",
+        "Ma",
+        "##hm",
+        "##oud",
+        "Abbas",
+        "must",
+        "defend",
+        "the",
+        "record",
+        "of",
+        "his",
+        "first",
+        "100",
+        "days",
+        "in",
+        "office",
+        "before",
+        "Parliament",
+        "today",
+        "as",
+        "the",
+        "death",
+        "toll",
+        "in",
+        "the",
+        "occupied",
+        "territories",
+        "continues",
+        "to",
+        "rise",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            48
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "100",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9711719155311584,
+                        0.02882814221084118
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9800682663917542,
+                        0.01993172988295555
+                    ],
+                    "kl": 0.001581449992954731
+                }
+            ],
+            "unmasked_source_words": [
+                48
+            ]
+        }
+    ]
+}

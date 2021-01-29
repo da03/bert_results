@@ -1,0 +1,323 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "extension",
+        "of",
+        "the",
+        "effective",
+        "period",
+        "of",
+        "marketing",
+        "ex",
+        "##c",
+        "##lus",
+        "##ivity",
+        "for",
+        "drugs",
+        "is",
+        "designed",
+        "to",
+        "give",
+        "pharmaceutical",
+        "companies",
+        "a",
+        "fair",
+        "return",
+        ".",
+        "[SEP]",
+        "Prospect",
+        "##ive",
+        "drugs",
+        "must",
+        "have",
+        "long",
+        "market",
+        "life",
+        "after",
+        "regulatory",
+        "approval",
+        "in",
+        "order",
+        "to",
+        "be",
+        "developed",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9,
+            14,
+            19,
+            22,
+            23,
+            32,
+            33,
+            35,
+            36,
+            43
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "ex",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8196280002593994,
+                        0.1803719848394394
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.005993962287902832
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "drugs",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8542715311050415,
+                        0.1457284837961197
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.00015197740867733955
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "pharmaceutical",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7807536721229553,
+                        0.2192462980747223
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.02055138349533081
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "fair",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.608566164970398,
+                        0.39143383502960205
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.1539955884218216
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "return",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8087480664253235,
+                        0.19125191867351532
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.009314082562923431
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "market",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7382646203041077,
+                        0.26173537969589233
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.043964944779872894
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "life",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8423830270767212,
+                        0.15761695802211761
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.0012605413794517517
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "regulatory",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8250340819358826,
+                        0.174965962767601
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.0045861415565013885
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "approval",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8498198390007019,
+                        0.15018020570278168
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.0004461398348212242
+                },
+                {
+                    "num_unmasked": 10,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8368971943855286,
+                        0.16310283541679382
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8603845238685608,
+                        0.1396155208349228
+                    ],
+                    "kl": 0.00210527703166008
+                }
+            ],
+            "unmasked_source_words": [
+                9,
+                14,
+                19,
+                22,
+                23,
+                32,
+                33,
+                35,
+                36,
+                43
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "why",
+        "make",
+        "a",
+        "documentary",
+        "about",
+        "these",
+        "marginal",
+        "historical",
+        "figures",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            7
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "why",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.990189254283905,
+                        0.009810781106352806
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.997963547706604,
+                        0.0020364734809845686
+                    ],
+                    "kl": 0.004602808505296707
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "marginal",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9960883855819702,
+                        0.0039116195403039455
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.997963547706604,
+                        0.0020364734809845686
+                    ],
+                    "kl": 0.0005477828672155738
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                7
+            ]
+        }
+    ]
+}

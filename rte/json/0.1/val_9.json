@@ -1,0 +1,202 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Traditionally",
+        ",",
+        "the",
+        "B",
+        "##rah",
+        "##ui",
+        "of",
+        "the",
+        "Rai",
+        "##san",
+        "##i",
+        "tribe",
+        "are",
+        "in",
+        "charge",
+        "of",
+        "the",
+        "law",
+        "and",
+        "order",
+        "situation",
+        "through",
+        "the",
+        "Pass",
+        "area",
+        ".",
+        "This",
+        "tribe",
+        "is",
+        "still",
+        "living",
+        "in",
+        "present",
+        "day",
+        "Ba",
+        "##loc",
+        "##his",
+        "##tan",
+        "in",
+        "Pakistan",
+        ".",
+        "[SEP]",
+        "The",
+        "Rai",
+        "##san",
+        "##i",
+        "tribe",
+        "resides",
+        "in",
+        "Pakistan",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            6,
+            41,
+            44,
+            46,
+            50
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "##ui",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6040799617767334,
+                        0.3959200978279114
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9103143811225891,
+                        0.08968561142683029
+                    ],
+                    "kl": 0.2401304990053177
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 41,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6123222708702087,
+                        0.38767778873443604
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9103143811225891,
+                        0.08968561142683029
+                    ],
+                    "kl": 0.22968055307865143
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "Rai",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5900235772132874,
+                        0.40997645258903503
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9103143811225891,
+                        0.08968561142683029
+                    ],
+                    "kl": 0.25843411684036255
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 46,
+                    "from": "source",
+                    "added_token_text": "##i",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5645877122879028,
+                        0.43541228771209717
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9103143811225891,
+                        0.08968561142683029
+                    ],
+                    "kl": 0.2931501865386963
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 50,
+                    "from": "source",
+                    "added_token_text": "Pakistan",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5224400758743286,
+                        0.477559894323349
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9103143811225891,
+                        0.08968561142683029
+                    ],
+                    "kl": 0.3554907441139221
+                }
+            ],
+            "unmasked_source_words": [
+                6,
+                41,
+                44,
+                46,
+                50
+            ]
+        }
+    ]
+}

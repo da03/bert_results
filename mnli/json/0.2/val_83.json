@@ -1,0 +1,121 @@
+{
+    "true_target_label": 2.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "it",
+        "'",
+        "s",
+        "actually",
+        "there",
+        "well",
+        "Iraq",
+        "has",
+        "had",
+        "uh",
+        "designs",
+        "on",
+        "that",
+        "place",
+        "since",
+        "nineteen",
+        "twenty",
+        "two",
+        "so",
+        "you",
+        "know",
+        "it",
+        "wasn",
+        "'",
+        "t",
+        "like",
+        "something",
+        "that",
+        "just",
+        "suddenly",
+        "popped",
+        "up",
+        "[SEP]",
+        "The",
+        "weird",
+        "thing",
+        "is",
+        "that",
+        "Iraq",
+        "was",
+        "never",
+        "interested",
+        "in",
+        "that",
+        "place",
+        "until",
+        "now",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            31,
+            46
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "popped",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5597071051597595,
+                        0.02761695720255375
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.5801065564155579,
+                        0.031122425571084023
+                    ],
+                    "kl": 0.0012871064245700836
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 46,
+                    "from": "source",
+                    "added_token_text": "until",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5372278094291687,
+                        0.02080489695072174
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.5801065564155579,
+                        0.031122425571084023
+                    ],
+                    "kl": 0.007222432643175125
+                }
+            ],
+            "unmasked_source_words": [
+                31,
+                46
+            ]
+        }
+    ]
+}

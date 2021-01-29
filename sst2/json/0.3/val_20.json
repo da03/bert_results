@@ -1,0 +1,88 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "pump",
+        "##kin",
+        "takes",
+        "an",
+        "ad",
+        "##mir",
+        "##able",
+        "look",
+        "at",
+        "the",
+        "h",
+        "##y",
+        "##po",
+        "##c",
+        "##ris",
+        "##y",
+        "of",
+        "political",
+        "correct",
+        "##ness",
+        ",",
+        "but",
+        "it",
+        "does",
+        "so",
+        "with",
+        "such",
+        "an",
+        "uneven",
+        "tone",
+        "that",
+        "you",
+        "never",
+        "know",
+        "when",
+        "humor",
+        "ends",
+        "and",
+        "tragedy",
+        "begins",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            29
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "uneven",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.98540198802948,
+                        0.014597962610423565
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9773153066635132,
+                        0.022684680297970772
+                    ],
+                    "kl": 0.0019461717456579208
+                }
+            ],
+            "unmasked_source_words": [
+                29
+            ]
+        }
+    ]
+}

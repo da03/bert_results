@@ -1,0 +1,140 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "seldom",
+        "used",
+        "force",
+        "unit",
+        "equal",
+        "to",
+        "one",
+        "thousand",
+        "new",
+        "##tons",
+        "?",
+        "[SEP]",
+        "The",
+        "k",
+        "##ilo",
+        "##gram",
+        "-",
+        "force",
+        "leads",
+        "to",
+        "an",
+        "alternate",
+        ",",
+        "but",
+        "rarely",
+        "used",
+        "unit",
+        "of",
+        "mass",
+        ":",
+        "the",
+        "metric",
+        "s",
+        "##lug",
+        "(",
+        "sometimes",
+        "mug",
+        "or",
+        "h",
+        "##yl",
+        ")",
+        "is",
+        "that",
+        "mass",
+        "that",
+        "accelerate",
+        "##s",
+        "at",
+        "1",
+        "m",
+        "\u00b7",
+        "s",
+        "##\u2212",
+        "##2",
+        "when",
+        "subjected",
+        "to",
+        "a",
+        "force",
+        "of",
+        "1",
+        "kg",
+        "##f",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            29
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "used",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.738339364528656,
+                        0.2616606652736664
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9270198345184326,
+                        0.07298017293214798
+                    ],
+                    "kl": 1.0037200450897217
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "used",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9103211164474487,
+                        0.08967892080545425
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9270198345184326,
+                        0.07298017293214798
+                    ],
+                    "kl": 0.0018136044964194298
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                29
+            ]
+        }
+    ]
+}

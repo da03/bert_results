@@ -1,0 +1,134 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Where",
+        "was",
+        "war",
+        "fought",
+        "?",
+        "[SEP]",
+        "The",
+        "war",
+        "was",
+        "fought",
+        "primarily",
+        "along",
+        "the",
+        "frontier",
+        "##s",
+        "between",
+        "New",
+        "France",
+        "and",
+        "the",
+        "British",
+        "colonies",
+        ",",
+        "from",
+        "Virginia",
+        "in",
+        "the",
+        "South",
+        "to",
+        "Nova",
+        "Scotia",
+        "in",
+        "the",
+        "North",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            5,
+            9
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "was",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8173511624336243,
+                        0.18264886736869812
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986904263496399,
+                        0.0013096268521621823
+                    ],
+                    "kl": 0.19364705681800842
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "?",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6119100451469421,
+                        0.38808995485305786
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986904263496399,
+                        0.0013096268521621823
+                    ],
+                    "kl": 0.9359199404716492
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "was",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9839128851890564,
+                        0.016087161377072334
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9986904263496399,
+                        0.0013096268521621823
+                    ],
+                    "kl": 0.011603167280554771
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                5,
+                9
+            ]
+        }
+    ]
+}

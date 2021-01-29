@@ -1,0 +1,89 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "This",
+        "morning",
+        ",",
+        "Joey",
+        "built",
+        "a",
+        "sand",
+        "castle",
+        "on",
+        "the",
+        "beach",
+        ",",
+        "and",
+        "put",
+        "a",
+        "toy",
+        "flag",
+        "in",
+        "the",
+        "highest",
+        "tower",
+        ",",
+        "but",
+        "this",
+        "afternoon",
+        "the",
+        "wind",
+        "knocked",
+        "it",
+        "down",
+        ".",
+        "[SEP]",
+        "This",
+        "afternoon",
+        "the",
+        "wind",
+        "knocked",
+        "The",
+        "sand",
+        "castle",
+        "down",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            40
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": "castle",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.532694399356842,
+                        0.46730563044548035
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5176662802696228,
+                        0.4823337495326996
+                    ],
+                    "kl": 0.00045318063348531723
+                }
+            ],
+            "unmasked_source_words": [
+                40
+            ]
+        }
+    ]
+}

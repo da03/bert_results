@@ -1,0 +1,314 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "Ce",
+        "##lts",
+        "arrived",
+        "in",
+        "the",
+        "wake",
+        "of",
+        "the",
+        "Roman",
+        "withdrawal",
+        "at",
+        "the",
+        "end",
+        "of",
+        "the",
+        "fourth",
+        "century",
+        ".",
+        "[SEP]",
+        "At",
+        "the",
+        "end",
+        "of",
+        "the",
+        "fourth",
+        "century",
+        "was",
+        "when",
+        "baked",
+        "goods",
+        "flourished",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            5,
+            6,
+            12,
+            15,
+            19,
+            20,
+            27,
+            30,
+            34
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "2",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "arrived",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.12030886858701706,
+                        0.008546948432922363
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.005168864503502846
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.1360083520412445,
+                        0.012580194510519505
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.008810890838503838
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.12880849838256836,
+                        0.010093223303556442
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.006254355888813734
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "at",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.1306189000606537,
+                        0.0044616954401135445
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.0016338546993210912
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "of",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.13620632886886597,
+                        0.004691333509981632
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.002044467255473137
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.1309155374765396,
+                        0.011033753864467144
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.007135897409170866
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.13687917590141296,
+                        0.0048558516427874565
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.002214645966887474
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 27,
+                    "from": "source",
+                    "added_token_text": "century",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.1435478925704956,
+                        0.014441111125051975
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.01134416088461876
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "baked",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.21932852268218994,
+                        0.027645913884043694
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.05307590216398239
+                },
+                {
+                    "num_unmasked": 10,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "2",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.11292830109596252,
+                        0.0037715493235737085
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.12883305549621582,
+                        0.001260894350707531
+                    ],
+                    "kl": 0.002301892265677452
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                5,
+                6,
+                12,
+                15,
+                19,
+                20,
+                27,
+                30,
+                34
+            ]
+        }
+    ]
+}

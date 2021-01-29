@@ -1,0 +1,178 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "I",
+        "live",
+        "at",
+        "the",
+        "place",
+        "where",
+        "Route",
+        "150",
+        "crosses",
+        "the",
+        "River",
+        "and",
+        "my",
+        "dad",
+        "lives",
+        "at",
+        "the",
+        "place",
+        "where",
+        "Route",
+        "150",
+        "crosses",
+        "the",
+        "Hudson",
+        "River",
+        "too",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            20,
+            21,
+            22,
+            23,
+            24
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "Route",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8762680888175964,
+                        0.12373190373182297
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9772714376449585,
+                        0.022728536278009415
+                    ],
+                    "kl": 0.0680994838476181
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "150",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8317878842353821,
+                        0.1682121455669403
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9772714376449585,
+                        0.022728536278009415
+                    ],
+                    "kl": 0.11202989518642426
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "crosses",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9436973929405212,
+                        0.056302640587091446
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9772714376449585,
+                        0.022728536278009415
+                    ],
+                    "kl": 0.013546885922551155
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9568471312522888,
+                        0.04315289109945297
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9772714376449585,
+                        0.022728536278009415
+                    ],
+                    "kl": 0.006068838760256767
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": "Hudson",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9623414278030396,
+                        0.037658534944057465
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9772714376449585,
+                        0.022728536278009415
+                    ],
+                    "kl": 0.0035687489435076714
+                }
+            ],
+            "unmasked_source_words": [
+                20,
+                21,
+                22,
+                23,
+                24
+            ]
+        }
+    ]
+}

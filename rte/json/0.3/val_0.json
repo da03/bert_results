@@ -1,0 +1,185 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Dana",
+        "Reeve",
+        ",",
+        "the",
+        "widow",
+        "of",
+        "the",
+        "actor",
+        "Christopher",
+        "Reeve",
+        ",",
+        "has",
+        "died",
+        "of",
+        "lung",
+        "cancer",
+        "at",
+        "age",
+        "44",
+        ",",
+        "according",
+        "to",
+        "the",
+        "Christopher",
+        "Reeve",
+        "Foundation",
+        ".",
+        "[SEP]",
+        "Christopher",
+        "Reeve",
+        "had",
+        "an",
+        "accident",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            10,
+            23,
+            25,
+            28
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "Reeve",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6014411449432373,
+                        0.3985588550567627
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.62331223487854,
+                        0.37668782472610474
+                    ],
+                    "kl": 0.0010042712092399597
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "Reeve",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6370938420295715,
+                        0.3629061281681061
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.62331223487854,
+                        0.37668782472610474
+                    ],
+                    "kl": 0.0004085050895810127
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6323447227478027,
+                        0.36765530705451965
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.62331223487854,
+                        0.37668782472610474
+                    ],
+                    "kl": 0.00017481576651334763
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 25,
+                    "from": "source",
+                    "added_token_text": "Reeve",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6410084962844849,
+                        0.35899147391319275
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.62331223487854,
+                        0.37668782472610474
+                    ],
+                    "kl": 0.0006756354123353958
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6313389539718628,
+                        0.3686610162258148
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.62331223487854,
+                        0.37668782472610474
+                    ],
+                    "kl": 0.0001379726454615593
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                10,
+                23,
+                25,
+                28
+            ]
+        }
+    ]
+}

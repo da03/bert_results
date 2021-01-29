@@ -1,0 +1,169 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "U",
+        ".",
+        "S",
+        ".",
+        "forces",
+        "have",
+        "been",
+        "engaged",
+        "in",
+        "intense",
+        "fighting",
+        "after",
+        "insurgents",
+        "launched",
+        "simultaneous",
+        "attacks",
+        "in",
+        "several",
+        "Iraqi",
+        "cities",
+        ",",
+        "including",
+        "Fall",
+        "##u",
+        "##jah",
+        "and",
+        "Ba",
+        "##q",
+        "##uba",
+        "##h",
+        ".",
+        "[SEP]",
+        "Fall",
+        "##u",
+        "##jah",
+        "and",
+        "Ba",
+        "##q",
+        "##uba",
+        "##h",
+        "are",
+        "Iraqi",
+        "cities",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            32,
+            36,
+            42,
+            43
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6167252063751221,
+                        0.38327479362487793
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9129292964935303,
+                        0.08707070350646973
+                    ],
+                    "kl": 0.229041188955307
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "and",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.515573263168335,
+                        0.4844267666339874
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9129292964935303,
+                        0.08707070350646973
+                    ],
+                    "kl": 0.42365580797195435
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 42,
+                    "from": "source",
+                    "added_token_text": "Iraqi",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6460914015769958,
+                        0.35390862822532654
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9129292964935303,
+                        0.08707070350646973
+                    ],
+                    "kl": 0.19351479411125183
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 43,
+                    "from": "source",
+                    "added_token_text": "cities",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6677579283714294,
+                        0.33224207162857056
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9129292964935303,
+                        0.08707070350646973
+                    ],
+                    "kl": 0.16890272498130798
+                }
+            ],
+            "unmasked_source_words": [
+                32,
+                36,
+                42,
+                43
+            ]
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "has",
+        "a",
+        "Lama",
+        "determined",
+        "to",
+        "do",
+        "?",
+        "[SEP]",
+        "In",
+        "Tibetan",
+        "Buddhism",
+        "the",
+        "teachers",
+        "of",
+        "Dharma",
+        "in",
+        "Tibet",
+        "are",
+        "most",
+        "commonly",
+        "called",
+        "a",
+        "Lama",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10,
+            11,
+            14,
+            18,
+            22
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "In",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9774110913276672,
+                        0.022588947787880898
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989228844642639,
+                        0.0010770458029583097
+                    ],
+                    "kl": 0.018469203263521194
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "Tibetan",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9819697141647339,
+                        0.018030328676104546
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989228844642639,
+                        0.0010770458029583097
+                    ],
+                    "kl": 0.014063890092074871
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "teachers",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9865887761116028,
+                        0.013411196880042553
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989228844642639,
+                        0.0010770458029583097
+                    ],
+                    "kl": 0.00969468243420124
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "Tibet",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9712845683097839,
+                        0.028715476393699646
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989228844642639,
+                        0.0010770458029583097
+                    ],
+                    "kl": 0.024491779506206512
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "called",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9332073330879211,
+                        0.06679267436265945
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989228844642639,
+                        0.0010770458029583097
+                    ],
+                    "kl": 0.06353160738945007
+                }
+            ],
+            "unmasked_source_words": [
+                10,
+                11,
+                14,
+                18,
+                22
+            ]
+        }
+    ]
+}

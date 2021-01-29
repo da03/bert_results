@@ -1,0 +1,175 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "In",
+        "the",
+        "stock",
+        "market",
+        ",",
+        "however",
+        ",",
+        "the",
+        "damage",
+        "can",
+        "get",
+        "much",
+        "worse",
+        ".",
+        "[SEP]",
+        "The",
+        "stock",
+        "market",
+        "can",
+        "experience",
+        "much",
+        "worse",
+        "damage",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            4,
+            7,
+            18,
+            24
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "stock",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7840611934661865,
+                        0.15239356458187103
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993541955947876,
+                        0.004627065733075142
+                    ],
+                    "kl": 0.21259653568267822
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "market",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.3811104893684387,
+                        0.3011685907840729
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993541955947876,
+                        0.004627065733075142
+                    ],
+                    "kl": 0.9232367277145386
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": ",",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.3108631670475006,
+                        0.3002186119556427
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993541955947876,
+                        0.004627065733075142
+                    ],
+                    "kl": 1.1597577333450317
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "market",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6321163177490234,
+                        0.22486896812915802
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993541955947876,
+                        0.004627065733075142
+                    ],
+                    "kl": 0.4233335852622986
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8260592818260193,
+                        0.11177327483892441
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.993541955947876,
+                        0.004627065733075142
+                    ],
+                    "kl": 0.1622285693883896
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                4,
+                7,
+                18,
+                24
+            ]
+        }
+    ]
+}

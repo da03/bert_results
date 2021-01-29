@@ -1,0 +1,59 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Rusty",
+        "talked",
+        "about",
+        "himself",
+        "only",
+        "after",
+        "Mary",
+        "did",
+        "talk",
+        "about",
+        "him",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "Mary",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5501915812492371,
+                        0.44980841875076294
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.5022827982902527,
+                        0.4977172315120697
+                    ],
+                    "kl": 0.005534224212169647
+                }
+            ],
+            "unmasked_source_words": [
+                7
+            ]
+        }
+    ]
+}

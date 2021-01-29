@@ -1,0 +1,193 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "first",
+        "major",
+        "city",
+        "in",
+        "the",
+        "stream",
+        "of",
+        "the",
+        "Rhine",
+        "?",
+        "[SEP]",
+        "The",
+        "most",
+        "important",
+        "tributaries",
+        "in",
+        "this",
+        "area",
+        "are",
+        "the",
+        "Il",
+        "##l",
+        "below",
+        "of",
+        "Strasbourg",
+        ",",
+        "the",
+        "Neck",
+        "##ar",
+        "in",
+        "Mann",
+        "##heim",
+        "and",
+        "the",
+        "Main",
+        "across",
+        "from",
+        "Mainz",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            18,
+            26,
+            34,
+            41
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "first",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9579534530639648,
+                        0.042046573013067245
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9933038353919983,
+                        0.006696190219372511
+                    ],
+                    "kl": 0.023692328482866287
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "tributaries",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.917638897895813,
+                        0.08236105740070343
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9933038353919983,
+                        0.006696190219372511
+                    ],
+                    "kl": 0.061897553503513336
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "below",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9769015908241272,
+                        0.023098407313227654
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9933038353919983,
+                        0.006696190219372511
+                    ],
+                    "kl": 0.008247790858149529
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "Mann",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9910656809806824,
+                        0.00893436186015606
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9933038353919983,
+                        0.006696190219372511
+                    ],
+                    "kl": 0.0003098580054938793
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 41,
+                    "from": "source",
+                    "added_token_text": "Mainz",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.98555588722229,
+                        0.014444165863096714
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9933038353919983,
+                        0.006696190219372511
+                    ],
+                    "kl": 0.002630714327096939
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                18,
+                26,
+                34,
+                41
+            ]
+        }
+    ]
+}

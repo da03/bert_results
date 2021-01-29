@@ -1,0 +1,99 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "But",
+        "when",
+        "the",
+        "cushion",
+        "is",
+        "spent",
+        "in",
+        "a",
+        "year",
+        "or",
+        "two",
+        ",",
+        "or",
+        "when",
+        "the",
+        "next",
+        "recession",
+        "arrives",
+        ",",
+        "the",
+        "di",
+        "##sin",
+        "##ter",
+        "##media",
+        "##ting",
+        "voters",
+        "will",
+        "find",
+        "themselves",
+        "playing",
+        "the",
+        "roles",
+        "of",
+        "budget",
+        "analysts",
+        "and",
+        "tax",
+        "won",
+        "##ks",
+        ".",
+        "[SEP]",
+        "The",
+        "cushion",
+        "will",
+        "likely",
+        "be",
+        "spent",
+        "in",
+        "under",
+        "two",
+        "years",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            44
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "will",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.47198063135147095,
+                        0.09556102752685547
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.5174005627632141,
+                        0.09552714973688126
+                    ],
+                    "kl": 0.004588250070810318
+                }
+            ],
+            "unmasked_source_words": [
+                44
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Fred",
+        "talked",
+        "about",
+        "everything",
+        "before",
+        "Rusty",
+        "did",
+        "talk",
+        "about",
+        "something",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "something",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9130716323852539,
+                        0.08692841231822968
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8862359523773193,
+                        0.11376399546861649
+                    ],
+                    "kl": 0.0041698310524225235
+                }
+            ],
+            "unmasked_source_words": [
+                10
+            ]
+        }
+    ]
+}

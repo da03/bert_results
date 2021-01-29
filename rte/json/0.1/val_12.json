@@ -1,0 +1,114 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "In",
+        "Nigeria",
+        ",",
+        "by",
+        "far",
+        "the",
+        "most",
+        "populous",
+        "country",
+        "in",
+        "sub",
+        "-",
+        "Saharan",
+        "Africa",
+        ",",
+        "over",
+        "2",
+        ".",
+        "7",
+        "million",
+        "people",
+        "are",
+        "infected",
+        "with",
+        "HIV",
+        ".",
+        "[SEP]",
+        "2",
+        ".",
+        "7",
+        "percent",
+        "of",
+        "the",
+        "people",
+        "infected",
+        "with",
+        "HIV",
+        "live",
+        "in",
+        "Africa",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            39,
+            40
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5738873481750488,
+                        0.42611268162727356
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5665783286094666,
+                        0.43342164158821106
+                    ],
+                    "kl": 0.00010904856026172638
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": "Africa",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5189579725265503,
+                        0.4810420572757721
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5665783286094666,
+                        0.43342164158821106
+                    ],
+                    "kl": 0.004559852182865143
+                }
+            ],
+            "unmasked_source_words": [
+                39,
+                40
+            ]
+        }
+    ]
+}

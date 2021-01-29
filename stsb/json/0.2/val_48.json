@@ -1,0 +1,147 @@
+{
+    "true_target_label": 4.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "man",
+        "is",
+        "drilling",
+        "a",
+        "hole",
+        "in",
+        "a",
+        "board",
+        ".",
+        "[SEP]",
+        "Someone",
+        "is",
+        "drilling",
+        "a",
+        "hole",
+        "in",
+        "a",
+        "piece",
+        "of",
+        "wood",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            11,
+            14,
+            16
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "drilling",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.7754242420196533,
+                        2.7754242420196533
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6853859424591064,
+                        3.6853859424591064
+                    ],
+                    "kl": 0.8280302882194519
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.024078845977783,
+                        3.024078845977783
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6853859424591064,
+                        3.6853859424591064
+                    ],
+                    "kl": 0.4373270869255066
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "drilling",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.0185797214508057,
+                        1.0185797214508057
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6853859424591064,
+                        3.6853859424591064
+                    ],
+                    "kl": 7.111855506896973
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "hole",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.2409586906433105,
+                        3.2409586906433105
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.6853859424591064,
+                        3.6853859424591064
+                    ],
+                    "kl": 0.1975155770778656
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                11,
+                14,
+                16
+            ]
+        }
+    ]
+}

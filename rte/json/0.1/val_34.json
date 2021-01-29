@@ -1,0 +1,166 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "Long",
+        "##est",
+        "Day",
+        "ever",
+        "length",
+        "##ens",
+        ".",
+        "The",
+        "25th",
+        "anniversary",
+        "celebration",
+        "of",
+        "the",
+        "first",
+        "Normandy",
+        "landing",
+        "lasted",
+        "three",
+        "days",
+        ";",
+        "the",
+        "50th",
+        "will",
+        "spread",
+        "out",
+        "over",
+        "a",
+        "year",
+        ".",
+        "[SEP]",
+        "50th",
+        "Anniversary",
+        "of",
+        "Normandy",
+        "Landing",
+        "##s",
+        "lasts",
+        "a",
+        "year",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            32,
+            35,
+            40
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6805639266967773,
+                        0.31943607330322266
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8417468070983887,
+                        0.15825314819812775
+                    ],
+                    "kl": 0.06776874512434006
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "50th",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5879852771759033,
+                        0.41201478242874146
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8417468070983887,
+                        0.15825314819812775
+                    ],
+                    "kl": 0.15057311952114105
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "Normandy",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6221973299980164,
+                        0.37780267000198364
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8417468070983887,
+                        0.15825314819812775
+                    ],
+                    "kl": 0.11668626964092255
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": "year",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6642326712608337,
+                        0.3357672691345215
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8417468070983887,
+                        0.15825314819812775
+                    ],
+                    "kl": 0.08032340556383133
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                32,
+                35,
+                40
+            ]
+        }
+    ]
+}

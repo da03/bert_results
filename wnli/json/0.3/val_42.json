@@ -1,0 +1,127 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "John",
+        "was",
+        "doing",
+        "research",
+        "in",
+        "the",
+        "library",
+        "when",
+        "he",
+        "heard",
+        "a",
+        "man",
+        "humming",
+        "and",
+        "w",
+        "##histling",
+        ".",
+        "He",
+        "was",
+        "very",
+        "annoying",
+        ".",
+        "[SEP]",
+        "John",
+        "was",
+        "very",
+        "annoying",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10,
+            12,
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "heard",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5376321077346802,
+                        0.4623678922653198
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5152021050453186,
+                        0.484797865152359
+                    ],
+                    "kl": 0.0010100025683641434
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "man",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5238816738128662,
+                        0.4761182963848114
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5152021050453186,
+                        0.484797865152359
+                    ],
+                    "kl": 0.00015094038099050522
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "humming",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5298379063606262,
+                        0.4701620936393738
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5152021050453186,
+                        0.484797865152359
+                    ],
+                    "kl": 0.00042943283915519714
+                }
+            ],
+            "unmasked_source_words": [
+                10,
+                12,
+                13
+            ]
+        }
+    ]
+}

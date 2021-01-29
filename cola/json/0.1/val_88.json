@@ -1,0 +1,64 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Wind",
+        "was",
+        "gotten",
+        "of",
+        "a",
+        "plot",
+        "to",
+        "negotiate",
+        "an",
+        "honorable",
+        "end",
+        "to",
+        "the",
+        "war",
+        "in",
+        "Vietnam",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "gotten",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.745598554611206,
+                        0.25440141558647156
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9712592959403992,
+                        0.02874072641134262
+                    ],
+                    "kl": 0.19413486123085022
+                }
+            ],
+            "unmasked_source_words": [
+                3
+            ]
+        }
+    ]
+}

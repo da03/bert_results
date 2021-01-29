@@ -1,0 +1,112 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Which",
+        "boy",
+        "'",
+        "s",
+        "did",
+        "we",
+        "elect",
+        "guardian",
+        "'",
+        "s",
+        "employer",
+        "president",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            6,
+            8
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "s",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6738755702972412,
+                        0.3261243999004364
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9642728567123413,
+                        0.03572707623243332
+                    ],
+                    "kl": 0.2665208876132965
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "we",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8785433769226074,
+                        0.12145666778087616
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9642728567123413,
+                        0.03572707623243332
+                    ],
+                    "kl": 0.04606509581208229
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "guardian",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8592458963394165,
+                        0.14075414836406708
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9642728567123413,
+                        0.03572707623243332
+                    ],
+                    "kl": 0.06221350282430649
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                6,
+                8
+            ]
+        }
+    ]
+}

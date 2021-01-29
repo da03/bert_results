@@ -1,0 +1,118 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "\"",
+        "Jeremy",
+        "'",
+        "s",
+        "a",
+        "good",
+        "guy",
+        ",",
+        "\"",
+        "Barber",
+        "said",
+        ",",
+        "adding",
+        ":",
+        "\"",
+        "Jeremy",
+        "is",
+        "living",
+        "the",
+        "dream",
+        "life",
+        "of",
+        "the",
+        "New",
+        "York",
+        "athlete",
+        ".",
+        "[SEP]",
+        "He",
+        "also",
+        "said",
+        "Shock",
+        "##ey",
+        "is",
+        "\"",
+        "living",
+        "the",
+        "dream",
+        "life",
+        "of",
+        "a",
+        "New",
+        "York",
+        "athlete",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            18,
+            44
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "living",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8743192553520203,
+                        0.12568072974681854
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6580238342285156,
+                        0.34197619557380676
+                    ],
+                    "kl": 0.1553034484386444
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 44,
+                    "from": "source",
+                    "added_token_text": "athlete",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6656759977340698,
+                        0.3343240022659302
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.6580238342285156,
+                        0.34197619557380676
+                    ],
+                    "kl": 0.00013101054355502129
+                }
+            ],
+            "unmasked_source_words": [
+                18,
+                44
+            ]
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "university",
+        "donated",
+        "the",
+        "land",
+        "for",
+        "the",
+        "Mann",
+        "##ed",
+        "Space",
+        "##craft",
+        "Center",
+        "?",
+        "[SEP]",
+        "A",
+        "site",
+        "was",
+        "chosen",
+        "in",
+        "Houston",
+        ",",
+        "Texas",
+        ",",
+        "on",
+        "land",
+        "donated",
+        "by",
+        "Rice",
+        "University",
+        ",",
+        "and",
+        "Administrator",
+        "Webb",
+        "announced",
+        "the",
+        "conversion",
+        "on",
+        "September",
+        "19",
+        ",",
+        "1961",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            9,
+            26,
+            40
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "donated",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5802879929542542,
+                        0.41971200704574585
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9985066056251526,
+                        0.0014934124192222953
+                    ],
+                    "kl": 0.8564935922622681
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "##ed",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6927290558815002,
+                        0.30727094411849976
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9985066056251526,
+                        0.0014934124192222953
+                    ],
+                    "kl": 1.1676021814346313
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "donated",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9168878793716431,
+                        0.08311216533184052
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9985066056251526,
+                        0.0014934124192222953
+                    ],
+                    "kl": 0.07914609462022781
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": ",",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9619665741920471,
+                        0.038033414632081985
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9985066056251526,
+                        0.0014934124192222953
+                    ],
+                    "kl": 0.03239070996642113
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                9,
+                26,
+                40
+            ]
+        }
+    ]
+}

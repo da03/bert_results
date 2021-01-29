@@ -1,0 +1,145 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "job",
+        "gains",
+        "mean",
+        "that",
+        "President",
+        "Bush",
+        "can",
+        "celebrate",
+        "-",
+        "albeit",
+        "by",
+        "a",
+        "very",
+        "fine",
+        "margin",
+        "-",
+        "a",
+        "net",
+        "growth",
+        "in",
+        "jobs",
+        "in",
+        "the",
+        "US",
+        "economy",
+        "in",
+        "his",
+        "first",
+        "term",
+        "in",
+        "office",
+        ".",
+        "[SEP]",
+        "More",
+        "jobs",
+        "were",
+        "created",
+        "during",
+        "President",
+        "Bush",
+        "'",
+        "s",
+        "first",
+        "term",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            9,
+            40
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "job",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7598553895950317,
+                        0.24014462530612946
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8309053182601929,
+                        0.16909468173980713
+                    ],
+                    "kl": 0.014957264065742493
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "celebrate",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6865761876106262,
+                        0.3134237825870514
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8309053182601929,
+                        0.16909468173980713
+                    ],
+                    "kl": 0.05418766289949417
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 40,
+                    "from": "source",
+                    "added_token_text": "President",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.805055558681488,
+                        0.19494450092315674
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8309053182601929,
+                        0.16909468173980713
+                    ],
+                    "kl": 0.002205662429332733
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                9,
+                40
+            ]
+        }
+    ]
+}

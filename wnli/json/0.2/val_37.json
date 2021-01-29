@@ -1,0 +1,96 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Always",
+        "before",
+        ",",
+        "Larry",
+        "had",
+        "helped",
+        "Dad",
+        "with",
+        "his",
+        "work",
+        ".",
+        "But",
+        "he",
+        "could",
+        "not",
+        "help",
+        "him",
+        "now",
+        ",",
+        "for",
+        "Dad",
+        "said",
+        "that",
+        "his",
+        "boss",
+        "at",
+        "the",
+        "railroad",
+        "company",
+        "would",
+        "not",
+        "want",
+        "anyone",
+        "but",
+        "him",
+        "to",
+        "work",
+        "in",
+        "the",
+        "office",
+        ".",
+        "[SEP]",
+        "He",
+        "could",
+        "not",
+        "help",
+        "Larry",
+        "now",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            48
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "now",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5330331921577454,
+                        0.466966837644577
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5190596580505371,
+                        0.4809403717517853
+                    ],
+                    "kl": 0.0003918129950761795
+                }
+            ],
+            "unmasked_source_words": [
+                48
+            ]
+        }
+    ]
+}

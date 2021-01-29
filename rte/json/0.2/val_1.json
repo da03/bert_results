@@ -1,0 +1,333 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Yet",
+        ",",
+        "we",
+        "now",
+        "are",
+        "discovering",
+        "that",
+        "anti",
+        "##biotics",
+        "are",
+        "losing",
+        "their",
+        "effectiveness",
+        "against",
+        "illness",
+        ".",
+        "Disease",
+        "-",
+        "causing",
+        "bacteria",
+        "are",
+        "m",
+        "##uta",
+        "##ting",
+        "faster",
+        "than",
+        "we",
+        "can",
+        "come",
+        "up",
+        "with",
+        "new",
+        "anti",
+        "##biotics",
+        "to",
+        "fight",
+        "the",
+        "new",
+        "variations",
+        ".",
+        "[SEP]",
+        "Ba",
+        "##cter",
+        "##ia",
+        "is",
+        "winning",
+        "the",
+        "war",
+        "against",
+        "anti",
+        "##biotics",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            8,
+            15,
+            20,
+            33,
+            46,
+            47,
+            50,
+            51,
+            53
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "Yet",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8355482816696167,
+                        0.1644517183303833
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.005273696035146713
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "anti",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8085050582885742,
+                        0.1914948970079422
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.014547288417816162
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "illness",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6321367025375366,
+                        0.36786335706710815
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.14591027796268463
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "bacteria",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7921757698059082,
+                        0.20782425999641418
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.02190409228205681
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "anti",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8341740965843201,
+                        0.16582591831684113
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.005647633224725723
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 46,
+                    "from": "source",
+                    "added_token_text": "winning",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8297683000564575,
+                        0.17023169994354248
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.006921134889125824
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 47,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8242946267127991,
+                        0.17570537328720093
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.00865618884563446
+                },
+                {
+                    "num_unmasked": 8,
+                    "added_token": 50,
+                    "from": "source",
+                    "added_token_text": "anti",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8163080811500549,
+                        0.18369193375110626
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.011477142572402954
+                },
+                {
+                    "num_unmasked": 9,
+                    "added_token": 51,
+                    "from": "source",
+                    "added_token_text": "##biotics",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7291816473007202,
+                        0.2708183228969574
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.06040298938751221
+                },
+                {
+                    "num_unmasked": 10,
+                    "added_token": 53,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8439316749572754,
+                        0.15606838464736938
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.872383713722229,
+                        0.127616286277771
+                    ],
+                    "kl": 0.0032415445894002914
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                8,
+                15,
+                20,
+                33,
+                46,
+                47,
+                50,
+                51,
+                53
+            ]
+        }
+    ]
+}

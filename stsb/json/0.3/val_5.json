@@ -1,0 +1,167 @@
+{
+    "true_target_label": 2.615000009536743,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "cutting",
+        "an",
+        "on",
+        "##ion",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "cutting",
+        "on",
+        "##ions",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            4,
+            6,
+            7,
+            14,
+            15
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 4,
+                    "from": "source",
+                    "added_token_text": "cutting",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.280405282974243,
+                        3.280405282974243
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.3321125507354736,
+                        3.3321125507354736
+                    ],
+                    "kl": 0.0026736415456980467
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "on",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.3640542030334473,
+                        2.3640542030334473
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.3321125507354736,
+                        3.3321125507354736
+                    ],
+                    "kl": 0.9371369481086731
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "##ion",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.9421238899230957,
+                        1.9421238899230957
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.3321125507354736,
+                        3.3321125507354736
+                    ],
+                    "kl": 1.9320684671401978
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "on",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        3.1288769245147705,
+                        3.1288769245147705
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.3321125507354736,
+                        3.3321125507354736
+                    ],
+                    "kl": 0.04130471870303154
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "##ions",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.6006827354431152,
+                        1.6006827354431152
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.3321125507354736,
+                        3.3321125507354736
+                    ],
+                    "kl": 2.997849225997925
+                }
+            ],
+            "unmasked_source_words": [
+                4,
+                6,
+                7,
+                14,
+                15
+            ]
+        }
+    ]
+}

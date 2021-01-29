@@ -1,0 +1,92 @@
+{
+    "true_target_label": 0.6000000238418579,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "riding",
+        "a",
+        "horse",
+        "along",
+        "a",
+        "perimeter",
+        ".",
+        "[SEP]",
+        "A",
+        "dog",
+        "is",
+        "riding",
+        "a",
+        "skate",
+        "##board",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            6,
+            17
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "horse",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.09130711108446121,
+                        0.09130711108446121
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.20021717250347137,
+                        0.20021717250347137
+                    ],
+                    "kl": 0.011861401610076427
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 17,
+                    "from": "source",
+                    "added_token_text": "skate",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.3817647695541382,
+                        0.3817647695541382
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.20021717250347137,
+                        0.20021717250347137
+                    ],
+                    "kl": 0.032959528267383575
+                }
+            ],
+            "unmasked_source_words": [
+                6,
+                17
+            ]
+        }
+    ]
+}

@@ -1,0 +1,255 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Teenage",
+        "sensation",
+        "Wayne",
+        "Rooney",
+        "powered",
+        "England",
+        "into",
+        "the",
+        "quarter",
+        "-",
+        "finals",
+        "of",
+        "Euro",
+        "2004",
+        "with",
+        "two",
+        "goals",
+        "in",
+        "Monday",
+        "'",
+        "s",
+        "4",
+        "-",
+        "2",
+        "defeat",
+        "of",
+        "Croatia",
+        "and",
+        "they",
+        "were",
+        "joined",
+        "in",
+        "the",
+        "last",
+        "eight",
+        "by",
+        "champions",
+        "France",
+        "who",
+        "beat",
+        "Switzerland",
+        "3",
+        "-",
+        "1",
+        ".",
+        "[SEP]",
+        "France",
+        "participates",
+        "in",
+        "Euro",
+        "2004",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9,
+            10,
+            20,
+            30,
+            47,
+            48,
+            51
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "quarter",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5407294034957886,
+                        0.45927053689956665
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.0005831941962242126
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "-",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5431513786315918,
+                        0.4568486511707306
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.00042907800525426865
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "'",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5491865873336792,
+                        0.4508134126663208
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.0001476602628827095
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "were",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5681091547012329,
+                        0.4318908154964447
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.00021908991038799286
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 47,
+                    "from": "source",
+                    "added_token_text": "France",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5486593246459961,
+                        0.4513406455516815
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.0001664320006966591
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "participates",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5752672553062439,
+                        0.4247327148914337
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.0006272420287132263
+                },
+                {
+                    "num_unmasked": 7,
+                    "added_token": 51,
+                    "from": "source",
+                    "added_token_text": "2004",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5690284967422485,
+                        0.43097153306007385
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5577308535575867,
+                        0.4422691762447357
+                    ],
+                    "kl": 0.00025966111570596695
+                }
+            ],
+            "unmasked_source_words": [
+                9,
+                10,
+                20,
+                30,
+                47,
+                48,
+                51
+            ]
+        }
+    ]
+}

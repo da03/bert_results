@@ -1,0 +1,113 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "reports",
+        "helped",
+        "overcome",
+        "investor",
+        "ji",
+        "##tters",
+        "after",
+        "the",
+        "euro",
+        "briefly",
+        "hit",
+        "an",
+        "all",
+        "-",
+        "time",
+        "high",
+        "against",
+        "the",
+        "dollar",
+        "Tuesday",
+        ".",
+        "[SEP]",
+        "Stock",
+        "##s",
+        "slipped",
+        "at",
+        "the",
+        "open",
+        "after",
+        "the",
+        "euro",
+        "hit",
+        "record",
+        "high",
+        "##s",
+        "against",
+        "the",
+        "dollar",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            34,
+            37
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "record",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9703812003135681,
+                        0.02961878292262554
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9863697290420532,
+                        0.013630320318043232
+                    ],
+                    "kl": 0.005540880374610424
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 37,
+                    "from": "source",
+                    "added_token_text": "against",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9887261986732483,
+                        0.011273879557847977
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9863697290420532,
+                        0.013630320318043232
+                    ],
+                    "kl": 0.00023357942700386047
+                }
+            ],
+            "unmasked_source_words": [
+                34,
+                37
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "the",
+        "script",
+        "kicks",
+        "in",
+        ",",
+        "and",
+        "m",
+        "##r",
+        ".",
+        "ha",
+        "##rt",
+        "##ley",
+        "'",
+        "s",
+        "di",
+        "##sten",
+        "##ded",
+        "pace",
+        "and",
+        "foot",
+        "-",
+        "dragging",
+        "rhythms",
+        "follow",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            22
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 22,
+                    "from": "source",
+                    "added_token_text": "dragging",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9127793312072754,
+                        0.08722064644098282
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9194676876068115,
+                        0.08053231984376907
+                    ],
+                    "kl": 0.0002877204678952694
+                }
+            ],
+            "unmasked_source_words": [
+                22
+            ]
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "this",
+        "r",
+        "##ive",
+        "##ting",
+        "world",
+        "war",
+        "ii",
+        "moral",
+        "su",
+        "##spense",
+        "story",
+        "deals",
+        "with",
+        "the",
+        "shadow",
+        "side",
+        "of",
+        "am",
+        "##eric",
+        "##an",
+        "culture",
+        ":",
+        "racial",
+        "prejudice",
+        "in",
+        "its",
+        "ugly",
+        "and",
+        "diverse",
+        "forms",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10,
+            28,
+            29
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "##spense",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9705523252487183,
+                        0.02944762073457241
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9965423941612244,
+                        0.003457627259194851
+                    ],
+                    "kl": 0.01892871968448162
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "and",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9489374756813049,
+                        0.05106256157159805
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9965423941612244,
+                        0.003457627259194851
+                    ],
+                    "kl": 0.03947008401155472
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "diverse",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6138278841972351,
+                        0.3861721158027649
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9965423941612244,
+                        0.003457627259194851
+                    ],
+                    "kl": 0.4665966033935547
+                }
+            ],
+            "unmasked_source_words": [
+                10,
+                28,
+                29
+            ]
+        }
+    ]
+}

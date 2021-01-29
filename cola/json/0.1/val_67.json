@@ -1,0 +1,57 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Mary",
+        "has",
+        "always",
+        "preferred",
+        "lemon",
+        "##s",
+        "to",
+        "lime",
+        "##s",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "Mary",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.831946849822998,
+                        0.16805317997932434
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9867879152297974,
+                        0.013212130405008793
+                    ],
+                    "kl": 0.13483110070228577
+                }
+            ],
+            "unmasked_source_words": [
+                1
+            ]
+        }
+    ]
+}

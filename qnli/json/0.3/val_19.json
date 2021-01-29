@@ -1,0 +1,197 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Where",
+        "did",
+        "the",
+        "Exposition",
+        "take",
+        "place",
+        "?",
+        "[SEP]",
+        "This",
+        "World",
+        "'",
+        "s",
+        "Fair",
+        "devoted",
+        "a",
+        "building",
+        "to",
+        "electrical",
+        "exhibits",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10,
+            11,
+            12,
+            13,
+            18,
+            19
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "World",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9297577142715454,
+                        0.07024232298135757
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989761114120483,
+                        0.0010238585527986288
+                    ],
+                    "kl": 0.06740400195121765
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "'",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9758390188217163,
+                        0.02416096068918705
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989761114120483,
+                        0.0010238585527986288
+                    ],
+                    "kl": 0.020172515884041786
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "s",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9950686693191528,
+                        0.004931356757879257
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989761114120483,
+                        0.0010238585527986288
+                    ],
+                    "kl": 0.0023055693600326777
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "Fair",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9841394424438477,
+                        0.01586053892970085
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989761114120483,
+                        0.0010238585527986288
+                    ],
+                    "kl": 0.01214219443500042
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "electrical",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9980302453041077,
+                        0.00196968880482018
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989761114120483,
+                        0.0010238585527986288
+                    ],
+                    "kl": 0.0002763589145615697
+                },
+                {
+                    "num_unmasked": 6,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "exhibits",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8462738990783691,
+                        0.15372610092163086
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9989761114120483,
+                        0.0010238585527986288
+                    ],
+                    "kl": 0.16058669984340668
+                }
+            ],
+            "unmasked_source_words": [
+                10,
+                11,
+                12,
+                13,
+                18,
+                19
+            ]
+        }
+    ]
+}

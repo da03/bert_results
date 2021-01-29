@@ -1,0 +1,71 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "city",
+        "council",
+        "##men",
+        "refused",
+        "the",
+        "demons",
+        "##tra",
+        "##tors",
+        "a",
+        "permit",
+        "because",
+        "they",
+        "advocated",
+        "violence",
+        ".",
+        "[SEP]",
+        "The",
+        "demons",
+        "##tra",
+        "##tors",
+        "advocated",
+        "violence",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            19
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "demons",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5342829823493958,
+                        0.46571701765060425
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5206392407417297,
+                        0.47936075925827026
+                    ],
+                    "kl": 0.00037366151809692383
+                }
+            ],
+            "unmasked_source_words": [
+                19
+            ]
+        }
+    ]
+}

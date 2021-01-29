@@ -1,0 +1,145 @@
+{
+    "true_target_label": 5.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "puts",
+        "flour",
+        "on",
+        "a",
+        "piece",
+        "of",
+        "meat",
+        ".",
+        "[SEP]",
+        "A",
+        "woman",
+        "is",
+        "putting",
+        "flour",
+        "onto",
+        "some",
+        "meat",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7,
+            8,
+            9,
+            19
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "piece",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.6471848487854004,
+                        2.6471848487854004
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.348125457763672,
+                        4.348125457763672
+                    ],
+                    "kl": 2.8931989669799805
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "of",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.6233675479888916,
+                        2.6233675479888916
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.348125457763672,
+                        4.348125457763672
+                    ],
+                    "kl": 2.97478985786438
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "meat",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8311406373977661,
+                        0.8311406373977661
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.348125457763672,
+                        4.348125457763672
+                    ],
+                    "kl": 12.369183540344238
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "meat",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.0247042179107666,
+                        2.0247042179107666
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        4.348125457763672,
+                        4.348125457763672
+                    ],
+                    "kl": 5.39828634262085
+                }
+            ],
+            "unmasked_source_words": [
+                7,
+                8,
+                9,
+                19
+            ]
+        }
+    ]
+}

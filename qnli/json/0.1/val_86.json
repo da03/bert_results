@@ -1,0 +1,131 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "estimate",
+        "of",
+        "how",
+        "many",
+        "physicians",
+        "give",
+        "out",
+        "drugs",
+        "on",
+        "their",
+        "own",
+        "?",
+        "[SEP]",
+        "7",
+        "to",
+        "10",
+        "percent",
+        "of",
+        "American",
+        "physicians",
+        "practices",
+        "reportedly",
+        "di",
+        "##spense",
+        "drugs",
+        "on",
+        "their",
+        "own",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            9,
+            20,
+            29
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "give",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6028226613998413,
+                        0.3971773684024811
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9942325949668884,
+                        0.005767389200627804
+                    ],
+                    "kl": 0.4730539917945862
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "percent",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.6506417393684387,
+                        0.3493582308292389
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9942325949668884,
+                        0.005767389200627804
+                    ],
+                    "kl": 1.0125863552093506
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "on",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.7533913850784302,
+                        0.24660857021808624
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9942325949668884,
+                        0.005767389200627804
+                    ],
+                    "kl": 0.2541266679763794
+                }
+            ],
+            "unmasked_source_words": [
+                9,
+                20,
+                29
+            ]
+        }
+    ]
+}

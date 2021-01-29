@@ -1,0 +1,63 @@
+{
+    "true_target_label": 2.615000009536743,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "cutting",
+        "an",
+        "on",
+        "##ion",
+        ".",
+        "[SEP]",
+        "A",
+        "man",
+        "is",
+        "cutting",
+        "on",
+        "##ions",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            15
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "##ions",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.6006827354431152,
+                        1.6006827354431152
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.3321125507354736,
+                        3.3321125507354736
+                    ],
+                    "kl": 2.997849225997925
+                }
+            ],
+            "unmasked_source_words": [
+                15
+            ]
+        }
+    ]
+}

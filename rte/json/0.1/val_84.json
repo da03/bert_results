@@ -1,0 +1,163 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "It",
+        "is",
+        "hoped",
+        "that",
+        "women",
+        ",",
+        "who",
+        "constitute",
+        "more",
+        "than",
+        "half",
+        "of",
+        "the",
+        "population",
+        ",",
+        "will",
+        "vote",
+        "for",
+        "other",
+        "women",
+        "and",
+        "ensure",
+        "that",
+        "their",
+        "issues",
+        "are",
+        "represented",
+        "in",
+        "parliament",
+        ".",
+        "[SEP]",
+        "Women",
+        "are",
+        "poorly",
+        "represented",
+        "in",
+        "parliament",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            31,
+            32,
+            35,
+            39
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6557074189186096,
+                        0.34429261088371277
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8486753106117249,
+                        0.15132467448711395
+                    ],
+                    "kl": 0.09452737122774124
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "Women",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6259995698928833,
+                        0.3740004599094391
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8486753106117249,
+                        0.15132467448711395
+                    ],
+                    "kl": 0.12135182321071625
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 35,
+                    "from": "source",
+                    "added_token_text": "represented",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5461772680282593,
+                        0.4538227617740631
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8486753106117249,
+                        0.15132467448711395
+                    ],
+                    "kl": 0.20784257352352142
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6519834995269775,
+                        0.34801650047302246
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.8486753106117249,
+                        0.15132467448711395
+                    ],
+                    "kl": 0.09773300588130951
+                }
+            ],
+            "unmasked_source_words": [
+                31,
+                32,
+                35,
+                39
+            ]
+        }
+    ]
+}

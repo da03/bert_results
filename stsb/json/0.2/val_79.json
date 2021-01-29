@@ -1,0 +1,116 @@
+{
+    "true_target_label": 2.799999952316284,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "woman",
+        "is",
+        "s",
+        "##licing",
+        "some",
+        "t",
+        "##una",
+        ".",
+        "[SEP]",
+        "A",
+        "woman",
+        "is",
+        "cutting",
+        "raw",
+        "fish",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            10,
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "##licing",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8568218946456909,
+                        0.8568218946456909
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        2.7618918418884277,
+                        2.7618918418884277
+                    ],
+                    "kl": 3.629291534423828
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.6211588382720947,
+                        2.6211588382720947
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        2.7618918418884277,
+                        2.7618918418884277
+                    ],
+                    "kl": 0.019805777817964554
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "cutting",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.3842458724975586,
+                        2.3842458724975586
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        2.7618918418884277,
+                        2.7618918418884277
+                    ],
+                    "kl": 0.14261648058891296
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                10,
+                14
+            ]
+        }
+    ]
+}

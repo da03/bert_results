@@ -1,0 +1,72 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "The",
+        "delivery",
+        "truck",
+        "zoo",
+        "##med",
+        "by",
+        "the",
+        "school",
+        "bus",
+        "because",
+        "it",
+        "was",
+        "going",
+        "so",
+        "slow",
+        ".",
+        "[SEP]",
+        "The",
+        "school",
+        "bus",
+        "was",
+        "going",
+        "so",
+        "slow",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "delivery",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.534005880355835,
+                        0.46599408984184265
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5262536406517029,
+                        0.4737464189529419
+                    ],
+                    "kl": 0.00012070313096046448
+                }
+            ],
+            "unmasked_source_words": [
+                2
+            ]
+        }
+    ]
+}

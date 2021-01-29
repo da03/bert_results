@@ -1,0 +1,166 @@
+{
+    "true_target_label": 5.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "band",
+        "is",
+        "performing",
+        "on",
+        "a",
+        "stage",
+        ".",
+        "[SEP]",
+        "A",
+        "band",
+        "is",
+        "playing",
+        "onstage",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            3,
+            7,
+            11,
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "band",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.6672732830047607,
+                        2.6672732830047607
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.624971866607666,
+                        3.624971866607666
+                    ],
+                    "kl": 0.9171865582466125
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.775698661804199,
+                        2.775698661804199
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.624971866607666,
+                        3.624971866607666
+                    ],
+                    "kl": 0.7212649583816528
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "stage",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.2929599285125732,
+                        1.2929599285125732
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.624971866607666,
+                        3.624971866607666
+                    ],
+                    "kl": 5.438279628753662
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 11,
+                    "from": "source",
+                    "added_token_text": "band",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.9240741729736328,
+                        1.9240741729736328
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.624971866607666,
+                        3.624971866607666
+                    ],
+                    "kl": 2.8930530548095703
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "onstage",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7900351285934448,
+                        0.7900351285934448
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.624971866607666,
+                        3.624971866607666
+                    ],
+                    "kl": 8.036865234375
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                3,
+                7,
+                11,
+                14
+            ]
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "colonial",
+        "##ism",
+        "'",
+        "s",
+        "core",
+        "meaning",
+        "?",
+        "[SEP]",
+        "Colonial",
+        "##ism",
+        "is",
+        "seen",
+        "to",
+        "be",
+        "the",
+        "architect",
+        "deciding",
+        "how",
+        "to",
+        "start",
+        "dominating",
+        "areas",
+        "and",
+        "then",
+        "imperial",
+        "##ism",
+        "can",
+        "be",
+        "seen",
+        "as",
+        "creating",
+        "the",
+        "idea",
+        "behind",
+        "conquest",
+        "co",
+        "##oper",
+        "##ating",
+        "with",
+        "colonial",
+        "##ism",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7,
+            31,
+            36
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "core",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9266321659088135,
+                        0.07336781173944473
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9924490451812744,
+                        0.0075510102324187756
+                    ],
+                    "kl": 0.05093136429786682
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 31,
+                    "from": "source",
+                    "added_token_text": "seen",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9871072173118591,
+                        0.012892721220850945
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9924490451812744,
+                        0.0075510102324187756
+                    ],
+                    "kl": 0.0013166763819754124
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 36,
+                    "from": "source",
+                    "added_token_text": "behind",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9672784209251404,
+                        0.03272156044840813
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9924490451812744,
+                        0.0075510102324187756
+                    ],
+                    "kl": 0.014422940090298653
+                }
+            ],
+            "unmasked_source_words": [
+                7,
+                31,
+                36
+            ]
+        }
+    ]
+}

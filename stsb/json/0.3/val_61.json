@@ -1,0 +1,139 @@
+{
+    "true_target_label": 2.799999952316284,
+    "source_tokens_text": [
+        "[CLS]",
+        "A",
+        "slow",
+        "lo",
+        "##ri",
+        "walks",
+        "around",
+        ".",
+        "[SEP]",
+        "A",
+        "animal",
+        "is",
+        "walking",
+        "around",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            6,
+            13,
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "slow",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.89357328414917,
+                        1.89357328414917
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.0970520973205566,
+                        3.0970520973205566
+                    ],
+                    "kl": 1.4483612775802612
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 6,
+                    "from": "source",
+                    "added_token_text": "around",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        1.7184969186782837,
+                        1.7184969186782837
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.0970520973205566,
+                        3.0970520973205566
+                    ],
+                    "kl": 1.9004143476486206
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "around",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9089914560317993,
+                        0.9089914560317993
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.0970520973205566,
+                        3.0970520973205566
+                    ],
+                    "kl": 4.787610054016113
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": ".",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        2.192502737045288,
+                        2.192502737045288
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        3.0970520973205566,
+                        3.0970520973205566
+                    ],
+                    "kl": 0.8182095289230347
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                6,
+                13,
+                14
+            ]
+        }
+    ]
+}

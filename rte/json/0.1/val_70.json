@@ -1,0 +1,175 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "About",
+        "33",
+        ".",
+        "5",
+        "million",
+        "people",
+        "live",
+        "in",
+        "this",
+        "massive",
+        "con",
+        "##ur",
+        "##bation",
+        ".",
+        "I",
+        "would",
+        "guess",
+        "that",
+        "95",
+        "%",
+        "of",
+        "the",
+        "5",
+        ",",
+        "000",
+        "officially",
+        "foreign",
+        "-",
+        "capital",
+        "firms",
+        "in",
+        "Japan",
+        "are",
+        "based",
+        "in",
+        "Tokyo",
+        ".",
+        "[SEP]",
+        "About",
+        "33",
+        ".",
+        "5",
+        "mi",
+        "##ili",
+        "##on",
+        "people",
+        "live",
+        "in",
+        "Tokyo",
+        ".",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            28,
+            39,
+            48,
+            49
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 28,
+                    "from": "source",
+                    "added_token_text": "-",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5860379934310913,
+                        0.4139619469642639
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5948952436447144,
+                        0.40510472655296326
+                    ],
+                    "kl": 0.00016210973262786865
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 39,
+                    "from": "source",
+                    "added_token_text": "About",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5652105808258057,
+                        0.43478941917419434
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5948952436447144,
+                        0.40510472655296326
+                    ],
+                    "kl": 0.0018034689128398895
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 48,
+                    "from": "source",
+                    "added_token_text": "in",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5822367668151855,
+                        0.41776326298713684
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5948952436447144,
+                        0.40510472655296326
+                    ],
+                    "kl": 0.000330435112118721
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 49,
+                    "from": "source",
+                    "added_token_text": "Tokyo",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.5577995181083679,
+                        0.4422004818916321
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5948952436447144,
+                        0.40510472655296326
+                    ],
+                    "kl": 0.0028084926307201385
+                }
+            ],
+            "unmasked_source_words": [
+                28,
+                39,
+                48,
+                49
+            ]
+        }
+    ]
+}
