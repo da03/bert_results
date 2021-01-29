@@ -1,0 +1,118 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "could",
+        "an",
+        "HIV",
+        "-",
+        "positive",
+        "person",
+        "have",
+        "children",
+        "?",
+        "[SEP]",
+        "Would",
+        "you",
+        "marry",
+        "an",
+        "HIV",
+        "positive",
+        "person",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            8,
+            16
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "could",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.999060332775116,
+                        0.0009397132671438158
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9997449517250061,
+                        0.0002550586941652
+                    ],
+                    "kl": 0.0003521844919305295
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "have",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9992775321006775,
+                        0.0007225216249935329
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9997449517250061,
+                        0.0002550586941652
+                    ],
+                    "kl": 0.00020183867309242487
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "HIV",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9971177577972412,
+                        0.002882260363548994
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9997449517250061,
+                        0.0002550586941652
+                    ],
+                    "kl": 0.0020122788846492767
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                8,
+                16
+            ]
+        }
+    ]
+}

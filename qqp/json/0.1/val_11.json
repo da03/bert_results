@@ -1,0 +1,132 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "an",
+        "easy",
+        "way",
+        "to",
+        "clean",
+        "tooth",
+        "##pas",
+        "##te",
+        "stain",
+        "##s",
+        "from",
+        "a",
+        "shirt",
+        "without",
+        "washing",
+        "it",
+        "?",
+        "[SEP]",
+        "What",
+        "are",
+        "some",
+        "ways",
+        "to",
+        "remove",
+        "hard",
+        "water",
+        "stain",
+        "##s",
+        "from",
+        "dishes",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            15,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "What",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.997431218624115,
+                        0.002568827010691166
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998685121536255,
+                        0.00013152652536518872
+                    ],
+                    "kl": 0.0020494742784649134
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "shirt",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.999619722366333,
+                        0.0003803017898462713
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998685121536255,
+                        0.00013152652536518872
+                    ],
+                    "kl": 0.00010922712681349367
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "dishes",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9990715980529785,
+                        0.0009284273255616426
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998685121536255,
+                        0.00013152652536518872
+                    ],
+                    "kl": 0.0005403653485700488
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                15,
+                32
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Does",
+        "marijuana",
+        "cause",
+        "cancer",
+        "?",
+        "[SEP]",
+        "How",
+        "can",
+        "smoking",
+        "marijuana",
+        "give",
+        "you",
+        "lung",
+        "cancer",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "marijuana",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9751384258270264,
+                        0.024861551821231842
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9924901127815247,
+                        0.007509834133088589
+                    ],
+                    "kl": 3.6226603984832764
+                }
+            ],
+            "unmasked_source_words": [
+                2
+            ]
+        }
+    ]
+}

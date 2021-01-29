@@ -1,0 +1,132 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "people",
+        "who",
+        "you",
+        "'",
+        "ve",
+        "never",
+        "met",
+        "have",
+        "influenced",
+        "your",
+        "life",
+        "the",
+        "most",
+        "?",
+        "[SEP]",
+        "Who",
+        "are",
+        "people",
+        "you",
+        "have",
+        "never",
+        "met",
+        "who",
+        "have",
+        "had",
+        "the",
+        "greatest",
+        "influence",
+        "on",
+        "your",
+        "life",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            8,
+            23,
+            29
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "met",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8735951781272888,
+                        0.12640480697155
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.961891770362854,
+                        0.038108211010694504
+                    ],
+                    "kl": 1.8327131271362305
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "met",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8935482501983643,
+                        0.10645176470279694
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.961891770362854,
+                        0.038108211010694504
+                    ],
+                    "kl": 0.03174573555588722
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "influence",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9663772583007812,
+                        0.03362268954515457
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.961891770362854,
+                        0.038108211010694504
+                    ],
+                    "kl": 0.00029713287949562073
+                }
+            ],
+            "unmasked_source_words": [
+                8,
+                23,
+                29
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Why",
+        "is",
+        "my",
+        "life",
+        "getting",
+        "so",
+        "complicated",
+        "?",
+        "[SEP]",
+        "Why",
+        "is",
+        "my",
+        "life",
+        "so",
+        "complicated",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            14
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 14,
+                    "from": "source",
+                    "added_token_text": "so",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9498685002326965,
+                        0.05013153702020645
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.5745086073875427,
+                        0.42549142241477966
+                    ],
+                    "kl": 0.6210858821868896
+                }
+            ],
+            "unmasked_source_words": [
+                14
+            ]
+        }
+    ]
+}

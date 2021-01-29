@@ -1,0 +1,69 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Why",
+        "was",
+        "the",
+        "Roman",
+        "Empire",
+        "so",
+        "successful",
+        "?",
+        "[SEP]",
+        "What",
+        "are",
+        "some",
+        "of",
+        "the",
+        "rarely",
+        "known",
+        "facts",
+        "about",
+        "the",
+        "Roman",
+        "Empire",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "Empire",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9941356182098389,
+                        0.005864331964403391
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9969064593315125,
+                        0.003093548584729433
+                    ],
+                    "kl": 0.0007961487863212824
+                }
+            ],
+            "unmasked_source_words": [
+                5
+            ]
+        }
+    ]
+}

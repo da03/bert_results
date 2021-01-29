@@ -1,0 +1,70 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "do",
+        "I",
+        "know",
+        "Jesus",
+        "is",
+        "talking",
+        "to",
+        "me",
+        "?",
+        "[SEP]",
+        "How",
+        "do",
+        "you",
+        "know",
+        "Jesus",
+        "is",
+        "the",
+        "only",
+        "way",
+        "to",
+        "heaven",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            12
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "How",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9961633682250977,
+                        0.003836587071418762
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9991410970687866,
+                        0.0008588653290644288
+                    ],
+                    "kl": 0.0016967125702649355
+                }
+            ],
+            "unmasked_source_words": [
+                12
+            ]
+        }
+    ]
+}

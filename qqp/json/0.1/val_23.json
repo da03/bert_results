@@ -1,0 +1,50 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "can",
+        "I",
+        "create",
+        "the",
+        "most",
+        "popular",
+        "question",
+        "on",
+        "Q",
+        "##uo",
+        "##ra",
+        "?",
+        "[SEP]",
+        "Which",
+        "are",
+        "the",
+        "most",
+        "popular",
+        "questions",
+        "on",
+        "Q",
+        "##uo",
+        "##ra",
+        "presently",
+        "that",
+        "also",
+        "create",
+        "the",
+        "most",
+        "discussions",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

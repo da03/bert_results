@@ -1,0 +1,104 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Which",
+        "website",
+        "is",
+        "good",
+        "for",
+        "download",
+        "##ing",
+        "Android",
+        "(",
+        ".",
+        "a",
+        "##p",
+        "##k",
+        ")",
+        "files",
+        "?",
+        "[SEP]",
+        "Android",
+        "Application",
+        "Development",
+        ":",
+        "Which",
+        "software",
+        "is",
+        "used",
+        "to",
+        "develop",
+        "AP",
+        "##K",
+        "files",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            23,
+            30
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 23,
+                    "from": "source",
+                    "added_token_text": "software",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9978258013725281,
+                        0.0021741364616900682
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9996786117553711,
+                        0.00032146263401955366
+                    ],
+                    "kl": 0.00124006113037467
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 30,
+                    "from": "source",
+                    "added_token_text": "files",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9991410970687866,
+                        0.0008588522323407233
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9996786117553711,
+                        0.00032146263401955366
+                    ],
+                    "kl": 0.00022179316147230566
+                }
+            ],
+            "unmasked_source_words": [
+                23,
+                30
+            ]
+        }
+    ]
+}

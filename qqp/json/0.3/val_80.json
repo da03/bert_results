@@ -1,0 +1,186 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "F",
+        "##t",
+        "##M",
+        ":",
+        "How",
+        "much",
+        "of",
+        "an",
+        "effect",
+        "did",
+        "Test",
+        "##osterone",
+        "have",
+        "on",
+        "your",
+        "mental",
+        "/",
+        "emotional",
+        "health",
+        "when",
+        "you",
+        "started",
+        "H",
+        "##RT",
+        "?",
+        "[SEP]",
+        "What",
+        "are",
+        "examples",
+        "of",
+        "mental",
+        "and",
+        "emotional",
+        "health",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            12,
+            19,
+            26,
+            29,
+            33
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "##osterone",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9984976053237915,
+                        0.0015023869927972555
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.999886155128479,
+                        0.00011387942504370585
+                    ],
+                    "kl": 0.0010955736506730318
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "health",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9994984865188599,
+                        0.0005015222122892737
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.999886155128479,
+                        0.00011387942504370585
+                    ],
+                    "kl": 0.00021879730047658086
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "[SEP]",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9996398687362671,
+                        0.00036014599027112126
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.999886155128479,
+                        0.00011387942504370585
+                    ],
+                    "kl": 0.00011514103971421719
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 29,
+                    "from": "source",
+                    "added_token_text": "examples",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9973828196525574,
+                        0.0026171456556767225
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.999886155128479,
+                        0.00011387942504370585
+                    ],
+                    "kl": 0.0021494694519788027
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 33,
+                    "from": "source",
+                    "added_token_text": "emotional",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9990600943565369,
+                        0.0009399654227308929
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.999886155128479,
+                        0.00011387942504370585
+                    ],
+                    "kl": 0.0005858989316038787
+                }
+            ],
+            "unmasked_source_words": [
+                12,
+                19,
+                26,
+                29,
+                33
+            ]
+        }
+    ]
+}

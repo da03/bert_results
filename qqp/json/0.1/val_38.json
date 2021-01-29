@@ -1,0 +1,137 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Are",
+        "vacuum",
+        "flu",
+        "##ct",
+        "##uations",
+        "occur",
+        "##ing",
+        "because",
+        "the",
+        "energy",
+        "in",
+        "vacuum",
+        "?",
+        "Are",
+        "these",
+        "virtual",
+        "particles",
+        "?",
+        "[SEP]",
+        "Do",
+        "virtual",
+        "particles",
+        "and",
+        "energy",
+        "in",
+        "vacuum",
+        "really",
+        "exist",
+        "?",
+        "Can",
+        "we",
+        "observe",
+        "them",
+        "?",
+        "Where",
+        "?",
+        "When",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            16,
+            21,
+            26
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "virtual",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9779354333877563,
+                        0.02206454798579216
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9902160167694092,
+                        0.009784005582332611
+                    ],
+                    "kl": 0.00440086517482996
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "virtual",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7999184727668762,
+                        0.20008152723312378
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9902160167694092,
+                        0.009784005582332611
+                    ],
+                    "kl": 0.18179742991924286
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "vacuum",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.719698429107666,
+                        0.28030160069465637
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9902160167694092,
+                        0.009784005582332611
+                    ],
+                    "kl": 1.2076565027236938
+                }
+            ],
+            "unmasked_source_words": [
+                16,
+                21,
+                26
+            ]
+        }
+    ]
+}

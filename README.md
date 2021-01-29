@@ -20,7 +20,11 @@
 |                           |                      | 0.1                     | 64.05/67.01 | [0.1.txt](stsb/log_density_0.1.txt) | [stsb/json/0.1](stsb/json/0.1) |
 |                           |                      | 0.2                     | 80.94/79.87 | [0.2.txt](stsb/log_density_0.2.txt) | [stsb/json/0.2](stsb/json/0.2) |
 |                           |                      | 0.3                     | 84.80/83.84 | [0.3.txt](stsb/log_density_0.3.txt) | [stsb/json/0.3](stsb/json/0.3) |
-| qqp                       |                      |                         |             |                                     |                                |
+| qqp                       | accuracy/f1          | 1.0                     | 90.71/87.49 | Huggingface                         |                                |
+|                           |                      | 1.0                     | 90.71/87.49 |                                     |                                |
+|                           |                      | 0.1                     |             | [0.1.txt](qqp/log_density_0.1.txt)  | [qqp/json/0.1](qqp/json/0.1)   |
+|                           |                      | 0.2                     |             | [0.2.txt](qqp/log_density_0.2.txt)  | [qqp/json/0.2](qqp/json/0.2)   |
+|                           |                      | 0.3                     |             | [0.3.txt](qqp/log_density_0.3.txt)  | [qqp/json/0.3](qqp/json/0.3)   |
 | mnli                      | accuracy             | 1.0                     | 83.91/84.10 | Huggingface                         |                                |
 |                           |                      | 1.0                     | 84.48       |                                     |                                |
 |                           |                      | 0.1                     | 82.64       | [0.1.txt](mnli/log_density_0.1.txt) | [mnli/json/0.1](mnli/json/0.1) |

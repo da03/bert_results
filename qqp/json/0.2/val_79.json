@@ -1,0 +1,45 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "many",
+        "time",
+        "can",
+        "one",
+        "attempt",
+        "for",
+        "J",
+        "##EE",
+        "Main",
+        "in",
+        "one",
+        "year",
+        "?",
+        "[SEP]",
+        "How",
+        "many",
+        "times",
+        "can",
+        "I",
+        "give",
+        "the",
+        "J",
+        "##EE",
+        "Main",
+        "##s",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

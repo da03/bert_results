@@ -1,0 +1,63 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "do",
+        "you",
+        "get",
+        "better",
+        "grades",
+        "?",
+        "[SEP]",
+        "How",
+        "can",
+        "I",
+        "dramatically",
+        "improve",
+        "my",
+        "grades",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            10
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 10,
+                    "from": "source",
+                    "added_token_text": "can",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8925480246543884,
+                        0.10745202004909515
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9814144968986511,
+                        0.018585532903671265
+                    ],
+                    "kl": 2.0988826751708984
+                }
+            ],
+            "unmasked_source_words": [
+                10
+            ]
+        }
+    ]
+}

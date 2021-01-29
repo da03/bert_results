@@ -1,0 +1,68 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "can",
+        "you",
+        "find",
+        "all",
+        "of",
+        "your",
+        "G",
+        "##mail",
+        "accounts",
+        "?",
+        "[SEP]",
+        "How",
+        "do",
+        "I",
+        "resolve",
+        "G",
+        "##mail",
+        "account",
+        "issues",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            18
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "##mail",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9987015724182129,
+                        0.0012983795022591949
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9992691874504089,
+                        0.0007308549247682095
+                    ],
+                    "kl": 0.00014774539158679545
+                }
+            ],
+            "unmasked_source_words": [
+                18
+            ]
+        }
+    ]
+}

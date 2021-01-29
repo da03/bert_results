@@ -1,0 +1,69 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "average",
+        "BP",
+        "##M",
+        "for",
+        "these",
+        "genres",
+        "of",
+        "music",
+        "?",
+        "[SEP]",
+        "Can",
+        "we",
+        "consider",
+        "musicals",
+        "a",
+        "popular",
+        "music",
+        "genre",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            21
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "genre",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9995177984237671,
+                        0.0004822441842406988
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998973608016968,
+                        0.00010268355981679633
+                    ],
+                    "kl": 0.00022093101870268583
+                }
+            ],
+            "unmasked_source_words": [
+                21
+            ]
+        }
+    ]
+}

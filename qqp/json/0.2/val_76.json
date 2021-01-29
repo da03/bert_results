@@ -1,0 +1,200 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "most",
+        "efficient",
+        "way",
+        "of",
+        "studying",
+        "to",
+        "score",
+        "a",
+        "700",
+        "on",
+        "the",
+        "GMA",
+        "##T",
+        "?",
+        "[SEP]",
+        "How",
+        "do",
+        "I",
+        "score",
+        "above",
+        "700",
+        "in",
+        "GMA",
+        "##T",
+        "?",
+        "I",
+        "have",
+        "been",
+        "preparing",
+        "since",
+        "two",
+        "months",
+        "and",
+        "lately",
+        "scored",
+        "only",
+        "460",
+        "and",
+        "I",
+        "have",
+        "been",
+        "studying",
+        "6",
+        "hours",
+        "everyday",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            3,
+            8,
+            13,
+            26,
+            45
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "the",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7670490741729736,
+                        0.23295097053050995
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7768795490264893,
+                        0.22312046587467194
+                    ],
+                    "kl": 0.0002730879932641983
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "studying",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.8419699668884277,
+                        0.15803006291389465
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7768795490264893,
+                        0.22312046587467194
+                    ],
+                    "kl": 0.9408693909645081
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "on",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9503536224365234,
+                        0.049646396189928055
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7768795490264893,
+                        0.22312046587467194
+                    ],
+                    "kl": 1.8133691549301147
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 26,
+                    "from": "source",
+                    "added_token_text": "GMA",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7916293144226074,
+                        0.2083706557750702
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7768795490264893,
+                        0.22312046587467194
+                    ],
+                    "kl": 0.0006483960896730423
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 45,
+                    "from": "source",
+                    "added_token_text": "studying",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8908308148384094,
+                        0.10916924476623535
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.7768795490264893,
+                        0.22312046587467194
+                    ],
+                    "kl": 0.05315841734409332
+                }
+            ],
+            "unmasked_source_words": [
+                3,
+                8,
+                13,
+                26,
+                45
+            ]
+        }
+    ]
+}

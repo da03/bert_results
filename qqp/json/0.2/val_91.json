@@ -1,0 +1,51 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Can",
+        "women",
+        "reach",
+        "an",
+        "orgasm",
+        "from",
+        "anal",
+        "sex",
+        "?",
+        "[SEP]",
+        "How",
+        "common",
+        "is",
+        "it",
+        "for",
+        "a",
+        "man",
+        "to",
+        "be",
+        "able",
+        "to",
+        "reach",
+        "orgasm",
+        "from",
+        "v",
+        "##agi",
+        "##nal",
+        "sex",
+        "but",
+        "not",
+        "oral",
+        "sex",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

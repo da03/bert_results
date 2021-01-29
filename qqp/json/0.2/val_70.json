@@ -1,0 +1,129 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Steel",
+        ":",
+        "Which",
+        "is",
+        "the",
+        "best",
+        "industrial",
+        "wire",
+        "products",
+        "manufacturing",
+        "company",
+        "in",
+        "India",
+        "?",
+        "[SEP]",
+        "What",
+        "is",
+        "the",
+        "steel",
+        "production",
+        "capacity",
+        "of",
+        "top",
+        "10",
+        "steel",
+        "manufacturers",
+        "individually",
+        "in",
+        "India",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            20,
+            24,
+            25
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 20,
+                    "from": "source",
+                    "added_token_text": "production",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9960724115371704,
+                        0.003927652724087238
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998606443405151,
+                        0.00013931993453297764
+                    ],
+                    "kl": 0.003330379258841276
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 24,
+                    "from": "source",
+                    "added_token_text": "10",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9995443224906921,
+                        0.0004555906925816089
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998606443405151,
+                        0.00013931993453297764
+                    ],
+                    "kl": 0.00015150649414863437
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 25,
+                    "from": "source",
+                    "added_token_text": "steel",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9985966086387634,
+                        0.0014033680781722069
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998606443405151,
+                        0.00013931993453297764
+                    ],
+                    "kl": 0.0009430635254830122
+                }
+            ],
+            "unmasked_source_words": [
+                20,
+                24,
+                25
+            ]
+        }
+    ]
+}

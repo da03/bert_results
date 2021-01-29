@@ -1,0 +1,37 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "do",
+        "other",
+        "countries",
+        "think",
+        "of",
+        "Bosnia",
+        "and",
+        "Herzegovina",
+        "?",
+        "[SEP]",
+        "Why",
+        "are",
+        "Bosnia",
+        "and",
+        "Herzegovina",
+        "one",
+        "country",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "do",
+        "I",
+        "find",
+        "out",
+        "what",
+        "operating",
+        "system",
+        "I",
+        "have",
+        "on",
+        "my",
+        "Mac",
+        "##book",
+        "?",
+        "[SEP]",
+        "How",
+        "do",
+        "I",
+        "find",
+        "out",
+        "what",
+        "operating",
+        "system",
+        "I",
+        "have",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            13
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 13,
+                    "from": "source",
+                    "added_token_text": "Mac",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9957807064056396,
+                        0.004219336900860071
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9973701238632202,
+                        0.0026299147866666317
+                    ],
+                    "kl": 0.0003473578253760934
+                }
+            ],
+            "unmasked_source_words": [
+                13
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Is",
+        "FM",
+        "##S",
+        "Delhi",
+        "a",
+        "good",
+        "option",
+        "for",
+        "a",
+        "MBA",
+        "executive",
+        "program",
+        "?",
+        "[SEP]",
+        "Is",
+        "FM",
+        "##S",
+        "a",
+        "good",
+        "choice",
+        "for",
+        "an",
+        "MBA",
+        "in",
+        "H",
+        "##R",
+        "?",
+        "Why",
+        "and",
+        "why",
+        "not",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Which",
+        "sector",
+        "(",
+        "i",
+        ".",
+        "e",
+        ".",
+        "primary",
+        ",",
+        "secondary",
+        ",",
+        "tertiary",
+        ")",
+        "contributes",
+        "the",
+        "most",
+        "to",
+        "the",
+        "GDP",
+        "of",
+        "India",
+        "?",
+        "Why",
+        "?",
+        "[SEP]",
+        "What",
+        "is",
+        "my",
+        "contribution",
+        "to",
+        "the",
+        "GDP",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            12,
+            32
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 12,
+                    "from": "source",
+                    "added_token_text": "tertiary",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.999543309211731,
+                        0.000456771143944934
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998325109481812,
+                        0.00016749565838836133
+                    ],
+                    "kl": 0.0001213558716699481
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 32,
+                    "from": "source",
+                    "added_token_text": "GDP",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9978602528572083,
+                        0.0021398032549768686
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998325109481812,
+                        0.00016749565838836133
+                    ],
+                    "kl": 0.001547554973512888
+                }
+            ],
+            "unmasked_source_words": [
+                12,
+                32
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Why",
+        "don",
+        "'",
+        "t",
+        "people",
+        "just",
+        "shoot",
+        "Captain",
+        "America",
+        "below",
+        "the",
+        "shield",
+        "?",
+        "[SEP]",
+        "Why",
+        "did",
+        "everyone",
+        "have",
+        "issue",
+        "accepting",
+        "Sam",
+        "Wilson",
+        "as",
+        "the",
+        "new",
+        "Captain",
+        "America",
+        ",",
+        "no",
+        "one",
+        "had",
+        "an",
+        "issue",
+        "when",
+        "Buck",
+        "##y",
+        "took",
+        "up",
+        "the",
+        "shield",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            7,
+            8
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "shoot",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9989030361175537,
+                        0.0010969865834340453
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998199343681335,
+                        0.00018010320491157472
+                    ],
+                    "kl": 0.0005918605020269752
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 8,
+                    "from": "source",
+                    "added_token_text": "Captain",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9948008060455322,
+                        0.005199206527322531
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998199343681335,
+                        0.00018010320491157472
+                    ],
+                    "kl": 0.004426233470439911
+                }
+            ],
+            "unmasked_source_words": [
+                7,
+                8
+            ]
+        }
+    ]
+}

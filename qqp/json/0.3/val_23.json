@@ -1,0 +1,79 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "How",
+        "can",
+        "I",
+        "create",
+        "the",
+        "most",
+        "popular",
+        "question",
+        "on",
+        "Q",
+        "##uo",
+        "##ra",
+        "?",
+        "[SEP]",
+        "Which",
+        "are",
+        "the",
+        "most",
+        "popular",
+        "questions",
+        "on",
+        "Q",
+        "##uo",
+        "##ra",
+        "presently",
+        "that",
+        "also",
+        "create",
+        "the",
+        "most",
+        "discussions",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            16
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 16,
+                    "from": "source",
+                    "added_token_text": "are",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9829551577568054,
+                        0.017044836655259132
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9783974885940552,
+                        0.021602554246783257
+                    ],
+                    "kl": 0.000571936834603548
+                }
+            ],
+            "unmasked_source_words": [
+                16
+            ]
+        }
+    ]
+}

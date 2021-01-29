@@ -1,0 +1,112 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Is",
+        "it",
+        "ad",
+        "##vis",
+        "##able",
+        "to",
+        "sent",
+        "your",
+        "c",
+        "##v",
+        "to",
+        "a",
+        "professor",
+        "with",
+        "whom",
+        "you",
+        "are",
+        "trying",
+        "to",
+        "make",
+        "contact",
+        "for",
+        "graduate",
+        "admission",
+        "?",
+        "[SEP]",
+        "How",
+        "does",
+        "contact",
+        "##ing",
+        "a",
+        "professor",
+        "before",
+        "applying",
+        "factor",
+        "into",
+        "graduate",
+        "admissions",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            15,
+            21
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 15,
+                    "from": "source",
+                    "added_token_text": "whom",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9243530035018921,
+                        0.07564698159694672
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9201936721801758,
+                        0.07980626821517944
+                    ],
+                    "kl": 0.00012161955237388611
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "contact",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9604097604751587,
+                        0.0395902618765831
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9201936721801758,
+                        0.07980626821517944
+                    ],
+                    "kl": 0.016583599150180817
+                }
+            ],
+            "unmasked_source_words": [
+                15,
+                21
+            ]
+        }
+    ]
+}

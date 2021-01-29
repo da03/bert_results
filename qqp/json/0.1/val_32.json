@@ -1,0 +1,69 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "smart",
+        "##est",
+        "question",
+        "besides",
+        "this",
+        "question",
+        "?",
+        "[SEP]",
+        "What",
+        "are",
+        "the",
+        "smart",
+        "##est",
+        "questions",
+        "that",
+        "you",
+        "have",
+        "heard",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "What",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9994845390319824,
+                        0.0005154356476850808
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9997782111167908,
+                        0.00022181446547619998
+                    ],
+                    "kl": 0.0001066389522748068
+                }
+            ],
+            "unmasked_source_words": [
+                1
+            ]
+        }
+    ]
+}

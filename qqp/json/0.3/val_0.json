@@ -1,0 +1,90 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Why",
+        "are",
+        "African",
+        "-",
+        "Americans",
+        "so",
+        "beautiful",
+        "?",
+        "[SEP]",
+        "Why",
+        "are",
+        "his",
+        "##pan",
+        "##ics",
+        "so",
+        "beautiful",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            2,
+            3
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "are",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9968370199203491,
+                        0.0031629917211830616
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998401403427124,
+                        0.00015981604519765824
+                    ],
+                    "kl": 0.002530555473640561
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 3,
+                    "from": "source",
+                    "added_token_text": "African",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9994244575500488,
+                        0.000575532263610512
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9998401403427124,
+                        0.00015981604519765824
+                    ],
+                    "kl": 0.00021120620658621192
+                }
+            ],
+            "unmasked_source_words": [
+                2,
+                3
+            ]
+        }
+    ]
+}

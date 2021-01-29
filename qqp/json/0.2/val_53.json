@@ -1,0 +1,46 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "'",
+        "s",
+        "the",
+        "e",
+        "##asi",
+        "##est",
+        "way",
+        "to",
+        "make",
+        "money",
+        "online",
+        "from",
+        "India",
+        "?",
+        "[SEP]",
+        "What",
+        "is",
+        "the",
+        "best",
+        "way",
+        "to",
+        "make",
+        "money",
+        "in",
+        "in",
+        "##dia",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

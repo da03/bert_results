@@ -1,0 +1,101 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Where",
+        "can",
+        "I",
+        "buy",
+        "special",
+        "flavor",
+        "cup",
+        "##cake",
+        "at",
+        "Gold",
+        "Coast",
+        "?",
+        "[SEP]",
+        "Where",
+        "can",
+        "I",
+        "found",
+        "different",
+        "fl",
+        "##av",
+        "##ours",
+        "for",
+        "cup",
+        "##cakes",
+        "at",
+        "Gold",
+        "Coast",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            9
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "Where",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.838921308517456,
+                        0.16107870638370514
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8051865100860596,
+                        0.19481343030929565
+                    ],
+                    "kl": 0.003996431827545166
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 9,
+                    "from": "source",
+                    "added_token_text": "at",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.6931391358375549,
+                        0.30686092376708984
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.8051865100860596,
+                        0.19481343030929565
+                    ],
+                    "kl": 0.5294917821884155
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                9
+            ]
+        }
+    ]
+}

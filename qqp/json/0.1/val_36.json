@@ -1,0 +1,54 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "next",
+        "number",
+        "of",
+        "this",
+        "sequence",
+        "?",
+        "5",
+        "\u2026",
+        ".",
+        ".",
+        "17",
+        "\u2026",
+        "\u2026",
+        "37",
+        "\u2026",
+        ".",
+        ".",
+        "89",
+        "\u2026",
+        ".",
+        ".",
+        "?",
+        "?",
+        "[SEP]",
+        "What",
+        "is",
+        "the",
+        "next",
+        "number",
+        "in",
+        "the",
+        "sequence",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        []
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [],
+            "unmasked_source_words": []
+        }
+    ]
+}

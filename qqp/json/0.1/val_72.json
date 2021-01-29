@@ -1,0 +1,202 @@
+{
+    "true_target_label": 1.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "Why",
+        "didn",
+        "'",
+        "t",
+        "Ned",
+        "Stark",
+        "bring",
+        "more",
+        "men",
+        "to",
+        "the",
+        "Tower",
+        "of",
+        "Joy",
+        "?",
+        "[SEP]",
+        "Why",
+        "did",
+        "Ned",
+        "Stark",
+        "go",
+        "to",
+        "the",
+        "Tower",
+        "of",
+        "Joy",
+        "with",
+        "so",
+        "few",
+        "men",
+        "?",
+        "Why",
+        "not",
+        "bring",
+        "a",
+        "small",
+        "guard",
+        "(",
+        "say",
+        "20",
+        "more",
+        "men",
+        ")",
+        "of",
+        "loyal",
+        "and",
+        "disc",
+        "##reet",
+        "northern",
+        "##ers",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            5,
+            7,
+            19,
+            21,
+            34
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "1",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 5,
+                    "from": "source",
+                    "added_token_text": "Ned",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9365379810333252,
+                        0.06346198171377182
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9826040863990784,
+                        0.0173958633095026
+                    ],
+                    "kl": 2.622764825820923
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "bring",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.8422525525093079,
+                        0.15774743258953094
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9826040863990784,
+                        0.0173958633095026
+                    ],
+                    "kl": 0.11309140920639038
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 19,
+                    "from": "source",
+                    "added_token_text": "Ned",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.5044736862182617,
+                        0.49552637338638306
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9826040863990784,
+                        0.0173958633095026
+                    ],
+                    "kl": 0.5968273282051086
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "go",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.7400491237640381,
+                        0.2599508464336395
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9826040863990784,
+                        0.0173958633095026
+                    ],
+                    "kl": 0.2315150797367096
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "bring",
+                    "prediction": "1",
+                    "distilled_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "distilled_top_probs": [
+                        0.9934301972389221,
+                        0.006569799035787582
+                    ],
+                    "model_top_predictions": [
+                        1,
+                        0
+                    ],
+                    "model_top_probs": [
+                        0.9826040863990784,
+                        0.0173958633095026
+                    ],
+                    "kl": 0.006172354333102703
+                }
+            ],
+            "unmasked_source_words": [
+                5,
+                7,
+                19,
+                21,
+                34
+            ]
+        }
+    ]
+}

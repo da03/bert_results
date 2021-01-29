@@ -1,0 +1,176 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "What",
+        "is",
+        "the",
+        "average",
+        "salary",
+        "of",
+        "a",
+        "micro",
+        "##bio",
+        "##logist",
+        "in",
+        "India",
+        "?",
+        "[SEP]",
+        "What",
+        "is",
+        "the",
+        "salary",
+        "for",
+        "a",
+        "psychologist",
+        "in",
+        "in",
+        "##dia",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            1,
+            2,
+            7,
+            18,
+            21
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 1,
+                    "from": "source",
+                    "added_token_text": "What",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9985607266426086,
+                        0.0014392799930647016
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.99981290102005,
+                        0.0001871663989732042
+                    ],
+                    "kl": 0.0008710926631465554
+                },
+                {
+                    "num_unmasked": 2,
+                    "added_token": 2,
+                    "from": "source",
+                    "added_token_text": "is",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9991777539253235,
+                        0.0008221736061386764
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.99981290102005,
+                        0.0001871663989732042
+                    ],
+                    "kl": 0.00035826899693347514
+                },
+                {
+                    "num_unmasked": 3,
+                    "added_token": 7,
+                    "from": "source",
+                    "added_token_text": "a",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9993624091148376,
+                        0.0006375432130880654
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.99981290102005,
+                        0.0001871663989732042
+                    ],
+                    "kl": 0.00022113107843324542
+                },
+                {
+                    "num_unmasked": 4,
+                    "added_token": 18,
+                    "from": "source",
+                    "added_token_text": "salary",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9965940117835999,
+                        0.003406014759093523
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.99981290102005,
+                        0.0001871663989732042
+                    ],
+                    "kl": 0.0026809817645698786
+                },
+                {
+                    "num_unmasked": 5,
+                    "added_token": 21,
+                    "from": "source",
+                    "added_token_text": "psychologist",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9995071887969971,
+                        0.0004927978152409196
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.99981290102005,
+                        0.0001871663989732042
+                    ],
+                    "kl": 0.00012439946294762194
+                }
+            ],
+            "unmasked_source_words": [
+                1,
+                2,
+                7,
+                18,
+                21
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "true_target_label": 0.0,
+    "source_tokens_text": [
+        "[CLS]",
+        "\"",
+        "What",
+        "are",
+        "the",
+        "best",
+        "slogan",
+        "##s",
+        "based",
+        "on",
+        "the",
+        "theme",
+        "\"",
+        "\"",
+        "United",
+        "India",
+        "\"",
+        "\"",
+        "or",
+        "\"",
+        "\"",
+        "[UNK]",
+        "[UNK]",
+        "\"",
+        "\"",
+        "?",
+        "\"",
+        "[SEP]",
+        "What",
+        "are",
+        "some",
+        "of",
+        "the",
+        "best",
+        "slogan",
+        "##s",
+        "written",
+        "on",
+        "trucks",
+        "in",
+        "India",
+        "?",
+        "[SEP]"
+    ],
+    "all_unmasked_source_tokens": [
+        [
+            34
+        ]
+    ],
+    "distillation": [
+        {
+            "step": 0,
+            "goal_label": "0",
+            "log": [
+                {
+                    "num_unmasked": 1,
+                    "added_token": 34,
+                    "from": "source",
+                    "added_token_text": "slogan",
+                    "prediction": "0",
+                    "distilled_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "distilled_top_probs": [
+                        0.9973270893096924,
+                        0.002672891365364194
+                    ],
+                    "model_top_predictions": [
+                        0,
+                        1
+                    ],
+                    "model_top_probs": [
+                        0.9997016787528992,
+                        0.00029826140962541103
+                    ],
+                    "kl": 0.0017234452534466982
+                }
+            ],
+            "unmasked_source_words": [
+                34
+            ]
+        }
+    ]
+}
